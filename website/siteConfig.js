@@ -49,9 +49,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.png',
-  footerIcon: 'img/favicon.png',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/ExokitLogo.png',
+  footerIcon: 'img/ExokitLogo.png',
+  favicon: 'img/ExokitLogo.png',
 
   /* colors for website */
   colors: {

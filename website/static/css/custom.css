@@ -1,12 +1,68 @@
-/* your custom css */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+.projectTitle{
+  color: black;
+}
+.fixedHeaderContainer, .fixedHeaderContainer *{
+  background-color: white;
+  color: black;
+}
+.fixedHeaderContainer .headerTitleWithLogo{
+  font-weight: 400;
+}
+.navigationSlider .slidingNav ul li a{
+  color: black;
+  font-weight: 400;
+  border-bottom: rgba(255, 255, 255, 0) 2px solid;
+}
+.navigationSlider .slidingNav ul li a:hover{
+  color: rgba(0, 0, 0, 0.72);
+  border-bottom-color: #654373;
+}
+.fixedHeaderContainer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: black 1px solid;
+}
+.fixedHeaderContainer header img{
+  height: 160%;
+}
+.homeContainer .button{
+  color: black;
+  font-size: 110%;
+  min-width: 300px;
+  transition: background 0.3s, color 0.3s;
+  margin: 5px;
+}
+.homeContainer .homeWrapper{
+  background: linear-gradient(10deg, rgba(79, 206, 101, 0.4), rgba(2, 188, 159, 0.51), rgba(9, 141, 139, 0.51));
+  min-height: 40vh;
+}
+.homeContainer .projectTitle{
+  padding-top: 6vh;
 }
 
+@media only screen and (max-width: 450px){ /* up to cellphone screen */
+  .homeContainer .projectTitle{
+    padding-top: 20px;
+    margin-top: 0;
+  }
+}
 @media only screen and (min-width: 1024px) {
 }
 
 @media only screen and (max-width: 1023px) {
+  .navigationSlider .slidingNav ul li a{
+    color: black;
+    font-weight: 400;
+  }
+  .fixedHeaderContainer header img{
+    height: 130%;
+  }
+  .projectTitle{
+    margin-top:0;
+  }
+  .slidingNav{
+    border-bottom: black 1px solid;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -15,14 +71,4 @@
 @media only screen and (min-width: 1500px) {
 }
 
-.projectTitle{
-    color: black;
-}
-.fixedHeaderContainer, .fixedHeaderContainer *{
-    background-color: white;
-    color: black;
-}
-.navigationSlider .slidingNav ul li a{
-    background-color: white;
-    color: black;
-}
+

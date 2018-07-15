@@ -76,13 +76,12 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
             <Button href="#try">Download</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href={docUrl('doc1.html', language)}>Get Started</Button>
+            <Button href={docUrl('doc2.html', language)}>Github</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -104,13 +103,13 @@ const Features = props => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('bigExokitLogo.png'),
+        image: imgUrl('ExokitLogo.png'),
         imageAlign: 'top',
         title: 'Feature One',
       },
       {
         content: 'The content of my second feature',
-        image: imgUrl('bigExokitLogo.png'),
+        image: imgUrl('ExokitLogo.png'),
         imageAlign: 'top',
         title: 'Feature Two',
       },
@@ -132,7 +131,7 @@ const LearnHow = props => (
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('bigExokitLogo.png'),
+        image: imgUrl('ExokitLogo.png'),
         imageAlign: 'right',
         title: 'Learn How',
       },
@@ -145,7 +144,7 @@ const TryOut = props => (
     {[
       {
         content: 'Talk about trying this out',
-        image: imgUrl('bigExokitLogo.png'),
+        image: imgUrl('ExokitLogo.png'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -158,7 +157,7 @@ const Description = props => (
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('bigExokitLogo.png'),
+        image: imgUrl('ExokitLogo.png'),
         imageAlign: 'right',
         title: 'Description',
       },
