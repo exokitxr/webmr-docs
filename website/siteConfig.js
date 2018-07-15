@@ -32,6 +32,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: 'webmr-docs2',
   organizationName: 'webmixedreality',
+  cname: 'docs2.webmr.io',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
