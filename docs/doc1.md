@@ -24,6 +24,10 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 4. Go ahead and find/start the program `Exokit Browser`, and run it.
 5. Now you are ready to start checking out sites and seeing what Exokit can do.
 
+```$xslt
+console.log("hello exokit!");
+```
+
 ## Opening Websites and Examples
 
 * When you run "Exokit Browser" a command prompt and a larger window will open, turn your attention to the larger window. In the window you will see a VR keyboard for our VR users (or legacy if you have time to kill), a URL bar, and flat boxes below the bar. 
