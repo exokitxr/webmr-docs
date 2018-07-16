@@ -4,9 +4,15 @@
 body{
   max-width: 100vw;
 }
+.fixedHeaderContainer ul, ol{
+  margin: 2px;
+}
 .fixedHeaderContainer, .fixedHeaderContainer *{
   background-color: #202020;
   color: white;
+}
+.fixedHeaderContainer header .headerTitleWithLogo{
+  margin-top: 0%;
 }
 .fixedHeaderContainer .headerTitleWithLogo{
   font-weight: 400;
@@ -17,29 +23,38 @@ body{
   border-bottom: rgba(255, 255, 255, 0) 2px solid;
 }
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
-  background-color: #202020;
-}
-
-
-.navigationSlider .slidingNav ul li a:hover{
-  color: white;
   border-bottom-color: #00B49B;
 }
+.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
+  padding-bottom: 35px;
+  margin-top: 10px;
+}
+.navigationSlider .slidingNav ul li a:hover{
+  color: #e4e4e4;
+  border-bottom-color: #00B49B;
+}
+
 .fixedHeaderContainer{
-  padding-top: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
   border-bottom: black 1px solid;
+}
+.siteNavGroupActive .siteNavItemActive{
+  border-bottom-color: #00B49B;
 }
 .fixedHeaderContainer header img{
   height: 160%;
 }
 .homeContainer .button{
-  color: #202020;
+  color: #00B49B;
   border-color: #00B49B;
-  font-size: 85%;
-  min-width: 20vw;
   transition: background 0.3s, color 0.3s;
   margin: 5px;
+}
+.homeContainer .button:hover{
+  background-color: #00B49B;
+  color: white;
+  transition: background 0.3s, color 0.3s;
 }
 .homeContainer .homeWrapper{
   /*background: linear-gradient(10deg, rgba(79, 206, 101, 0.4), rgba(2, 188, 159, 0.51), rgba(9, 141, 139, 0.51));*/
@@ -48,7 +63,15 @@ body{
 .homeContainer .projectTitle{
   padding-top: 6vh;
 }
+.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+  background-color: inherit;
+}
 
+@media (max-width: 480px) {
+  .headerTitleWithLogo {
+    display: block !important;
+  }
+}
 @media only screen and (max-width: 450px){ /* up to cellphone screen */
   .homeContainer .projectTitle{
     padding-top: 20px;
@@ -68,6 +91,29 @@ body{
   .navigationSlider .slidingNav ul{
     margin-top: 60px;
   }
+  .navigationSlider .slidingNav{
+  }
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
+    background: #202020;
+    background: -webkit-linear-gradient(to bottom, #202020, #181818); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #202020, #181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+    border-bottom-color: #00B49B;
+  }
+  .fixedHeaderContainer header .headerTitleWithLogo{
+    margin-top: 3%;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+  .navigationSlider .slidingNav ul{
+    background: #202020;
+  }
+
 }
 
 @media only screen and (min-width: 1400px) {
