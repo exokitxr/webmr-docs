@@ -110,7 +110,7 @@ const Features = props => (
       },
       {
         content: 'Built without the overhead of Chrome\'s bloated packages.',
-        image: imgUrl('tachometer.svg'),
+        image: imgUrl('tachometer-alt.svg'),
         imageAlign: 'top',
         title: 'Faster then Chrome at 3D VR/AR',
       },
