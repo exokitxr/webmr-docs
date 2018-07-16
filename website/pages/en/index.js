@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -81,7 +82,6 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="#try">Download</Button>
             <Button href={docUrl('doc1.html', language)}>Get Started</Button>
-            <Button href={docUrl('doc2.html', language)}>Github</Button>
           </PromoSection>
         </div>
       </SplashContainer>
