@@ -33,6 +33,9 @@ const siteConfig = {
   projectName: 'webmr-docs2',
   organizationName: 'webmixedreality',
   cname: 'docs2.webmr.io',
+  stylesheets: [
+    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css',
+  ],
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
