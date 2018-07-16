@@ -44,17 +44,17 @@ Let's open a ThreeJS website in Exokit.
 
 Go to the ThreeJS [examples](https://threejs.org/examples/) page using your web browser of choice (Chrome, Firefox, etc):
 
-![alt text](./_images/image-1.png)
+![alt text](_images/image-1.png?raw=true)
 
 These ThreeJS examples will run in Exokit, so lets get into it. Let's try the first one, [animation/cloth](https://threejs.org/examples/#webgl_animation_cloth). Observe that this is a WebGL site, and that it renders fine in Chrome:
 
-![alt text](./_images/image-6.png)
+![alt text](_images/image-6.png?raw=true)
 
 Now we're going to open this same site using Exokit.
 
 1. Open your Exokit Browser:
 
-![alt text](./_images/exokit1.PNG)
+![alt text](./_images/exokit1.PNG?raw=true)
 
 2. Then simply paste (Command-V) or type the link of the example into the URL bar:
 

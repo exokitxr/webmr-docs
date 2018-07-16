@@ -57,13 +57,16 @@ a, a:hover{
 .fixedHeaderContainer header img{
   height: 160%;
 }
-.homeContainer .button{
+.productShowcaseSection h2{
+  color: inherit;
+}
+.button{
   color: #00B49B;
   border-color: #00B49B;
   transition: background 0.3s, color 0.3s;
   margin: 5px;
 }
-.homeContainer .button:hover{
+.button:hover{
   background-color: #00B49B;
   color: white;
   transition: background 0.3s, color 0.3s;
