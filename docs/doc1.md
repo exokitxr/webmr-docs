@@ -1,29 +1,75 @@
 ---
 id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+title: 5 Minute Guide
+sidebar_label: 5 Minute Guide
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## Lorem
+# Five Minute Guide
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+## Getting Started
 
-## Mauris In Code
+## Installing Exokit
 
+1. Be sure to grab a download for your OS [here](https://get.webmr.io/)
+2. Run the downloaded file, and be sure to allow any security clearance the installer might need.
+(For Linux: apt-get install libglu1-mesa-dev uuid-dev to run the build, we recommend this for devs.\)
+
+3. Then let the installer work its magic for a minute or so and congratulations you're a proud user of Exokit!
+ * For PC Users: Choose your desired folder location (note: if not installing into your main drive (C Drive for most) then you may have to go into the folder yourself after and find a file called 'exokit' which will be a windows command prompt)
+ * For OSX Users: A window should open with the Exokit app file and your applications folder, simply drag Exokit into that folder.
+ * For Linux Users: It should be in your PATH once the script is done, go ahead and `curl https://get.webmr.io/linux`(or wget) for further instructions
+  
+4. Go ahead and find/start the program `Exokit Browser`, and run it.
+5. Now you are ready to start checking out sites and seeing what Exokit can do.
+
+```$xslt
+console.log("hello exokit!");
 ```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
 
-## Nulla
+## Opening Websites and Examples
 
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
+* When you run "Exokit Browser" a command prompt and a larger window will open, turn your attention to the larger window. In the window you will see a VR keyboard for our VR users (or legacy if you have time to kill), a URL bar, and flat boxes below the bar. 
+* Those boxes are our "Featured Sites" from our [reddit](https://www.reddit.com/r/exokit/). Go ahead and enter any VR website URL, or point-and-click on any of the sites on the boxes below.
 
-## Orci
+**Controls**
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
+* When on a "non-VR only" (e.g. Magic Leap) form of entering Exokit, you will not be immediatly loaded into VR. Go ahead and hit enter VR with the `i` key, enter VR on a Magic Leap with the `o` key.
+* For Menu Access (the homepage URL bar and keyboard), "E" opens menu if using a keyboard, with a HTC Vive, accessing the menu comes by hitting the button ABOVE the thumb trackpad.
 
-## Phasellus
+## Examples
 
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+Let's open a ThreeJS website in Exokit.
+
+Go to the ThreeJS [examples](https://threejs.org/examples/) page using your web browser of choice (Chrome, Firefox, etc):
+
+![alt text](./_images/image-1.png)
+
+These ThreeJS examples will run in Exokit, so lets get into it. Let's try the first one, [animation/cloth](https://threejs.org/examples/#webgl_animation_cloth). Observe that this is a WebGL site, and that it renders fine in Chrome:
+
+![alt text](./_images/image-6.png)
+
+Now we're going to open this same site using Exokit.
+
+1. Open your Exokit Browser:
+
+![alt text](./_images/exokit1.PNG)
+
+2. Then simply paste (Command-V) or type the link of the example into the URL bar:
+
+![alt text](./_images/exokit2.PNG)
+
+3. Go ahead and hit enter (in VR or on your own keyboard), and the example should load up:
+
+![alt text](./_images/exokit3.PNG)
+
+## Exokit's Command Prompt
+
+The Exokit command prompt is a NodeJS REPL. If you're a node developer, the interface should be quite familiar. Open Exokit Command Prompt and run the command, `.help` :
+
+![alt text](./_images/exokit4.PNG)
+
+To get to links from the command prompt itself, punch in the command: `.go`, then simply put in your desired URL.
+
+This covers the basics of using Exokit. Thank you.
