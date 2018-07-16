@@ -1,12 +1,8 @@
-html {
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
-}
 .projectTitle{
   color: #202020;
 }
-body{
-  max-width: 100vw;
+body {
+  overflow-x: hidden;
 }
 .navPusher{
   padding-top: 120px;
@@ -28,6 +24,9 @@ body{
   color: white;
   font-weight: 400;
   border-bottom: rgba(255, 255, 255, 0) 2px solid;
+}
+a, a:hover{
+  color: #00B49B;
 }
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
   border-bottom-color: #00B49B;
@@ -105,8 +104,6 @@ body{
   }
   .navigationSlider .slidingNav ul{
     margin-top: 60px;
-  }
-  .navigationSlider .slidingNav{
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
     background: #303030;
