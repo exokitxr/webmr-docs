@@ -4,9 +4,20 @@
 <url> <loc>https://exokit.webmr.io/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/index.html" /> </url>
 <url> <loc>https://exokit.webmr.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/users.html" /> </url>
 <url> <loc>https://exokit.webmr.io/blog/2018/05/12/why-mixed-reality.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://exokit.webmr.io/docs/doc1.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/doc1.html" /> </url>
-<url> <loc>https://exokit.webmr.io/docs/doc2.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/doc2.html" /> </url>
-<url> <loc>https://exokit.webmr.io/docs/doc3.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/doc3.html" /> </url>
-<url> <loc>https://exokit.webmr.io/docs/doc4.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/doc4.html" /> </url>
-<url> <loc>https://exokit.webmr.io/docs/doc5.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/doc5.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/5MinuteGuide.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/5MinuteGuide.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/APILanding.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APILanding.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/APIRef.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APIRef.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/BeforeBegin.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/BeforeBegin.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/Essentials.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/Essentials.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/Functions.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/Functions.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/InstallSDK.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/InstallSDK.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/Languages.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/Languages.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/Linux.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/Linux.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/OSX.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/OSX.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/OtherFeatures.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/OtherFeatures.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/SetupSDK.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/SetupSDK.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/Support.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/Support.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/UniqueTerms.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/UniqueTerms.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/WhatToDo.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/WhatToDo.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/Windows.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/Windows.html" /> </url>
 </urlset>
