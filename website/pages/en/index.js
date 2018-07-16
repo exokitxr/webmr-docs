@@ -155,7 +155,7 @@ const TryOut = props => (
 );
 
 const Description = props => (
-  <Block background="dark">
+  <Block background="light">
     {[
       {
         content: 'Windows, Mac, Linux we got you covered, iOS and Android are on the way!',
