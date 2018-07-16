@@ -94,11 +94,10 @@ body{
   .navigationSlider .slidingNav{
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
-    background: #202020;
-    background: -webkit-linear-gradient(to bottom, #202020, #181818); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #202020, #181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #303030;
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+    background: #202020;
     border-bottom-color: #00B49B;
   }
   .fixedHeaderContainer header .headerTitleWithLogo{
@@ -107,7 +106,7 @@ body{
     padding-bottom: 10px;
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-top: 10px;
   }
   .navigationSlider .slidingNav ul{

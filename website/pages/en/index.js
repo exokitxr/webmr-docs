@@ -103,7 +103,7 @@ const Features = props => (
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('fab fa-react'),
+        image: imgUrl('ExokitLogo.png'),
         imageAlign: 'top',
         title: 'Feature One',
       },
