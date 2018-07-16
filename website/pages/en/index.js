@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -76,13 +77,11 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href="#try">Download</Button>
+            <Button href={docUrl('doc1.html', language)}>Get Started</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -103,16 +102,17 @@ const Features = props => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Enjoy the eco-system of the web in VR/AR development',
+        image: imgUrl('node-js-brands.svg'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Built in Javascript',
+
       },
       {
-        content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Built without the overhead of Chrome\'s bloated packages.',
+        image: imgUrl('tachometer-alt.svg'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Faster then Chrome at 3D VR/AR',
       },
     ]}
   </Block>
@@ -131,9 +131,10 @@ const LearnHow = props => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Learn how to get started developing with Exokit with out comprehensive documentation.',
+        image: imgUrl('user-graduate.svg'),
         imageAlign: 'right',
+        className: 'featureIcon',
         title: 'Learn How',
       },
     ]}
@@ -144,23 +145,23 @@ const TryOut = props => (
   <Block id="try">
     {[
       {
-        content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Get your hands dirty and start using Exokit for your VR/AR adventures.',
+        image: imgUrl('hand-receiving.svg'),
         imageAlign: 'left',
-        title: 'Try it Out',
+        title: 'Make it Happen',
       },
     ]}
   </Block>
 );
 
 const Description = props => (
-  <Block background="dark">
+  <Block background="light">
     {[
       {
-        content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Windows, Mac, Linux we got you covered, iOS and Android are on the way!',
+        image: imgUrl('boxes.svg'),
         imageAlign: 'right',
-        title: 'Description',
+        title: 'Cross-Platform',
       },
     ]}
   </Block>

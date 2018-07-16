@@ -1,12 +1,138 @@
-/* your custom css */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+.projectTitle{
+  color: #202020;
+}
+body {
+  overflow-x: hidden;
+}
+.navPusher{
+  padding-top: 120px;
+}
+.fixedHeaderContainer ul, ol{
+  margin: 2px;
+}
+.fixedHeaderContainer, .fixedHeaderContainer *{
+  background-color: #202020;
+  color: white;
+}
+.fixedHeaderContainer header .headerTitleWithLogo{
+  margin-top: 0%;
+}
+.fixedHeaderContainer .headerTitleWithLogo{
+  font-weight: 400;
+}
+.navigationSlider .slidingNav ul li a{
+  color: white;
+  font-weight: 400;
+  border-bottom: rgba(255, 255, 255, 0) 2px solid;
+}
+a, a:hover{
+  color: #00B49B;
+}
+.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+  border-bottom-color: #00B49B;
+}
+.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
+  padding-bottom: 35px;
+  margin-top: 10px;
+}
+.navigationSlider .slidingNav ul li a:hover{
+  color: #e4e4e4;
+  border-bottom-color: #00B49B;
 }
 
+.fixedHeaderContainer{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: black 1px solid;
+}
+.siteNavGroupActive .siteNavItemActive{
+  border-bottom-color: #00B49B;
+}
+.fixedHeaderContainer header img{
+  height: 160%;
+}
+.homeContainer .button{
+  color: #00B49B;
+  border-color: #00B49B;
+  transition: background 0.3s, color 0.3s;
+  margin: 5px;
+}
+.homeContainer .button:hover{
+  background-color: #00B49B;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+.homeContainer .homeWrapper{
+  /*background: linear-gradient(10deg, rgba(79, 206, 101, 0.4), rgba(2, 188, 159, 0.51), rgba(9, 141, 139, 0.51));*/
+  min-height: 40vh;
+}
+.homeContainer .projectTitle{
+  padding-top: 6vh;
+}
+.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+  background-color: inherit;
+}
+
+.imageAlignTop .blockImage{
+  max-width: 100px;
+}
+
+.gridBlock .twoByGridBlock img{
+  max-width: 35%;
+}
+
+@media (max-width: 480px) {
+  .headerTitleWithLogo {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 450px){ /* up to cellphone screen */
+  .homeContainer .projectTitle{
+    padding-top: 20px;
+    margin-top: 0;
+  }
+}
 @media only screen and (min-width: 1024px) {
 }
 
 @media only screen and (max-width: 1023px) {
+  .navigationSlider .slidingNav ul li a{
+    font-weight: 500;
+  }
+  .fixedHeaderContainer header img{
+    height: 110%;
+  }
+  .navigationSlider .slidingNav ul{
+    margin-top: 60px;
+  }
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
+    background: #303030;
+  }
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
+    background: #202020;
+    border-bottom-color: #00B49B;
+  }
+  .fixedHeaderContainer header .headerTitleWithLogo{
+    margin-top: 3%;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  .navigationSlider .slidingNav ul{
+    background: #202020;
+  }
+  .fixedHeaderContainer ul, ol{
+    margin: 0;
+  }
+  @media only screen and (max-width: 1023px) {
+    .tocActive .onPageNav {
+      top: 168px;
+    }
+  }
+
 }
 
 @media only screen and (min-width: 1400px) {
@@ -14,3 +140,5 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+
