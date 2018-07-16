@@ -26,7 +26,7 @@ class Footer extends React.Component {
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
-                //src={this.props.config.baseUrl + this.props.config.footerIcon}
+                src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
                 width="66"
                 height="58"
@@ -80,19 +80,6 @@ class Footer extends React.Component {
             </a>
           </div>
         </section>
-
-        <a
-          href="https://code.facebook.com/projects/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={this.props.config.baseUrl + 'img/oss_logo.png'}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

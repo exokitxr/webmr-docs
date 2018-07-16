@@ -70,6 +70,14 @@ body{
   background-color: inherit;
 }
 
+.imageAlignTop .blockImage{
+  max-width: 100px;
+}
+
+.gridBlock .twoByGridBlock img{
+  max-width: 35%;
+}
+
 @media (max-width: 480px) {
   .headerTitleWithLogo {
     display: block !important;
@@ -117,6 +125,11 @@ body{
   }
   .fixedHeaderContainer ul, ol{
     margin: 0;
+  }
+  @media only screen and (max-width: 1023px) {
+    .tocActive .onPageNav {
+      top: 168px;
+    }
   }
 
 }
