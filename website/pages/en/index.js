@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+// b478286a56a224000f870ca6cb111082 - search api key
+
 
 const React = require('react');
 
@@ -81,7 +83,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href="#try">Download</Button>
-            <Button href={docUrl('doc1.html', language)}>Get Started</Button>
+            <Button href={docUrl('5MinuteGuide.html', language)}>Get Started</Button>
           </PromoSection>
         </div>
       </SplashContainer>

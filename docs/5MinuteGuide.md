@@ -1,10 +1,8 @@
 ---
-id: doc1
+id: 5MinuteGuide
 title: 5 Minute Guide
 sidebar_label: 5 Minute Guide
 ---
-
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 # Five Minute Guide
 
@@ -23,6 +21,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
   
 4. Go ahead and find/start the program `Exokit Browser`, and run it.
 5. Now you are ready to start checking out sites and seeing what Exokit can do.
+
 
 ```$xslt
 console.log("hello exokit!");
