@@ -112,6 +112,9 @@ body{
   .navigationSlider .slidingNav ul{
     background: #202020;
   }
+  .fixedHeaderContainer ul, ol{
+    margin: 0;
+  }
 
 }
 
