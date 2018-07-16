@@ -14,6 +14,12 @@ body {
   background-color: #202020;
   color: white;
 }
+.toc .toggleNav ul li.navListItemActive a{
+  color: #00B49B;
+}
+.toc .toggleNav ul li a:hover{
+  color: #00B49B;
+}
 .fixedHeaderContainer header .headerTitleWithLogo{
   margin-top: 0%;
 }
