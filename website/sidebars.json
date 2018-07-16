@@ -1,8 +1,11 @@
 {
   "docs": {
-    "Exokit Documentation": ["doc1"]
+    "Overview": ["5MinuteGuide"],
+    "Preparation": ["Essentials", "Languages", "OtherFeatures", "UniqueTerms"],
+    "All Quickstarts": ["BeforeBegin", "Windows", "Linux", "OSX", "WhatToDo"],
+    "Guide": ["InstallSDK", "SetupSDK", "Functions", "APIRef", "Support"]
   },
   "docs-other": {
-
+    "API's and References": ["APILanding"]
   }
 }

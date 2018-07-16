@@ -42,8 +42,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: '5MinuteGuide', label: 'Docs'},
+    {doc: 'APILanding', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
@@ -78,7 +78,7 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    'Exokit',
+    ' Exokit',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
@@ -98,6 +98,9 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/webmixedreality/exokit',
+  blogSidebarCount: 'ALL'
+
 };
 
 module.exports = siteConfig;

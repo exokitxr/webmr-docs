@@ -1,10 +1,8 @@
 ---
-id: doc1
+id: 5MinuteGuide
 title: 5 Minute Guide
 sidebar_label: 5 Minute Guide
 ---
-
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 # Five Minute Guide
 
@@ -23,6 +21,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
   
 4. Go ahead and find/start the program `Exokit Browser`, and run it.
 5. Now you are ready to start checking out sites and seeing what Exokit can do.
+
 
 ```$xslt
 console.log("hello exokit!");
@@ -44,17 +43,17 @@ Let's open a ThreeJS website in Exokit.
 
 Go to the ThreeJS [examples](https://threejs.org/examples/) page using your web browser of choice (Chrome, Firefox, etc):
 
-![alt text](./_images/image-1.png)
+![alt text](_images/image-1.png?raw=true)
 
 These ThreeJS examples will run in Exokit, so lets get into it. Let's try the first one, [animation/cloth](https://threejs.org/examples/#webgl_animation_cloth). Observe that this is a WebGL site, and that it renders fine in Chrome:
 
-![alt text](./_images/image-6.png)
+![alt text](_images/image-6.png?raw=true)
 
 Now we're going to open this same site using Exokit.
 
 1. Open your Exokit Browser:
 
-![alt text](./_images/exokit1.PNG)
+![alt text](./_images/exokit1.PNG?raw=true)
 
 2. Then simply paste (Command-V) or type the link of the example into the URL bar:
 
