@@ -34,6 +34,12 @@ body {
 a, a:hover{
   color: #00B49B;
 }
+.mainContainer .wrapper .post .postHeaderTitle a{
+  color: inherit;
+}
+.mainContainer .wrapper .post .postHeaderTitle a:hover{
+  color: #00B49B;
+}
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
   border-bottom-color: #00B49B;
 }
