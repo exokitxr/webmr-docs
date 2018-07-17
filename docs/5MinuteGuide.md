@@ -4,8 +4,6 @@ title: 5 Minute Guide
 sidebar_label: 5 Minute Guide
 ---
 
-# Five Minute Guide
-
 ## Getting Started
 
 ## Installing Exokit

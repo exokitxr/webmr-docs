@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Exokit Documentation' /* title for your website */,
+  title: 'Exokit Docs' /* title for your website */,
   tagline: 'The fastest and most portable VR/AR browser for developers.',
   url: 'https://exokit.webmr.io' /* your website url */,
   baseUrl: '/' /* base url for your project */,
