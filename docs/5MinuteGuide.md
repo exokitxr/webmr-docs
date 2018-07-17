@@ -41,7 +41,9 @@ Let's open a ThreeJS website in Exokit.
 
 Go to the ThreeJS [examples](https://threejs.org/examples/) page using your web browser of choice (Chrome, Firefox, etc):
 
-![alt text](_images/image-1.png?raw=true)
+
+![threee.js](./blogImages/image-1.png "three.js")
+
 
 These ThreeJS examples will run in Exokit, so lets get into it. Let's try the first one, [animation/cloth](https://threejs.org/examples/#webgl_animation_cloth). Observe that this is a WebGL site, and that it renders fine in Chrome:
 
