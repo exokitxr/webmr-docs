@@ -64,9 +64,9 @@ const siteConfig = {
   },
 
   algolia: {
-    apiKey: 'b478286a56a224000f870ca6cb111082',
+    appId: 'RK2PHC0I8T', // if you are running the crawler yourself
+    apiKey: '31b405fd1196131ecf05d2c3dd2a0543',
     indexName: 'Docs',
-    algoliaOptions: {} // Optional, if provided by Algolia
   },
 
   /* custom fonts for website */
