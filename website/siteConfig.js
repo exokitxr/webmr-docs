@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Exokit Documentation' /* title for your website */,
+  title: 'Exokit Docs' /* title for your website */,
   tagline: 'The fastest and most portable VR/AR browser for developers.',
   url: 'https://exokit.webmr.io' /* your website url */,
   baseUrl: '/' /* base url for your project */,
@@ -46,6 +46,7 @@ const siteConfig = {
     {doc: 'APILanding', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    { search: true }
   ],
 
   // If you have users set above, you add it here:
@@ -60,6 +61,12 @@ const siteConfig = {
   colors: {
     primaryColor: '#ffffff',
     secondaryColor: '#ffffff',
+  },
+
+  algolia: {
+    appId: 'RK2PHC0I8T', // if you are running the crawler yourself
+    apiKey: '31b405fd1196131ecf05d2c3dd2a0543',
+    indexName: 'Docs',
   },
 
   /* custom fonts for website */
