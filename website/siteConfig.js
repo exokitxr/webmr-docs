@@ -30,9 +30,9 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'webmr-docs2',
+  projectName: 'webmr-docs',
   organizationName: 'webmixedreality',
-  cname: 'docs2.webmr.io',
+  cname: 'docs.webmr.io',
   stylesheets: [
     'https://pro.fontawesome.com/releases/v5.1.0/css/all.css',
   ],
