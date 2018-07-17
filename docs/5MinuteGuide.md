@@ -41,33 +41,32 @@ Let's open a ThreeJS website in Exokit.
 
 Go to the ThreeJS [examples](https://threejs.org/examples/) page using your web browser of choice (Chrome, Firefox, etc):
 
-
-![threee.js](./blogImages/image-1.png "three.js")
-
+![three.js](https://raw.githubusercontent.com/ChrisEddy/webmr-docs2/master/website/static/img/docsImages/image-1.png "three.js")
 
 These ThreeJS examples will run in Exokit, so lets get into it. Let's try the first one, [animation/cloth](https://threejs.org/examples/#webgl_animation_cloth). Observe that this is a WebGL site, and that it renders fine in Chrome:
 
-![alt text](_images/image-6.png?raw=true)
+
+![three.js](https://raw.githubusercontent.com/ChrisEddy/webmr-docs2/master/website/static/img/docsImages/image-6.png "three.js")
 
 Now we're going to open this same site using Exokit.
 
 1. Open your Exokit Browser:
 
-![alt text](./_images/exokit1.PNG?raw=true)
+![three.js](https://raw.githubusercontent.com/ChrisEddy/webmr-docs2/master/website/static/img/docsImages/exokit1.PNG "three.js")
 
 2. Then simply paste (Command-V) or type the link of the example into the URL bar:
 
-![alt text](./_images/exokit2.PNG)
+![three.js](https://raw.githubusercontent.com/ChrisEddy/webmr-docs2/master/website/static/img/docsImages/exokit2.PNG "three.js")
 
 3. Go ahead and hit enter (in VR or on your own keyboard), and the example should load up:
 
-![alt text](./_images/exokit3.PNG)
+![three.js](https://raw.githubusercontent.com/ChrisEddy/webmr-docs2/master/website/static/img/docsImages/exokit3.PNG "three.js")
 
 ## Exokit's Command Prompt
 
 The Exokit command prompt is a NodeJS REPL. If you're a node developer, the interface should be quite familiar. Open Exokit Command Prompt and run the command, `.help` :
 
-![alt text](./_images/exokit4.PNG)
+![three.js](https://raw.githubusercontent.com/ChrisEddy/webmr-docs2/master/website/static/img/docsImages/exokit4.PNG "three.js")
 
 To get to links from the command prompt itself, punch in the command: `.go`, then simply put in your desired URL.
 
