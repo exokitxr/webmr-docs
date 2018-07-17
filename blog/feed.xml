@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Exokit Documentation Blog</title>
+        <title>Exokit Docs Blog</title>
         <link>https://exokit.webmr.io/blog</link>
-        <description>The best place to stay up-to-date with the latest Exokit Documentation news and events.</description>
+        <description>The best place to stay up-to-date with the latest Exokit Docs news and events.</description>
         <lastBuildDate>Sat, 12 May 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Exokit Documentation Blog</title>
+            <title>Exokit Docs Blog</title>
             <url>https://exokit.webmr.io/img/ExokitLogo.png</url>
             <link>https://exokit.webmr.io/blog</link>
         </image>
