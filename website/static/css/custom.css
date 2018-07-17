@@ -13,6 +13,9 @@ body {
 .navSearchWrapper{
   top: -8px;
 }
+.reactNavSearchWrapper input#search_input_react{
+  background-color: rgba(0, 0, 0, 0.2);
+}
 .fixedHeaderContainer, .fixedHeaderContainer *{
   background-color: #202020;
   color: white;
