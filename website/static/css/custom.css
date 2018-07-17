@@ -10,6 +10,9 @@ body {
 .fixedHeaderContainer ul, ol{
   margin: 2px;
 }
+.navSearchWrapper{
+  top: -8px;
+}
 .fixedHeaderContainer, .fixedHeaderContainer *{
   background-color: #202020;
   color: white;
@@ -111,6 +114,9 @@ a, a:hover{
 }
 
 @media only screen and (max-width: 1023px) {
+  .navSearchWrapper{
+    top: 23px;
+  }
   .navigationSlider .slidingNav ul li a{
     font-weight: 500;
   }

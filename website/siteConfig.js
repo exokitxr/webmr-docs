@@ -46,6 +46,7 @@ const siteConfig = {
     {doc: 'APILanding', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    { search: true }
   ],
 
   // If you have users set above, you add it here:
@@ -60,6 +61,12 @@ const siteConfig = {
   colors: {
     primaryColor: '#ffffff',
     secondaryColor: '#ffffff',
+  },
+
+  algolia: {
+    apiKey: 'b478286a56a224000f870ca6cb111082',
+    indexName: 'Docs',
+    algoliaOptions: {} // Optional, if provided by Algolia
   },
 
   /* custom fonts for website */
