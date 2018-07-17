@@ -13,7 +13,7 @@ sidebar_label: Technology Stack
 | React      | Pure JS | [React](https://reactjs.org/docs/getting-started.html) | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
 | HTML5      | Pure JS  | [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
 | CSS        | Pure JS  | [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
-| THREE.js   | Pure JS  | [THREE.js](https://threejs.org/docs/) | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
+| THREE.js   | Pure JS  | [THREE.js](https://threejs.org/docs/) | [Source](https://github.com/webmixedreality/exokit/blob/master/lib/three-min.js ) |
 | Express    | Pure JS  | [Express](https://expressjs.com/en/api.html) | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
 | WebSockets | Pure JS  | [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
 | FetchAPI   | Pure JS  | [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | [Source](https://github.com/webmixedreality/exokit/blob/master/core.js ) |
