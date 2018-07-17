@@ -3,7 +3,7 @@
     "Overview": ["5MinuteGuide"],
     "Preparation": ["Essentials", "Languages", "OtherFeatures", "UniqueTerms"],
     "All Quickstarts": ["BeforeBegin", "Windows", "Linux", "OSX", "WhatToDo"],
-    "Guide": ["InstallSDK", "SetupSDK", "Functions", "APIRef", "Support"]
+    "Guide": ["InstallSDK", "SetupSDK", "Functions","TechStack", "APIRef", "Support"]
   },
   "docs-other": {
     "API's and References": ["APILanding"]
