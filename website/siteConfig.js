@@ -34,7 +34,7 @@ const siteConfig = {
   organizationName: 'webmixedreality',
   cname: 'docs.webmr.io',
   stylesheets: [
-    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css',
+    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css'
   ],
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -64,9 +64,11 @@ const siteConfig = {
   },
 
   algolia: {
-    appId: 'RK2PHC0I8T', // if you are running the crawler yourself
-    apiKey: '31b405fd1196131ecf05d2c3dd2a0543',
-    indexName: 'Docs',
+    apiKey: '982c937859de6fb51f8adf43ec9a9051',
+    indexName: 'exokit',
+    inputSelector: '#search_input_react',
+    algoliaOptions: { 'facetFilters': ["language:en"] },
+    debug: true // Set debug to true if you want to inspect the dropdown
   },
 
   /* custom fonts for website */
@@ -93,7 +95,10 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js'
+  ],
 
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
