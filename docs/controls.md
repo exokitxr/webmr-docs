@@ -1,0 +1,1 @@
+rip from whattodo.md
