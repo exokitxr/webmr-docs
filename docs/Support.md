@@ -12,7 +12,12 @@ Check out our [blog](https://medium.com/webmr) for weekly updates on all we are 
 
 # Support
 
-Join Our [Slack](https://exoslack.now.sh/)
+Join Our [Slack](https://exoslack.now.sh/).
+
 Follow Exokit on [Twitter](https://twitter.com/webmixedreality)!
-The Exokit [Github](https://github.com/webmixedreality/exokit)
-Live Exokit Coding Daily on [Twitch](https://www.twitch.tv/avaer)
+
+The Exokit [Github](https://github.com/webmixedreality/exokit).
+
+Live Exokit Coding Daily on [Twitch](https://www.twitch.tv/avaer).
+
+We are always around hanging in [Discord](https://discord.gg/cf5tfTV) as well!
