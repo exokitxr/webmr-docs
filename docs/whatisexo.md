@@ -16,7 +16,7 @@
   
   ## What Sites Work?
   
-  Well the goal is that we can say, "All of them." As of now howeverwe are chugging our way through getting more VR web experiences running smoothly, as well as VR web apps like Emukit (our Web-VR-Console Emulator).
+  Well the goal is that we can say, "All of them." As of now however we are chugging our way through getting more VR web experiences running smoothly, as well as VR web apps like Emukit (our Web-VR-Console Emulator). Of course you can always join us on [twitch](https://www.twitch.tv/avaer), [discord](https://discord.gg/cf5tfTV), or [slack](https://exoslack.now.sh/) if you have some specific use case which seems to not work, you could also submit an issue on [github](https://github.com/webmixedreality/exokit),  or better yet submit a PR (we're open source).
   
   ## Give Me the TL;DR
   
