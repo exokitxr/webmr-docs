@@ -119,6 +119,7 @@ const Features = props => (
   </Block>
 );
 
+/*
 const FeatureCallout = props => (
     <GridBlock align="center" layout="threeColumn" className="featuresRow"
       contents ={[
@@ -140,11 +141,11 @@ const FeatureCallout = props => (
         },
       ]}
     />
-
 );
+*/
 
 const LearnHow = props => (
-  <Block background="light">
+  <Block>
     {[
       {
         content: 'Learn how to get started developing with Exokit with out comprehensive documentation.',
@@ -222,7 +223,7 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/*<FeatureCallout />*/}
           <LearnHow />
           <TryOut />
           <Description />
