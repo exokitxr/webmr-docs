@@ -24,7 +24,11 @@ body {
 .reactNavSearchWrapper input#search_input_react{
   background-color: rgba(0, 0, 0, 0.2);
 }
-.fixedHeaderContainer, .fixedHeaderContainer *{
+.fixedHeaderContainer, .fixedHeaderContainer{
+  background-color: #202020;
+  color: white;
+}
+.navSearchWrapper .aa-dropdown-menu{
   background-color: #202020;
   color: white;
 }
@@ -149,6 +153,15 @@ a, a:hover{
     text-align: center !important;
     font-size: 90%;
   }
+  .aa-cursor .algolia-docsearch-suggestion--content {
+    height: 8px;
+  }
+  .algolia-docsearch-suggestion--content{
+    height: 8px;
+  }
+  .navSearchWrapper .aa-dropdown-menu{
+    min-height: 40vh;
+  }
 }
 @media only screen and (min-width: 1024px) {
 }
@@ -193,13 +206,50 @@ a, a:hover{
       top: 168px;
     }
   }
-
 }
 
-@media only screen and (min-width: 1400px) {
+/* Bottom border of each suggestion */
+.algolia-docsearch-suggestion {
+  border-bottom-color: #13d116;
+}
+/* Main category headers */
+.algolia-docsearch-suggestion--category-header {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+/* Highlighted search terms */
+.algolia-docsearch-suggestion--highlight {
+  color: #00B49B;
+}
+/* Highlighted search terms in the main category headers */
+.algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight  {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* Currently selected suggestion */
+.aa-cursor .algolia-docsearch-suggestion--content {
+  color: #00B49B;
+  min-height: 60px;
+  border-bottom: solid #00B49B 2px;
+}
+.algolia-docsearch-suggestion--content{
+  min-height: 60px;
+  color: white;
+  text-align: center;
 }
 
-@media only screen and (min-width: 1500px) {
+.aa-cursor .algolia-docsearch-suggestion {
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
-
+/* For bigger screens, when displaying results in two columns */
+@media (min-width: 768px) {
+  /* Bottom border of each suggestion */
+  .algolia-docsearch-suggestion {
+    border-bottom-color: #0f1834;
+  }
+  /* Left column, with secondary category header */
+  .algolia-docsearch-suggestion--subcategory-column {
+    border-right-color: #df2acc;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+  }
+}
