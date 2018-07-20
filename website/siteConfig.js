@@ -82,7 +82,7 @@ const siteConfig = {
   algolia: {
     apiKey: '982c937859de6fb51f8adf43ec9a9051',
     indexName: 'exokit',
-    inputSelector: 'input#search_input_react',
+    inputSelector: '.reactNavSearchWrapper>span',
     algoliaOptions: { 'facetFilters': ["language:en"] },
     debug: true // Set debug to true if you want to inspect the dropdown
   },
