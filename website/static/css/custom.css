@@ -10,8 +10,16 @@ body {
 .fixedHeaderContainer ul, ol{
   margin: 2px;
 }
+.container.paddingTop{
+  padding-top: 0;
+}
 .navSearchWrapper{
   top: -8px;
+}
+@media only screen and (max-width: 1024px) {
+  .reactNavSearchWrapper input#search_input_react:focus{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
 }
 .reactNavSearchWrapper input#search_input_react{
   background-color: rgba(0, 0, 0, 0.2);
@@ -19,6 +27,21 @@ body {
 .fixedHeaderContainer, .fixedHeaderContainer *{
   background-color: #202020;
   color: white;
+}
+.gridBlock .twoByGridBlock img{
+  padding-top: 50px;
+}
+.threeByGridBlock{
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+}
+.imageAlignTop.alignCenter .blockImage{
+  padding-top: 50px;
+
+}
+.gridBlock .fourByGridBlock img{
+  max-height: 90px;
+  width: auto;
 }
 .toc .toggleNav ul li.navListItemActive a{
   color: #00B49B;
@@ -111,6 +134,15 @@ a, a:hover{
   .homeContainer .projectTitle{
     padding-top: 20px;
     margin-top: 0;
+  }
+  .mainContainer{
+    padding-top: 0;
+  }
+  .homeContainer .homeWrapper{
+    min-height: 20vh;
+  }
+  .threeByGridBlock{
+    padding-top: 0 !important;
   }
 }
 @media only screen and (min-width: 1024px) {

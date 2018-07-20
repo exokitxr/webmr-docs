@@ -10,5 +10,12 @@
   },
   "devDependencies": {
     "docusaurus": "^1.3.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "mdbreact": "^4.6.0",
+    "react": "^16.4.1",
+    "react-grid-system": "^4.1.4",
+    "react-pure-grid": "^2.1.1"
   }
 }

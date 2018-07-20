@@ -11,13 +11,29 @@
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
-    caption: 'User1',
+    caption: 'Exokit',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ExokitLogo.png',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://exokit.webmr.io/',
     pinned: true,
   },
+  {
+    caption: 'Emukit',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/emukit.svg',
+    infoLink: 'https://github.com/webmixedreality/emukit',
+    pinned: true,
+  },
+  {
+    caption: 'A-Frame',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/a-frame-logo.PNG',
+    infoLink: 'https://aframe.io/',
+    pinned: false,
+  }
 ];
 
 const siteConfig = {
@@ -66,7 +82,7 @@ const siteConfig = {
   algolia: {
     apiKey: '982c937859de6fb51f8adf43ec9a9051',
     indexName: 'exokit',
-    inputSelector: '#search_input_react',
+    inputSelector: 'input#search_input_react',
     algoliaOptions: { 'facetFilters': ["language:en"] },
     debug: true // Set debug to true if you want to inspect the dropdown
   },
