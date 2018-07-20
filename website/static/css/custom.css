@@ -153,6 +153,15 @@ a, a:hover{
     text-align: center !important;
     font-size: 90%;
   }
+  .aa-cursor .algolia-docsearch-suggestion--content {
+    height: 8px;
+  }
+  .algolia-docsearch-suggestion--content{
+    height: 8px;
+  }
+  .navSearchWrapper .aa-dropdown-menu{
+    min-height: 40vh;
+  }
 }
 @media only screen and (min-width: 1024px) {
 }
@@ -197,15 +206,7 @@ a, a:hover{
       top: 168px;
     }
   }
-
 }
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
-}
-
 
 /* Bottom border of each suggestion */
 .algolia-docsearch-suggestion {
@@ -213,7 +214,7 @@ a, a:hover{
 }
 /* Main category headers */
 .algolia-docsearch-suggestion--category-header {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
 /* Highlighted search terms */
 .algolia-docsearch-suggestion--highlight {
@@ -225,7 +226,7 @@ a, a:hover{
 }
 /* Currently selected suggestion */
 .aa-cursor .algolia-docsearch-suggestion--content {
-  color: white;
+  color: #00B49B;
   min-height: 60px;
   border-bottom: solid #00B49B 2px;
 }
@@ -234,11 +235,10 @@ a, a:hover{
   color: white;
   text-align: center;
 }
+
 .aa-cursor .algolia-docsearch-suggestion {
   background-color: rgba(0, 0, 0, 0.5);
-
 }
-
 /* For bigger screens, when displaying results in two columns */
 @media (min-width: 768px) {
   /* Bottom border of each suggestion */
