@@ -11,13 +11,29 @@
 /* List of projects/orgs using your project for the users page */
 const users = [
   {
-    caption: 'User1',
+    caption: 'Exokit',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ExokitLogo.png',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://exokit.webmr.io/',
     pinned: true,
   },
+  {
+    caption: 'Emukit',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/emukit.svg',
+    infoLink: 'https://github.com/webmixedreality/emukit',
+    pinned: true,
+  },
+  {
+    caption: 'A-Frame',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/a-frame-logo.PNG',
+    infoLink: 'https://aframe.io/',
+    pinned: false,
+  }
 ];
 
 const siteConfig = {
@@ -34,7 +50,7 @@ const siteConfig = {
   organizationName: 'webmixedreality',
   cname: 'docs.webmr.io',
   stylesheets: [
-    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css',
+    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css'
   ],
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -64,9 +80,11 @@ const siteConfig = {
   },
 
   algolia: {
-    appId: 'RK2PHC0I8T', // if you are running the crawler yourself
-    apiKey: '31b405fd1196131ecf05d2c3dd2a0543',
-    indexName: 'Docs',
+    apiKey: '982c937859de6fb51f8adf43ec9a9051',
+    indexName: 'exokit',
+    inputSelector: '.reactNavSearchWrapper>span',
+    algoliaOptions: { 'facetFilters': ["language:en"] },
+    debug: true // Set debug to true if you want to inspect the dropdown
   },
 
   /* custom fonts for website */
@@ -93,7 +111,10 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js'
+  ],
 
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',

@@ -10,7 +10,7 @@ const React = require('react');
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
-    return baseUrl + 'docs/' + (language ? language + '/' : '') + doc;
+    return baseUrl + 'docs/' + doc;
   }
 
   pageUrl(doc, language) {
@@ -59,7 +59,7 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Twitch
             </a>
-            <a href="https://discord.gg/aQhHskF">Project Chat</a>
+            <a href="https://discord.gg/Apk6cZN">Project Chat</a>
             <a
               href="https://twitter.com/webmixedreality"
               target="_blank"

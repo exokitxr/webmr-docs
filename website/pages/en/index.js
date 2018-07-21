@@ -7,7 +7,6 @@
 
 // b478286a56a224000f870ca6cb111082 - search api key
 
-
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -101,7 +100,7 @@ const Block = props => (
 );
 
 const Features = props => (
-  <Block layout="fourColumn">
+  <Block layout="fourColumn" background="light">
     {[
       {
         content: 'Enjoy the eco-system of the web in VR/AR development',
@@ -120,17 +119,33 @@ const Features = props => (
   </Block>
 );
 
+/*
 const FeatureCallout = props => (
-  <div
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
-  </div>
+    <GridBlock align="center" layout="threeColumn" className="featuresRow"
+      contents ={[
+        {
+          image: imgUrl('credit-card-front.svg'),
+          imageAlign: 'top',
+          title: 'Payment API',
+
+        },
+        {
+          image: imgUrl('users.svg'),
+          imageAlign: 'top',
+          title: 'Multiplayer Infrastructure',
+        },
+        {
+          image: imgUrl('hdd.svg'),
+          imageAlign: 'top',
+          title: 'Storage System API',
+        },
+      ]}
+    />
 );
+*/
 
 const LearnHow = props => (
-  <Block background="light">
+  <Block>
     {[
       {
         content: 'Learn how to get started developing with Exokit with out comprehensive documentation.',
@@ -208,7 +223,7 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/*<FeatureCallout />*/}
           <LearnHow />
           <TryOut />
           <Description />
