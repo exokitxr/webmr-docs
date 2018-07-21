@@ -1,3 +1,9 @@
+---
+id: downandbuild
+title: Download + Install a Build
+sidebar_label: Download + Install a Build
+---
+
 # Download and Build
 
 1. Be sure to grab a download for your OS [here](https://get.webmr.io/)

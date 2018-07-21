@@ -1,3 +1,9 @@
+---
+id: opensite
+title: Opening Sites
+sidebar_label: Opening Sites
+---
+
 # Opening Websites and Examples
 
 * When you run "Exokit Browser" a command prompt and a larger window will open, turn your attention to the larger window. In the window you will see a VR keyboard for our VR users (or legacy if you have time to kill), and our Home enviroment navigation menu.

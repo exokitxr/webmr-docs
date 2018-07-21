@@ -1,6 +1,10 @@
-# What is Exokit
+---
+id: whatisexo
+title: What is Exokit?
+sidebar_label: What is Exokit?
+---
 
-  Exokit is a browser that is made from the ground-up for performance and ease of access in the post-screen era. 
+ Exokit is a browser that is made from the ground-up for performance and ease of access in the post-screen era. 
   
   ## How?
   

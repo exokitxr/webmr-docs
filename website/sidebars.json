@@ -1,9 +1,9 @@
 {
   "docs": {
-    "Overview": ["5MinuteGuide"],
-    "Preparation": ["Essentials", "Languages", "OtherFeatures", "UniqueTerms"],
-    "All Quickstarts": ["BeforeBegin", "Windows", "Linux", "OSX", "WhatToDo"],
-    "Guide": ["InstallSDK", "SetupSDK", "Functions","TechStack", "APIRef", "Support"]
+    "Overview": ["whatisexo", "5MinuteGuide", "benchmarks", "architecture"],
+    "Creation": ["apisupport", "tabcreate", "building", "engines", "betaapi", "futureinteg"],
+    "Quickstart": ["downandbuild", "devsetup", "hacking"],
+    "Guides": ["opensite", "controls", "contribute","howtodebug", "reprohowto", "TechStack", "Support"]
   },
   "docs-other": {
     "API's and References": ["APILanding"]

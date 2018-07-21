@@ -1,3 +1,9 @@
+---
+id: contribute
+title: How to Contribute 
+sidebar_label: How to Contribute
+---
+
 # How to Contribute
 
 ### If you know code:

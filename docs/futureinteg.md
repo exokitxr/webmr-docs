@@ -1,3 +1,9 @@
+---
+id: futureinteg
+title: Future Integrations
+sidebar_label: Future Integrations
+---
+
 # Integrations
   
   As it stands the current objectives for what we hope to integrate going forward are the following;

@@ -1,3 +1,9 @@
+---
+id: controls
+title: Controls
+sidebar_label: Controls
+---
+
 # Controls
 
 Of course being that Exokit is not limited to one platform, we thought it would be a good idea to not leave you in the dark when it comes to how to actually use the thing we have been making all this time, so below are a few notes on controls that we thought might be useful to you.
