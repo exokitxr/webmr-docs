@@ -39,7 +39,7 @@ class Help extends React.Component {
         title: 'Join the community',
       },
       {
-        content: "Find out [what's new with this project.](${docUrl(
+        content: "Find out [what's new with this project.](${siteUrl(
           'blog'
         )})",
         title: 'Stay up to date',
