@@ -3,7 +3,6 @@
 <url> <loc>https://exokit.webmr.io/help.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/help.html" /> </url>
 <url> <loc>https://exokit.webmr.io/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/index.html" /> </url>
 <url> <loc>https://exokit.webmr.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/users.html" /> </url>
-<url> <loc>https://exokit.webmr.io/blog/2018/05/12/why-mixed-reality.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://exokit.webmr.io/docs/5MinuteGuide.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/5MinuteGuide.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/APILanding.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APILanding.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/APIRef.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APIRef.html" /> </url>
