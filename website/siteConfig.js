@@ -61,7 +61,7 @@ const siteConfig = {
     {doc: 'whatisexo', label: 'Docs'},
     {doc: 'APILanding', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {href: 'https://medium.com/webmr', label: 'Blog' },
     { search: true }
   ],
 
