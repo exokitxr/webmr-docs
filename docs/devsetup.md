@@ -20,3 +20,4 @@ If you used the install script all of the above should be in /usr/lib (which is 
 
 4. Run `exokit`
 
+5. Check out our page on [how to contribute](contribute.md).

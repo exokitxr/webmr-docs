@@ -4,6 +4,7 @@ title: Run Apps on Exokit
 sidebar_label: For Running Apps 
 ---
 
+## Install Exokit
 
 1. Visit [get.webmr.io](https://get.webmr.io/) to download Exokit.         
 
@@ -18,5 +19,20 @@ sidebar_label: For Running Apps
         * For Linux Users:
 If you used the install script all of the above should be in /usr/lib (which is probably in your PATH).
 
-4. Run the exokit application.
+
+## Install and Run the Emukit Emulator
+
+1. `git clone https://github.com/webmixedreality/emukit.git`
+
+2. `cd emukit` 
+
+3. `npm install` 
+
+4. `npm start`
+
+5. Drop a ROM into the Emulator and begin!
+
+## More info
+
+If you get stuck, check out our [Resources and Support page](Support.md). To continue the fun, check out our [User Guides section](opensite.html). If you'd like to contribute, see [How to Contribute](contribute.md).
 
