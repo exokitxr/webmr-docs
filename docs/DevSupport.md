@@ -1,11 +1,11 @@
 ---
-id: Support
-title: Resources and Support
-sidebar_label: Resources and Support
+id: DevSupport
+title: Resources and Support for Developers
+sidebar_label: Patch Notes and Support 
 ---
 
-# Track the project's development
-Explore the various projects on [GitHub.](https://github.com/webmixedreality)
+# Patch Notes
+Live Patch Notes and Update Dump can be found [here](https://github.com/webmixedreality/exokit/commits/master).
 
 # Blog
 Check out our [blog](https://medium.com/webmr) for weekly updates on all we are doing as well as any big announcements or changes.

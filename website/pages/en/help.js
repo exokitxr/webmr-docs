@@ -27,15 +27,15 @@ class Help extends React.Component {
     const supportLinks = [
       {
         content: `Learn more using the [documentation on this site.](${docUrl('whatisexo.html')})`,
-        title: 'Browse Docs',
+        title: 'Browse the Docs',
       },
       {
-        content: `[Ask questions](${docUrl('Support.html')}) about the documentation and project.`,
+	      content: `[Ask questions](${docUrl('Support.html')}) about the documentation and project. Stay up to date and find out [what is new](https://medium.com/webmr) with the project.`,
         title: 'Join the community',
       },
       {
-        content: `Find out [what is new with this project.](${pageUrl('blog')})`,
-        title: 'Stay up to date',
+        content: `At our [GitHub repo](https://github.com/webmixedreality/exokit) browse and sumbit [issues](https://github.com/webmixedreality/exokit/issues) or [pull requests](https://github.com/webmixedreality/exokit/pulls) for bugs you find or any new features you may want implemented. Be sure to check out [how to contribute.](${docUrl('contribute.html')})`,
+        title: 'GitHub',
       },
     ];
 
