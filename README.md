@@ -14,7 +14,7 @@ We are writing core documentation content. Design and functionality is nearly co
 - Medium Blog Linkage
 - Help and Contact section
 
-## Get Invloved
+## Get Involved
 - [Discord](https://discord.gg/aQhHskF)
 - [Exokit Repo](https://github.com/webmixedreality/exokit)
 
