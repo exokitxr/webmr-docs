@@ -1,9 +1,9 @@
 {
   "docs": {
-    "Overview": ["whatisexo", "5MinuteGuide", "benchmarks", "architecture"],
-    "Creation": ["apisupport", "tabcreate", "building", "engines", "betaapi", "futureinteg"],
-    "Quickstart": ["downandbuild", "devsetup", "hacking"],
-    "Guides": ["opensite", "controls", "contribute","howtodebug", "reprohowto", "TechStack", "Support"]
+    "Overview": ["whatisexo", "benchmarks", "architecture"],
+    "Quickstart": ["StartHere", "usertabsetup", "userappsetup", "devsetup"],
+    "User Guides": ["opensite", "controls", "Support"],
+    "Dev Guides": ["apisupport", "tabcreate", "building", "engines", "betaapi", "futureinteg", "contribute", "howtodebug", "reprohowto", "TechStack", "DevSupport"]
   },
   "docs-other": {
     "API's and References": ["APILanding"]
