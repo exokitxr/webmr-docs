@@ -4,7 +4,8 @@ title: Try Exokit with Reality Tabs
 sidebar_label: For Reality Tabs 
 ---
 
-1. `git clone https://github.com/webmixedreality/exokit.git`
+
+1. Visit [get.webmr.io](https://get.webmr.io/) to download Exokit. 
 
 2. Run the downloaded file, and be sure to allow any security clearance the installer might need.
         * (For Linux: `apt-get install build-essential wget python libglfw3-dev libglew-dev libfreetype6-dev libfontconfig1-dev uuid-dev libxcursor-dev libxinerama-dev libxi-dev libasound2-dev libexpat1-dev`)
@@ -17,7 +18,9 @@ sidebar_label: For Reality Tabs
         * For Linux Users:
 If you used the install script all of the above should be in /usr/lib (which is probably in your PATH).
 
-4. Run `exokit`
+4. Run the exokit application.
+
+
 
 ## Opening Websites and Examples
 
