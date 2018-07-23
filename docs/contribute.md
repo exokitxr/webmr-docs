@@ -4,11 +4,10 @@ title: How to Contribute
 sidebar_label: How to Contribute
 ---
 
-# How to Contribute
 
 ### If you know code:
 
-  * If you know JS: Either dive into the code ("the browser is a site"), pick up an issue marked good first issue, or ask us.  
+  * If you know JS: Either dive into the code ("the browser is a site"), pick up an issue marked [good first issue](https://github.com/webmixedreality/exokit/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22), or [ask us](Support.md).  
 
 ### If you dont know code:
 
