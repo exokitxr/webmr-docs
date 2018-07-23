@@ -16,7 +16,7 @@ sidebar_label: For Developers
 	* For OSX Users: 
 		* A window should open with the Exokit app file and your applications folder, simply drag Exokit into that folder.
 	* For Linux Users: 
-If you used the install script all of the above should be in /usr/lib (which is probably in your PATH). 
+		* If you used the install script all of the above should be in /usr/lib (which is probably in your PATH). 
 
 4. Run `exokit`
 
