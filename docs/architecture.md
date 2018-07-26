@@ -4,4 +4,10 @@ title: Architecture
 sidebar_label: Architecture
 ---
 
-#filler test
+# Breakdown of Exokit's fundamental parts
+
+flow chart/diagram of the modules and system.
+
+point form list of the separate modules and their explanations.
+
+![components](../website/static/img/archClip.PNG)

@@ -253,3 +253,9 @@ a, a:hover{
     text-align: center;
   }
 }
+article p img{
+  display: inline;
+}
+article p img{
+  text-align: center;
+}
