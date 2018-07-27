@@ -4,6 +4,7 @@
 <url> <loc>https://exokit.webmr.io/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/index.html" /> </url>
 <url> <loc>https://exokit.webmr.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/en/users.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/APILanding.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APILanding.html" /> </url>
+<url> <loc>https://exokit.webmr.io/docs/APINative.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APINative.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/APIRef.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/APIRef.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/apisupport.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/apisupport.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/architecture.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/architecture.html" /> </url>
@@ -18,7 +19,6 @@
 <url> <loc>https://exokit.webmr.io/docs/devExokitEngine.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/devExokitEngine.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/devsetup.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/devsetup.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/DevSupport.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/DevSupport.html" /> </url>
-<url> <loc>https://exokit.webmr.io/docs/engineAPI.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/engineAPI.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/engines.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/engines.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/exoBrowser.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/exoBrowser.html" /> </url>
 <url> <loc>https://exokit.webmr.io/docs/futureinteg.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://exokit.webmr.io/docs/futureinteg.html" /> </url>
