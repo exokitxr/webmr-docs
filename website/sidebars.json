@@ -1,9 +1,10 @@
 {
   "docs": {
-    "Overview": ["whatisexo", "benchmarks", "architecture"],
-    "Quickstart": ["StartHere", "usertabsetup", "userappsetup", "devsetup"],
-    "User Guides": ["opensite", "controls", "Support"],
-    "Dev Guides": ["apisupport", "tabcreate", "building", "engines", "betaapi", "futureinteg", "contribute", "howtodebug", "reprohowto", "TechStack", "DevSupport"]
+    "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture"],
+    "Quickstart": ["StartHere", "browserReality", "workExokitEngine", "devsetup"],
+    "User Guides": ["useExokitEngine", "useExokitBrowser"],
+    "Dev Guides": ["devExokitEngine", "devExokitBrowser", "debugging"],
+    "Community": ["API", "Integrations", "TechStack", "DevSupport"]
   },
   "docs-other": {
     "API's and References": ["APILanding"]

@@ -1,6 +1,6 @@
 ---
 id: DevSupport
-title: Resources and Support for Developers
+title: Patch Notes and Support 
 sidebar_label: Patch Notes and Support 
 ---
 
