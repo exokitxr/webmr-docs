@@ -1,7 +1,7 @@
 ---
 id: browserReality
-title: Exokit Browser & Reality Tabs
-sidebar_label: Exokit Browser & Reality Tabs
+title: Exokit Browser
+sidebar_label: Exokit Browser
 ---
 
 ## Explain the Exokit browser in it's relation to Exokit Engine and the differences.

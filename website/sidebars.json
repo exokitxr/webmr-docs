@@ -1,10 +1,10 @@
 {
   "docs": {
     "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture"],
-    "Quickstart": ["StartHere", "workExokitEngine", "browserReality", "devsetup"],
+    "Quickstart": ["StartHere", "browserReality", "workExokitEngine", "devsetup"],
     "User Guides": ["useExokitEngine", "useExokitBrowser"],
     "Dev Guides": ["devExokitEngine", "devExokitBrowser", "debugging"],
-    "Community": ["engineAPI", "futureinteg", "TechStack", "DevSupport"]
+    "Community": ["APINative", "futureinteg", "TechStack", "DevSupport"]
   },
   "docs-other": {
     "API's and References": ["APILanding"]
