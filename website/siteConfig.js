@@ -25,14 +25,6 @@ const users = [
     image: '/img/emukit.svg',
     infoLink: 'https://github.com/webmixedreality/emukit',
     pinned: true,
-  },
-  {
-    caption: 'A-Frame',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/a-frame-logo.PNG',
-    infoLink: 'https://aframe.io/',
-    pinned: false,
   }
 ];
 
