@@ -51,7 +51,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'whatisexo', label: 'Docs'},
-    {doc: 'APILanding', label: 'API'},
+    {doc: 'SDKLanding', label: 'SDK'},
     {page: 'help', label: 'Help'},
     {href: 'https://medium.com/webmr', label: 'Blog' },
     { search: true }
