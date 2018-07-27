@@ -10,4 +10,5 @@ flow chart/diagram of the modules and system.
 
 point form list of the separate modules and their explanations.
 
-![components](../website/static/img/Exokit%20FlowChart.svg)
+## Flow Chart of Exokit
+![Flow Chart](https://github.com/webmixedreality/webmr-docs/blob/master/website/static/img/docsImages/FlowChart.svg)
