@@ -139,9 +139,6 @@ a, a:hover{
     padding-top: 20px;
     margin-top: 0;
   }
-  .mainContainer{
-    padding-top: 0;
-  }
   .homeContainer .homeWrapper{
     min-height: 20vh;
   }
@@ -164,6 +161,9 @@ a, a:hover{
   }
 }
 @media only screen and (min-width: 1024px) {
+  .separateOnPageNav .docsNavContainer{
+    min-height: 720px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -258,4 +258,7 @@ article p img{
 }
 article p img{
   text-align: center;
+}
+.mainContainer{
+  min-height: 60vh;
 }
