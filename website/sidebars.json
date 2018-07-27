@@ -3,12 +3,12 @@
     "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture"],
     "Quickstart": ["StartHere", "browserReality", "workExokitEngine", "devsetup"],
     "User Guides": ["useExokitEngine", "useExokitBrowser"],
-    "Community": ["DevSupport"]
+    "Dev Guides": ["devExokitEngine", "devExokitBrowser"],
+    "Extras": ["TechStack", "DevSupport"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
-    "Command Line": ["CommandLine"],
-    "APIs": ["TechStack", "API", "Integrations", "FutureIntegrations"],
-    "Debugging": ["debugging"]
+    "Using our SDK": ["CommandLine"],
+    "APIs": ["API", "Integrations", "FutureIntegrations"]
   }
 }
