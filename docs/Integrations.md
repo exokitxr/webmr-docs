@@ -1,15 +1,8 @@
 ---
-id: APINative
-title: Web APIs and Native Integrations
-sidebar_label: Web APIs and Native Integrations
+id: Integrations
+title: Native Integrations
+sidebar_label: Native Integrations
 ---
-
-# combine the two existing docs, API and engines
-
-
-# Web APIS 
-
-#Native Integrations
 
 # Future Integrations
   
