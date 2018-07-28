@@ -4,7 +4,7 @@
     "Quickstart": ["StartHere", "browserReality", "workExokitEngine", "devsetup"],
     "User Guides": ["useExokitEngine", "useExokitBrowser"],
     "Dev Guides": ["devExokitEngine", "devExokitBrowser"],
-    "Extras": ["TechStack", "DevSupport"]
+    "Extras": ["DevSupport"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
