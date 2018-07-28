@@ -262,3 +262,6 @@ article p img{
 .mainContainer{
   min-height: 60vh;
 }
+#myChart{
+  background-color: #0f1834;
+}
