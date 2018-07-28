@@ -106,7 +106,7 @@ const siteConfig = {
   scripts: [
     'https://buttons.github.io/buttons.js',
     'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js',
-    '/static/BenchGraph.js'
+    '/BenchGraph.js'
   ],
 
   /* On page navigation for the current documentation page */
