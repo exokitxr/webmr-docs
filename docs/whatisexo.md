@@ -26,11 +26,11 @@ sidebar_label: What is the Exokit Engine?
   
   ## What Sites Work?
   
-  Well the goal is that we can say, "All of them." As of now however we are chugging our way through getting more VR web experiences running smoothly, as well as VR web apps like Emukit (our Web-VR-Console Emulator). Of course you can always join us on [twitch](https://www.twitch.tv/avaer), [discord](https://discord.gg/cf5tfTV), or [slack](https://exoslack.now.sh/) if you have some specific use case which seems to not work, you could also submit an issue on [github](https://github.com/webmixedreality/exokit),  or better yet submit a PR (we're open source).
+  Well the goal is that we can say, "All of them." As of now however we are chugging our way through getting more VR web experiences running smoothly, as well as VR web apps like Emukit (our Web-VR-Console Emulator). Of course you can always join us on [Twitch](https://www.twitch.tv/avaer), [Discord](https://discord.gg/cf5tfTV), or [Slack](https://exoslack.now.sh/) if you have some specific use case which seems to not work, you could also submit an issue on [Github](https://github.com/webmixedreality/exokit),  or better yet submit a PR (we're open source).
   
   ## Give Me the TL;DR
   
 We have made and shipped a mixed reality web browser, from scratch, that can run WebVR/XR faster than anything else and a Nintendo64 immersive emulator (Emukit) that runs on top of the Exokit Engine. The challenges we face are not tech related. The team going forward will face stiff competition from people with way more money to throw at acquisition, other platform owners not wanting to play ball and rejecting us, marketing resources, and not having enough money to hire developers.
  
- But with your help as a user or a developer or even as someone that just hangs out with us in the twitch chat or discord, that can all change.
+ With your help as a user or a developer or even as someone that just hangs out with us in the Twitch chat or Discord, that can all change.
 
