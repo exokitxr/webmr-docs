@@ -4,13 +4,13 @@ title: Command Line
 sidebar_label: Command Line 
 ---
 
-## Launch Reality Tab with Exokit Engine
+## Launch a URL with Exokit Engine
 
 1. Install Exokit.
 
 2. Navigate to /exokit directory.
 
-3. `./exokit.cmd yourWebsite`
+3. `./exokit.cmd yourURL`
 
 ## Launch Exokit Browser
 
@@ -51,10 +51,10 @@ sidebar_label: Command Line
 - `-f`
 
 **minimalFrame**
-- `m`
+- `-m`
 
 **Quit**
-- `q`
+- `-q`
 
 **Blit**
 - `-b`
