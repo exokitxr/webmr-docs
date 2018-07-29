@@ -16,7 +16,7 @@ sidebar_label: Command Line
 
 ## Launch a local file with Exokit Engine
 
-`./exokit.sh /your/File/Path.html`
+`./exokit.cmd /your/File/Path.html`
 
 ## Launch Exokit Browser
 
