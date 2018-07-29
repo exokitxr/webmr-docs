@@ -9,12 +9,16 @@ sidebar_label: Start Here
 
 ### I want to try Exokit Browser with Reality Tabs.
 
-See the [getting started guide for Exokit Browser & Reality Tabs.](useExokitBrowser.md) 
+See: [Quickstart for Exokit Browser.](browserReality.md) 
 
 
 ### I am a developer and I want to hax on the Exokit Engine.
 
-See the [getting started guide for developers.](devExokitEngine.md) 
+See: [Quickstart for Exokit Engine.](workExokitEngine.md) 
+
+### I know what im doing, but can't find what I need on this website.
+
+Join our [Discord](https://discordapp.com/invite/Apk6cZN), we are here to help.
 
 
 
