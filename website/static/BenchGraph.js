@@ -6,7 +6,7 @@ window.onload = function() {
       labels: ["Exokit Engine", "Chrome", "Firefox"],
       datasets: [{
         label: ' Average Frames per Second',
-        data: [220, 140, 142],
+        data: [250, 140, 142],
         backgroundColor: [
           'rgba(2,188,159,0.2)',
           'rgba(76,139,245,0.2)',
