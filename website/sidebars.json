@@ -9,6 +9,6 @@
   "sdk": {
     "Introduction": ["SDKLanding"],
     "Using our SDK": ["CommandLine"],
-    "APIs": ["API", "Integrations", "FutureIntegrations"]
+    "APIs": ["API", "BetaAPIs", "Integrations", "FutureIntegrations"]
   }
 }
