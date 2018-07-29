@@ -10,7 +10,7 @@ sidebar_label: Benchmarks
 
 ### How was FPS captured?
 
-- **Exokit Engine** - Using the flag `-hup` we uncap the Exokit Engine FPS and log FPS to console.
+- **Exokit Engine** - Using the flag `-up` we uncap the Exokit Engine FPS and log FPS to console.
 
 - **Chrome** - Chrome's Dev Tools built in [FPS meter](https://developer.chrome.com/devtools/docs/rendering-settings).
 
