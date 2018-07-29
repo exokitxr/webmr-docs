@@ -22,22 +22,3 @@ sidebar_label: Command Line
 
 `./exokit.cmd -h`
 
-## Flags
-
-|Flag|Description|
-|-|-|
-|`-v`|Version of Exokit Engine|
-|`-h`|Launch Exokit Browser|
-|`-t`|Reality Tab|
-|`-w`|WebGL|
-|`-x`|WebXR|
-|`-u`|Uncap FPS|
-|`-p` or `-perf`|Performance logging to Console|
-|`-s`|Size|
-|`-f`|Frame|
-|`-m`|minimalFrame|
-|`-q`|Quit|
-|`-s`|Size|
-|`-b`|Blit|
-|`-i`|Image|
-|`-r`|Require|

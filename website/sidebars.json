@@ -8,7 +8,7 @@
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
-    "Using our SDK": ["CommandLine"],
+    "Using our SDK": ["CommandLine", "Flags"],
     "APIs": ["API", "BetaAPIs", "Integrations", "FutureIntegrations"]
   }
 }
