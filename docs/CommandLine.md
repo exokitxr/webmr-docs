@@ -4,63 +4,40 @@ title: Command Line
 sidebar_label: Command Line 
 ---
 
-## Launch a URL with Exokit Engine
+## Requirements
 
 1. Install Exokit.
 
 2. Navigate to /exokit directory.
 
-3. `./exokit.cmd yourURL`
+## Launch a URL with Exokit Engine
+
+`./exokit.cmd yourURL`
+
+## Launch a local file with Exokit Engine
+
+`./exokit.sh /your/File/Path.html`
 
 ## Launch Exokit Browser
 
-1. Install Exokit
-
-2. Navigate to /exokit directory.
-
-3. `./exokit.cmd -h`
-
+`./exokit.cmd -h`
 
 ## Flags
 
-**Version of Exokit Engine**
-- `-v` 
-
-**Launch Exokit Browser**
-- `-h` 
-
-**Reality Tab**
-- `-t`
-
-**WebGL**
-- `-w` 
-
-**WebXR**
-- `-x` 
-
-**Uncap FPS**
-- `-u`
-
-**Performance logging to Console**
-- `-p` or `-perf` 
-
-**Size**
-- `-s`
-
-**Frame**
-- `-f`
-
-**minimalFrame**
-- `-m`
-
-**Quit**
-- `-q`
-
-**Blit**
-- `-b`
-
-**Image**
-- `-i`
-
-**Require**
-- `-r`
+|Flag|Description|
+|-|-|
+|`-v`|Version of Exokit Engine|
+|`-h`|Launch Exokit Browser|
+|`-t`|Reality Tab|
+|`-w`|WebGL|
+|`-x`|WebXR|
+|`-u`|Uncap FPS|
+|`-p` or `-perf`|Performance logging to Console|
+|`-s`|Size|
+|`-f`|Frame|
+|`-m`|minimalFrame|
+|`-q`|Quit|
+|`-s`|Size|
+|`-b`|Blit|
+|`-i`|Image|
+|`-r`|Require|
