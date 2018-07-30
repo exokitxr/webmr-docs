@@ -6,51 +6,68 @@ sidebar_label: What is the Exokit Engine?
 
  Exokit Engine is a post-screen web browser engine.
 
- The engine only does 3D, and it's intended for AR/VR and other mixed reality applications. It is _not_ based on any other browser -- it's not a fork of Blink, Gecko, Webkit, or anything else.
-
  <img src="http://via.placeholder.com/800x600" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
- 
- Exokit is an exo-browser; it flips the regular browser inside out. The engine is written in Javascript as a Node module, so the browser is basically a site. The engine doesn't do most "browser things", like 2D web pages.
 
- Instead it throws away support for old web technology nobody cares about in mixed reality, and only does futuristic things. It's a post-screen mixed reality exo-browser engine.
+ It's an HTML/Javascript engine that runs regular web sites. Except the sites must be 3D via WebGL/WebXR. Exokit engine is primarily intended for AR/VR/mixed reality applications. It is _not_ based on anoth browser -- specifically it is not a fork of Blink, Gecko, Webkit, or Trident.
+ 
+ Exokit is an exo-browser; it flips the regular browser inside out. The engine is written in Javascript as a Node module, so the browser is a site. This site itself is the browser; it has the full power of OpenGL and other native bindings. Additionally, the engine doesn't do most "browser things", like 2D web pages.
+
+ Instead it throws away support for old web technology nobody cares about in mixed reality, and only does futuristic things. It's a post-screen exo-browser engine.
   
   ## Why another browser?
 
-  Chrome and Firefox have great browser engines, but they straddle the 2D and 3D worlds. These worlds are impossible to reconcile. 2D in the browser has 20 years of history. You have DOM, HTML, CSS, scripting, and hundreds of other specifications that you _have_ to implement to be a 2D browser.
+  Chrome and Firefox are great! Solid at 3D and mixed reality too!
+  
+  But they straddle the 2D and 3D worlds. This impossible to reconcile in the technology. 2D in the browser has 20 years of history -- DOM, HTML, CSS, scripting, and literally hundreds of specifications that you _have_ to implement to be a 2D browser.
   
   This is *much* harder than making a 3D browser engine! And it makes the task of building a great 3D browser engine impossible.
 
-  So we took Exokit back to first principles. We _didn't_ start with a 2D browser so we could slap some VR into it. We imagines a runtime for VR would look like on a web stack, and then we did that. We ignored everything else.
+  So we took Exokit back to first principles. We _didn't_ start with a 2D browser to slap some VR into it. We what imagined a runtime for VR would look like on a web stack, and then we did that. We ignored everything else.
   
-  The result is that Exokit is the fastest, smallest, and most flexible 3D browser engine. Exokit does almost nothing between your code and your headset.
+  The result is that Exokit is the fastest, smallest, and most flexible 3D browser engine. It's not magic; Exokit simply does nothing between your code and your headset.
 
-  Additionally, we don't know which way the magical winds of mixed reality will blow. That's why we wrote Exokit in Javascript -- so we can add and remove APIs in a weekend. We sometimes do that ;).
+  Additionally, we don't know which way the magical winds of mixed reality will blow. That's why Exokit is uniquely written in Javascript -- so we can add API and hardware support in a weekend. We sometimes do that ;).
+
+  # So it's written from scratch?
+
+  Yes. We use an npm module for HTML parsing, resurrected an old OpenGL binding from Github, WebAudio extracted out of Chrome, and so on. And we glued it together and wrote a custom binding to the HTML and Javascript that powers your web site.
 
   # What's the platform support?
 
-  Exokit Browser is just Javascript with some C++ bindings to libraries, such as OpenGL, FFmpeg, Skia, OpenVR, and others. It binds to Vive, Oculus, Leap Motion, Magic Leap, and keyboard/mouse on Windows, OSX, or Linux.
+  Exokit Browser is just Javascript with some C++ bindings to libraries, such as OpenGL, FFmpeg, Skia, OpenVR, and others. It builds on Window, OSX, and Linux. It binds to Vive, Oculus, Leap Motion, Magic Leap, and keyboard/mouse.
 
-  ## Who is Using This Thing?
-  
-  Users get the benefits of free, persistent, multi-user content experience on the web at a low switching cost with plenty of entertainment and social opportunities. Developers of the platform get value from costless customer outreach to very large engine/device matrix with ease of integration (Unity, Unreal, web) with standard web APIs and future planned hosting products and payments platform. 
+  # What's the status?
+
+  Not 1.0. We need to improve site support and testing more until we call it.
+
+  If you have a site that doesn't work, there's high chance it's a silly corner case. We encourage you to [file an issue](https://github.com/webmixedreality/exokit/issues/new).
+
+  # Can I use it?
+
+  Sure! It's [open source on Github](https://github.com/webmixedreality/exokit).
+
+  # Why should I use it?
+
+  - You want your WebGL/WebXR to run fast.
+  - You want the hot new web APIs.
+  - You want to add your own integrations -- including native -- into a browser environment.
+  - You want a lightweight browser as a hackable node module.
+  - You want to combine the web with a 3D engine like Unity.
+
+  # Why should I *not* use it?
+
+  <img src="http://via.placeholder.com/800x300" alt=""/>
+
+  - You're just looking for a "web browser".
+  - You don't care about 3D or mixed reality.
+  - You're looking for strict and/or legacy standards support.
+
+  # Can I embed it?
+
+  [It's a node module](https://github.com/webmixedreality/exokit/blob/master/package.json). Have fun.
 
   # Who made it?
 
-  Avaer Kazmer and friends. The engine is open source.
+ <img src="http://via.placeholder.com/800x300" alt="Team pctures"/>
 
-  ## Why Another VR/AR Engine?
-  
-  We realize that between the big ones now, there is a lot of comfort in knowing Chrome and Firefox are at the top and there is a lot to be said about the progress that they have brought to the web browsing field. However, at this point moving forward for them into new fields and platforms is like towing a glacier with a car and rope, it takes too long and leaves people wanting.
-   
-  With new innovations in web development, VR, and MR (e.g. Magic Leap, Leap Motion) we here at Exokit see a huge need for fast, easy to develop and use, web based needs. We aren't trying to be a normal browser, we are **made** specifically for delivering the fastest and highest quality web VR/MR/AR experiences and have no intention of changing that goal.
-  
-  ## What Sites Work?
-  
-  Well the goal is that we can say, "All of them." As of now however we are chugging our way through getting more VR web experiences running smoothly, as well as VR web apps like Emukit (our Web-VR-Console Emulator). Of course you can always join us on [Twitch](https://www.twitch.tv/avaer), [Discord](https://discord.gg/cf5tfTV), or [Slack](https://exoslack.now.sh/) if you have some specific use case which seems to not work, you could also submit an issue on [Github](https://github.com/webmixedreality/exokit),  or better yet submit a PR (we're open source).
-  
-  ## Give Me the TL;DR
-  
-We have made and shipped a mixed reality web browser, from scratch, that can run WebVR/XR faster than anything else and a Nintendo64 immersive emulator (Emukit) that runs on top of the Exokit Engine. The challenges we face are not tech related. The team going forward will face stiff competition from people with way more money to throw at acquisition, other platform owners not wanting to play ball and rejecting us, marketing resources, and not having enough money to hire developers.
- 
- With your help as a user or a developer or even as someone that just hangs out with us in the Twitch chat or Discord, that can all change.
-
+  Avaer Kazmer and friends.
