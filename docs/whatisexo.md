@@ -4,19 +4,39 @@ title: What is the Exokit Engine?
 sidebar_label: What is the Exokit Engine?
 ---
 
- The Exokit Engine is made from the ground-up for performance and ease of access in the post-screen era. 
+ Exokit Engine is a post-screen web browser engine.
+
+ The engine only does 3D, and it's intended for AR/VR and other mixed reality applications. It is _not_ based on any other browser -- it's not a fork of Blink, Gecko, Webkit, or anything else.
+
+ <img src="http://via.placeholder.com/800x600" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
+ 
+ Exokit is an exo-browser; it flips the regular browser inside out. The engine is written in Javascript as a Node module, so the browser is basically a site. The engine doesn't do most "browser things", like 2D web pages.
+
+ Instead it throws away support for old web technology nobody cares about in mixed reality, and only does futuristic things. It's a post-screen mixed reality exo-browser engine.
   
-  ## How?
+  ## Why another browser?
+
+  Chrome and Firefox have great browser engines, but they straddle the 2D and 3D worlds. These worlds are impossible to reconcile. 2D in the browser has 20 years of history. You have DOM, HTML, CSS, scripting, and hundreds of other specifications that you _have_ to implement to be a 2D browser.
   
-  We achieve this by not being based on legacy like Chrome and Firefox, which have slow load times and are difficult to create experiences on. Exokit Engine can run web mixed reality experiences faster than any other browser's engine currently.
-   
- We have done this by making the engine from first principles. We didn't start with a 2d browser then slap some half assed VR into it. The team considered what a runtime for VR would look like on a web stack... and then we did that. The Exokit Engine is inherently multi-platform as it binds to Vive, Oculus, Leap Motion, Magic Leap, and keyboard/mouse on Windows, OSX, or Linux. The experience is pervasively multi-player; every experience can be shared.
+  This is *much* harder than making a 3D browser engine! And it makes the task of building a great 3D browser engine impossible.
+
+  So we took Exokit back to first principles. We _didn't_ start with a 2D browser so we could slap some VR into it. We imagines a runtime for VR would look like on a web stack, and then we did that. We ignored everything else.
   
- The main interface is "Reality Tabs", or opening 3D web sites as layers of virtual/augmented reality. The product runs on web content and standards (HTML, WebXR, WebGL, Unity + Unreal exports). Exokit Engine is the fastest on the market (2-3x faster than Chrome or Firefox) in performance and to adapting to the extremely fast pace of change in the world of mixed reality.  
-  
+  The result is that Exokit is the fastest, smallest, and most flexible 3D browser engine. Exokit does almost nothing between your code and your headset.
+
+  Additionally, we don't know which way the magical winds of mixed reality will blow. That's why we wrote Exokit in Javascript -- so we can add and remove APIs in a weekend. We sometimes do that ;).
+
+  # What's the platform support?
+
+  Exokit Browser is just Javascript with some C++ bindings to libraries, such as OpenGL, FFmpeg, Skia, OpenVR, and others. It binds to Vive, Oculus, Leap Motion, Magic Leap, and keyboard/mouse on Windows, OSX, or Linux.
+
   ## Who is Using This Thing?
   
   Users get the benefits of free, persistent, multi-user content experience on the web at a low switching cost with plenty of entertainment and social opportunities. Developers of the platform get value from costless customer outreach to very large engine/device matrix with ease of integration (Unity, Unreal, web) with standard web APIs and future planned hosting products and payments platform. 
+
+  # Who made it?
+
+  Avaer Kazmer and friends. The engine is open source.
 
   ## Why Another VR/AR Engine?
   
