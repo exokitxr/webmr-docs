@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Flags · Exokit</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="An example of how to use these flags:"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Flags · Exokit"/><meta property="og:type" content="website"/><meta property="og:url" content="https://exokit.webmr.io/index.html"/><meta property="og:description" content="An example of how to use these flags:"/><meta property="og:image" content="https://exokit.webmr.io/img/ExokitLogo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://exokit.webmr.io/img/ExokitLogo.png"/><link rel="shortcut icon" href="/img/ExokitLogo.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script><script type="text/javascript" src="/BenchGraph.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/ExokitLogo.png" alt="Exokit"/><h2 class="headerTitleWithLogo">Exokit</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/whatisexo.html" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/SDKLanding.html" target="_self">SDK</a></li><li class=""><a href="/en/help.html" target="_self">Help</a></li><li class=""><a href="https://medium.com/webmr" target="_self">Blog</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Using our SDK</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Introduction</h3><ul><li class="navListItem"><a class="navItem" href="/docs/SDKLanding.html">SDK</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Using our SDK</h3><ul><li class="navListItem"><a class="navItem" href="/docs/CommandLine.html">Command Line</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/Flags.html">Flags</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">APIs</h3><ul><li class="navListItem"><a class="navItem" href="/docs/API.html">Web APIs</a></li><li class="navListItem"><a class="navItem" href="/docs/BetaAPIs.html">Beta APIs</a></li><li class="navListItem"><a class="navItem" href="/docs/Integrations.html">Native Integrations</a></li><li class="navListItem"><a class="navItem" href="/docs/FutureIntegrations.html">Future Integrations</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Flags</h1></header><article><div><span><p>An example of how to use these flags:</p>
+<p><code>./exokit.cmd -hup</code></p>
+<p><code>-hup</code> will launch Exokit Browser in a uncapped FPS mode with console performance logging.</p>
+<table>
+<thead>
+<tr><th>Short-Form Flag</th><th>Long-Form Flag</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td><code>-v</code></td><td><code>--version</code></td><td>Version of Exokit Engine</td></tr>
+<tr><td><code>-h</code></td><td><code>--home</code></td><td>Launch Exokit Browser</td></tr>
+<tr><td><code>-t</code></td><td><code>--tab</code></td><td>Reality Tab</td></tr>
+<tr><td><code>-w</code></td><td><code>--webgl</code></td><td>WebGL</td></tr>
+<tr><td><code>-x</code></td><td><code>--xr</code></td><td>WebXR</td></tr>
+<tr><td><code>-u</code></td><td><code>--uncapped</code></td><td>Uncap FPS</td></tr>
+<tr><td><code>-p</code></td><td><code>--performance</code></td><td>Performance logging to Console</td></tr>
+<tr><td><code>-s</code></td><td><code>--size</code></td><td>Size</td></tr>
+<tr><td><code>-f</code></td><td><code>--frame</code></td><td>Frame</td></tr>
+<tr><td><code>-m</code></td><td><code>--minimalFrame</code></td><td>minimalFrame</td></tr>
+<tr><td><code>-q</code></td><td><code>--quit</code></td><td>Quit</td></tr>
+<tr><td><code>-b</code></td><td><code>--blit</code></td><td>Blit</td></tr>
+<tr><td><code>-i</code></td><td><code>--image</code></td><td>Image</td></tr>
+<tr><td><code>-r</code></td><td><code>--require</code></td><td>Require</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/CommandLine.html">← Command Line</a><a class="docs-next button" href="/docs/API.html">Web APIs →</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/ExokitLogo.png" alt="Exokit" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/whatisexo.html">Overview</a><a href="/docs/StartHere.html">Quickstart</a><a href="/docs/useExokitEngine.html">User Guides</a><a href="/docs/devExokitEngine.html">Dev Guides</a><a href="/docs/DevSupport.html">Extras</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="https://www.twitch.tv/avaer" target="_blank" rel="noreferrer noopener">Twitch</a><a href="https://discord.gg/Apk6cZN">Project Chat</a><a href="https://twitter.com/webmixedreality" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="https://medium.com/webmr">Blog</a><a href="https://www.facebook.com/webmixedreality/">Facebook</a><a href="https://www.instagram.com/exokitbrowser/?hl=en">Instagram</a><a href="https://github.com/webmixedreality/exokit">GitHub</a><a class="github-button" href="https://github.com/webmixedreality/exokit" data-icon="octicon-star" data-count-href="/webmixedreality/exokit/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2018 Exokit</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+              var search = docsearch({
+                
+                apiKey: '982c937859de6fb51f8adf43ec9a9051',
+                indexName: 'exokit',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {"facetFilters":["language:en"]}
+              });
+            </script></body></html>
