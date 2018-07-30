@@ -21,6 +21,10 @@ sidebar_label: For Developers
 	* For Linux Users: 
 		* If you used the install script all of the above should be in /usr/lib (which is probably in your PATH). 
 
-4. Run `exokit`
+## Extra Info
 
-5. Check out our page on [How to Contribute](contribute.md).
+From inside the /exokit installation folder on your machine, `./exokit.cmd -h` will boot the Exokit Browser.
+ 
+For more flags and CLI commands, read our [SDK section](CommandLine.md).
+
+Check out our page on [How to Contribute](contribute.md).

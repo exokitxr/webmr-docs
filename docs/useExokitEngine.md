@@ -4,7 +4,7 @@ title: Use Exokit Engine
 sidebar_label: Use Exokit Engine
 ---
 
-# Opening Websites and Examples
+## Opening Websites and Examples
 
 * When you run "Exokit Engine" a command prompt and a larger window will open, turn your attention to the larger window. In the window you will see a VR keyboard for our VR users (or legacy if you have time to kill), and our Home environment navigation menu.
 * If you navigate to "Apps" you'll see a list of approved VR links from our [reddit](https://www.reddit.com/r/exokit/). Go ahead and enter any VR website URL, or point-and-click on any of the sites on the populated list.
