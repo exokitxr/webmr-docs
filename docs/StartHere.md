@@ -7,10 +7,13 @@ sidebar_label: Start Here
 # What are you trying to do?
 
 
+## I need to install the Exokit Engine and Browser.
+
+See: [Quickstart for Installation.](Install.md)
+
 ## I want to try Exokit Browser with Reality Tabs.
 
 See: [Quickstart for Exokit Browser.](browserReality.md) 
-
 
 ## I am a developer and I want to hax on the Exokit Engine.
 
