@@ -4,7 +4,11 @@ title: Installation
 sidebar_label: Installation
 ---
 
-1. Visit [get.webmr.io](https://get.webmr.io/) to download the Exokit Engine and Exokit Browser installer. 
+1. Visit [get.webmr.io](https://get.webmr.io/) to download the Exokit Installer.
+
+    - Included in the Exokit Installer is everything inside the [webmixedreality/exokit](https://github.com/webmixedreality/exokit) Github repository, the only difference is that our installer does the `npm i` for you. 
+
+#### Exokit Engine and Exokit Browser are both included in the Installer. 
 
 2. Run the downloaded file, and be sure to allow any security clearance the installer might need.
 	* (For Linux: `apt-get install build-essential wget python libglfw3-dev libglew-dev libfreetype6-dev libfontconfig1-dev uuid-dev libxcursor-dev libxinerama-dev libxi-dev libasound2-dev libexpat1-dev`)
