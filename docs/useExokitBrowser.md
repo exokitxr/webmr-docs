@@ -10,6 +10,8 @@ This needs a similar write up to the exokit engine user doc too but more targete
 
 ## Controls
 
+![Keyboard Controls](https://i.imgur.com/fyKL8DI.png)
+
 Of course being that Exokit Browser is not limited to one platform, we thought it would be a good idea to not leave you in the dark when it comes to how to actually use the thing we have been making all this time, so below are a few notes on controls that we thought might be useful to you.
 
 * When on a "non-VR only" (e.g. Magic Leap) form of entering Exokit Browser, you will not be immediately loaded into VR. Go ahead and hit enter VR with the `i` key, enter VR on a Magic Leap with the `o` key.
