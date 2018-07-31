@@ -193,9 +193,6 @@ a, a:hover{
   .navigationSlider .slidingNav ul{
     margin-top: 60px;
   }
-  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
-    background: #303030;
-  }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
     background: #202020;
     border-bottom-color: #00B49B;
@@ -297,12 +294,6 @@ article p img{
   background-color: rgba(0, 0, 0, 0.2);
   padding-top: 10px;
 }
-.navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
-}
-.algolia-docsearch-footer .algolia-docsearch-footer--logo{
-  z-index: 0;
-  display: none !important;
-}
-.algolia-docsearch-footer{
-  height: 0;
+.navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight{
+  background-color: rgba(0, 180, 155, 0.58);
 }
