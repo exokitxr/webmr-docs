@@ -30,7 +30,7 @@ const users = [
 
 const siteConfig = {
   title: 'Exokit' /* title for your website */,
-  tagline: `Futuristic AR/VR web engine. Fast. Written in Javascript.`,
+  tagline: `Fast AR/VR web engine, written in Javascript.`,
   url: 'https://exokit.webmr.io' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
