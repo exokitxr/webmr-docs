@@ -4,25 +4,36 @@ title: What is the Exokit Engine?
 sidebar_label: What is the Exokit Engine?
 ---
 
- Exokit Engine is a post-screen web browser engine.
+ <img src="http://via.placeholder.com/800x400" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
 
- <img src="http://via.placeholder.com/800x600" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
-
- It's an HTML/Javascript engine that runs regular web sites. Except the sites must be 3D via WebGL/WebXR. Exokit engine is primarily intended for AR/VR/mixed reality applications. It is _not_ based on anoth browser -- specifically it is not a fork of Blink, Gecko, Webkit, or Trident.
+ > Exokit Engine is an HTML/Javascript engine that runs regular web sites, but only supports 3D via WebGL/WebXR.
+ > A window in Exokit is just the contents of a WebGL `<canvas>`.
  
- Exokit is an exo-browser; it flips the regular browser inside out. The engine is written in Javascript as a Node module, so the browser is a site. This site itself is the browser; it has the full power of OpenGL and other native bindings. Additionally, the engine doesn't do most "browser things", like 2D web pages.
+ Exokit Engine is primarily intended for AR/VR/mixed reality applications. It is _not_ based on anoth browser -- specifically it is not a fork of Blink, Gecko, Webkit, or Trident.
 
- Instead it throws away support for old web technology nobody cares about in mixed reality, and only does futuristic things. It's a post-screen exo-browser engine.
+ <img src="http://via.placeholder.com/400x300" alt="Cross out other browsers to make it clear this is not a fork"/>
+ 
+ ## Exokit is an Exobrowser.
+ 
+ **Exobrowser** _n._
+   - A web browser flipped inside-out.
+   - A web browser in which the engine is written in Javascript, so the browser is a site. This site in turn is the browser; it has full access to bindings.
+
+ # No 2D
+
+ Exokit it throws away support for old web technology that is not used in in mixed reality. Exokit is a post-screen Exobrowser engine.
   
   ## Why another browser?
 
-  Chrome and Firefox are great! Solid at 3D and mixed reality too!
-  
-  But they straddle the 2D and 3D worlds. This impossible to reconcile in the technology. 2D in the browser has 20 years of history -- DOM, HTML, CSS, scripting, and literally hundreds of specifications that you _have_ to implement to be a 2D browser.
-  
-  This is *much* harder than making a 3D browser engine! And it makes the task of building a great 3D browser engine impossible.
+  > Chrome and Firefox are great! Solid at 3D and mixed reality too!
+  >
+  > But they straddle the 2D and 3D worlds, and something has to give. Your renderloop can't be drawing a synchronous 2D scene while drawing a 3D scene.
+  >
+  > We needed a browser engine that starts from what a 3D engine can be. Not an engine that starts with 20 years of 2D thinking.
 
-  So we took Exokit back to first principles. We _didn't_ start with a 2D browser to slap some VR into it. We what imagined a runtime for VR would look like on a web stack, and then we did that. We ignored everything else.
+  *We took Exokit back to first principles.*
+  
+  We didn't start with a 2D browser in order to add MR. We what imagined a runtime for VR would look like on a web stack, and then we did that. We ignored everything else.
   
   The result is that Exokit is the fastest, smallest, and most flexible 3D browser engine. It's not magic; Exokit simply does nothing between your code and your headset.
 
@@ -68,6 +79,8 @@ sidebar_label: What is the Exokit Engine?
 
   # Who made it?
 
- <img src="http://via.placeholder.com/800x300" alt="Team pctures"/>
+ <img src="http://via.placeholder.com/200x200" alt="Team picture 1"/>
+ <img src="http://via.placeholder.com/200x200" alt="Team picture 2"/>
+ <img src="http://via.placeholder.com/200x200" alt="Team picture 3"/>
 
   Avaer Kazmer and friends.

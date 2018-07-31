@@ -4,23 +4,20 @@ title: Installation
 sidebar_label: Installation
 ---
 
-1. Visit [get.webmr.io](https://get.webmr.io/) to download the Exokit Installer.
+Get the Exokit Installer from [https://get.webmr.io/](https://get.webmr.io/).
 
-    - Included in the Exokit Installer is everything inside the [webmixedreality/exokit](https://github.com/webmixedreality/exokit) Github repository, the only difference is that our installer does the `npm i` for you. 
+> This auto-detects your operating system and gives you the latest release. It includes both *Exokit Engine* and *Exokit Browser*.
 
-#### Exokit Engine and Exokit Browser are both included in the Installer. 
+## Visual guide
 
-2. Run the downloaded file, and be sure to allow any security clearance the installer might need.
-	* (For Linux: `apt-get install build-essential wget python libglfw3-dev libglew-dev libfreetype6-dev libfontconfig1-dev uuid-dev libxcursor-dev libxinerama-dev libxi-dev libasound2-dev libexpat1-dev`)
+ <img src="http://via.placeholder.com/220x220" alt="Windows installation gif"/>
+ <img src="http://via.placeholder.com/220x220" alt="MacOS installation gif"/>
+ <img src="http://via.placeholder.com/220x220" alt="Linux installation gif"/>
 
-3. Then let the installer work its magic for a minute or so and congratulations you're (almost) a proud user of both the Exokit Engine and Browser!
+## Alternate releases
 
-	* For Windows Users:
-		* Choose your desired folder location (note: if not installing into your main drive then you may have to go into the folder yourself after downloading and find the file 'exokit.cmd')
-		
-	* For OSX Users:
-		* A window should open with the Exokit app file and your applications folder, simply drag Exokit into that folder.
-		
-	* For Linux Users:
-		* If you used the install script all of the above should be in /usr/lib (which is probably in your PATH).
-		
+[Github Releases](https://github.com/webmixedreality/exokit/releases) has every alternate and past release.
+
+> The Exokit installer just grabs the latest release from Github.
+
+The releases are built on every version update of the [Github repository](https://github.com/webmixedreality/exokit).

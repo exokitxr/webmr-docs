@@ -4,13 +4,31 @@ title: Architecture
 sidebar_label: Architecture
 ---
 
-# Breakdown of Exokit's fundamental parts
+# Overview
 
-flow chart/diagram of the modules and system.
+ <img src="http://via.placeholder.com/600x400" alt="Diagram of Node on bottom, running a layer of javascript, linked to native bindings, and then a device/headset on top"/>
 
-point form list of the separate modules and their explanations.
+Exokit Engine is a Node module.
 
-## Flow Chart of Exokit
+The core is Javascript, which fetches HTML, runs `<script>` tags, and provides all of the regular mixed reality web APIs like WebGL/WebXR/WEbAudio.
+
+The hardware-dependent parts are implemented as native bindings to Javascript. Exokit Engine uses GLFW for contexts, OpenGL for graphics, OpenVR for VR, ARCore for mobile AR, Leap Motion for hands detection, and a lot more.
+
+# Embeddability
+
+Exokit Engine runs on Windows, OSX, and Linux.
+
+You can `require('exokit')` into another Javascript environment.
+
+As far as the operating system is concerned, Exokit is a game. You can link Exokit to other apps such as webcam software, the Magic Leap simulator, and more.
+
+# Exensibility
+
+Because Exokit Engine is a node module, the browser is a site. You can use any module from `npm` inside of Exokit.
+
+Additionally, you can use native code and libraries via native bindings. Exokit Engine is especially well suited to binding C/C++ APIs to the web stack.
+
+# Data flowchart
 <br>
 
 ![Flow Chart](https://raw.githubusercontent.com/ChrisEddy/webmr-docs/master/website/static/img/docsImages/FlowChart.svg?sanitize=true)

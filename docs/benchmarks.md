@@ -6,7 +6,7 @@ sidebar_label: Benchmarks
 
 ## Exokit Engine vs Chrome vs Firefox
 
-### Test Subject: [A-Frame's Gunters of OASIS](https://aframe.io/examples/showcase/gunters-of-oasis/)
+### Test Subject: [Supermedium's Gunters of OASIS](https://aframe.io/examples/showcase/gunters-of-oasis/)
 
 ### How was FPS captured?
 
