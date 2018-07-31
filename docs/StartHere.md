@@ -6,6 +6,9 @@ sidebar_label: Start Here
 
 # What are you trying to do?
 
+ <img src="http://via.placeholder.com/220x220" alt="Diagram representing installing"/>
+ <img src="http://via.placeholder.com/220x220" alt="Diagram of Exokit Browser"/>
+ <img src="http://via.placeholder.com/220x220" alt="Diagram of haxing on Exokit Engine"/>
 
 ## I need to install the Exokit Engine and Browser.
 
