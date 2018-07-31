@@ -22,7 +22,7 @@ To open a site in Exokit Engine, enter the `http`/`https` URL into the CLI. Here
 https://threejs.org/examples/webgl_geometry_minecraft_ao.html
 ```
 
-If you paste this in the command window and hit _enter_ Exokit should load the site.
+Paste this in the command window and hit _enter_. Exokit should load the site.
 
 > Exokit expects the URL to point to a regular HTML web site which serves as the entrypoint for your app.
 >
