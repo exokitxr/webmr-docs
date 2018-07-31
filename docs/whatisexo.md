@@ -4,7 +4,7 @@ title: What is the Exokit Engine?
 sidebar_label: What is the Exokit Engine?
 ---
 
- <img src="http://via.placeholder.com/800x600" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
+ <img src="http://via.placeholder.com/800x400" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
 
  > Exokit Engine is an HTML/Javascript engine that runs regular web sites, but only supports 3D via WebGL/WebXR.
  > A window in Exokit is just the contents of a WebGL `<canvas>`.
