@@ -6,7 +6,7 @@ sidebar_label: Architecture
 
 # Overview
 
- <img src="http://via.placeholder.com/800x600" alt="Diagram of Node on bottom, running a layer of javascript, linked to native bindings, and then a device/headset on top"/>
+ <img src="http://via.placeholder.com/600x400" alt="Diagram of Node on bottom, running a layer of javascript, linked to native bindings, and then a device/headset on top"/>
 
 Exokit Engine is a Node module.
 
