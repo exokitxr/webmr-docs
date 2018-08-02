@@ -9,7 +9,7 @@ sidebar_label: What is the Exokit Engine?
  > Exokit Engine is an HTML/Javascript engine that runs regular web sites, but only supports 3D via WebGL/WebXR.
  > A window in Exokit is just the contents of a WebGL `<canvas>`.
  
- Exokit Engine is primarily intended for AR/VR/mixed reality applications. It is _not_ based on anoth browser -- specifically it is not a fork of Blink, Gecko, Webkit, or Trident.
+ Exokit Engine is primarily intended for AR/VR/mixed reality applications. It is _not_ based on another browser -- specifically it is not a fork of Blink, Gecko, Webkit, or Trident.
 
  <img src="http://via.placeholder.com/400x300" alt="Cross out other browsers to make it clear this is not a fork"/>
  
@@ -41,7 +41,9 @@ sidebar_label: What is the Exokit Engine?
 
   # So it's written from scratch?
 
-  Yes. We use an npm module for HTML parsing, resurrected an old OpenGL binding from Github, WebAudio extracted out of Chrome, and so on. And we glued it together and wrote a custom binding to the HTML and Javascript that powers your web site.
+  Yes.
+  
+  We use an npm module for HTML parsing, resurrected an old OpenGL binding from Github, WebAudio extracted out of Chrome, and so on. And we glued it together and wrote a custom binding to the HTML and Javascript that powers your web site.
 
   # What's the platform support?
 
