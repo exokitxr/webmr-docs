@@ -6,7 +6,7 @@ sidebar_label: What is the Exokit Browser?
 
 Exokit Browser is a mixed reality web browser built on top of the Exokit engine.
 
-<img src="http://via.placeholder.com/800x600" alt="A bunch of images of reality tabs; can be taken from the old site"/>
+<img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Reality-tabs.jpg" alt="A bunch of images of reality tabs; can be taken from the old site"/>
 
 Exokit Browser is inherently multi-platform since it's just Javascript and C++ bindings to libraries. It binds to Vive, Oculus, Leap Motion, Magic Leap, and keyboard/mouse on Windows, OSX, or Linux.
   
