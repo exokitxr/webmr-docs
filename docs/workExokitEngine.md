@@ -28,7 +28,7 @@ Paste this in the command window and hit _enter_. Exokit should load the site.
 >
 > If Exokit sees that the site requested a `WebGLRenderingContext` for a `<canvas>`, it will open a window to render the contents.
 
- <img src="http://via.placeholder.com/800x300" alt="Gif of opening a site by entering the URL in the CLI"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/runwebglsite.jpg" alt="Opening a site by entering the URL in the CLI"/>
 
 #### Notes
 
@@ -58,4 +58,4 @@ The site may also listen for regular keyboard/mouse events to create an XR sessi
 
 There's a full [WebXR example](https://github.com/webmixedreality/webxr-example) for you to play with on GitHub.
 
- <img src="http://via.placeholder.com/800x300" alt="Gif of example running"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/WebXRExample.jpg" alt="Gif of example running"/>
