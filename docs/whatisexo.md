@@ -83,8 +83,8 @@ sidebar_label: What is the Exokit Engine?
 
   # Who made it?
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/6926057.jpg" alt="Team picture 1"/>
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/27584221.jpg" alt="Team picture 2"/>
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/26181997.jpg" alt="Team picture 3"/>
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/download.jpg" alt="Team picture 4"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/avaer.jpg" alt="Team picture 1"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisE.jpg" alt="Team picture 2"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/nick.jpg" alt="Team picture 3"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisLT.jpg" alt="Team picture 4"/>
   Avaer Kazmer and friends.
