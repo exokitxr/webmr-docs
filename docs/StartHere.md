@@ -6,9 +6,9 @@ sidebar_label: Start Here
 
 # What are you trying to do?
 
- <img src="http://via.placeholder.com/220x220" alt="Diagram representing installing"/>
- <img src="http://via.placeholder.com/220x220" alt="Diagram of Exokit Browser"/>
- <img src="http://via.placeholder.com/220x220" alt="Diagram of haxing on Exokit Engine"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Install2.jpg" alt="Diagram representing installing"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/usingexokitbrowser.jpg" alt="Diagram of Exokit Browser"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/HaxingExokit.jpg" alt="Diagram of haxing on Exokit Engine"/>
 
 ## I need to install the Exokit Engine and Browser.
 
