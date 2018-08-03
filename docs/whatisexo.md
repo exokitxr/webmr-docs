@@ -19,7 +19,7 @@ sidebar_label: What is the Exokit Engine?
    - A web browser flipped inside-out.
    - A web browser in which the engine is written in Javascript, so the browser is a site. This site in turn is the browser; it has full access to bindings.
 
- <img src="http://via.placeholder.com/400x300" alt="Picture of a site flipped inside out, maybe an animal, so the native insides are flipped to the outside"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrome%20breaking.gif" alt="Picture of a site flipped inside out, maybe an animal, so the native insides are flipped to the outside"/>
 
  # No 2D
 
