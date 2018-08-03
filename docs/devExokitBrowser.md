@@ -25,7 +25,7 @@ You can create your own Reality Tab easily by hosting your VR/AR web app on a va
 Currently inside of Exokit Browser we have the URL system. 
 
 ### *** Close up picture of the menu URL input box
-![Close up of URL](http://via.placeholder.com/800x200)
+![Close up of URL](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/URLpic.jpg)
 
 Maybe a small tutorial?
 
@@ -36,12 +36,12 @@ What can the dev use to create reality tabs?
 These are some popular ways people are creating VR/AR experiences on the web:
 
 ### *** have brand icons for each way
-![Three.js](http://via.placeholder.com/250x250 "Three.js") 
-![WebGL](http://via.placeholder.com/250x250 "WebGL") 
-![Unity](http://via.placeholder.com/250x250) 
-![Unreal Engine](http://via.placeholder.com/250x250) 
-![Javascript](http://via.placeholder.com/250x250) 
-![Magic Leap](http://via.placeholder.com/250x250) 
+![Leap Motion](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/LeapMotion.jpg) 
+![WebGL](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/WebGL.jpg) 
+![Unity](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Unity.jpg) 
+![Unreal Engine](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Unreal.jpg) 
+![Javascript](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/JS.jpg) 
+![Magic Leap](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Magic-Leap.jpg) 
 - WebGL? 
 - Unity
 - Unreal Engine 
