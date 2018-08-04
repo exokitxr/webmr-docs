@@ -60,6 +60,16 @@ Here, you can enter:
 
 > Note: This is the same experience as you get with the Exokit installer when running `Exokit Engine CLI`.
 
+## Logging
+
+Exokit has a logging mode enabled by the `-l` flag:
+
+```
+exokit -l https://emukit.webmr.io/
+```
+
+The logs go in `$HOME/.exokit/log.txt`. For window that generally means `C:\username\.exokit\log.txt`.
+
 ## Debugging
 
 You can use the regular Node debugging tools to debug Exokit Engine.
