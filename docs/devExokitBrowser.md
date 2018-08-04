@@ -25,8 +25,7 @@ You can create your own Reality Tab easily by hosting your VR/AR web app on a va
 Currently inside of Exokit Browser we have the URL system. 
 
 ### *** Close up picture of the menu URL input box
-![Close up of URL](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/URLpic.jpg)
-
+<img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/URLpic.jpg" width=600, height=auto alt="close up of URL menu"/>
 Maybe a small tutorial?
 
 ## Details for Devs:
@@ -36,12 +35,11 @@ What can the dev use to create reality tabs?
 These are some popular ways people are creating VR/AR experiences on the web:
 
 ### *** have brand icons for each way
-![Leap Motion](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/LeapMotion.jpg) 
-![WebGL](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/WebGL.jpg) 
-![Unity](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Unity.jpg) 
-![Unreal Engine](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Unreal.jpg) 
-![Javascript](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/JS.jpg) 
-![Magic Leap](https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Magic-Leap.jpg) 
+
+<img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/LeapMotion.jpg" width=200, height=auto alt="Leap Motion"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/WebGL.jpg" width=200, height=auto alt="WebGL"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Unity.jpg" width=200, height=auto alt="Unity"/> 
+
+<img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Unreal.jpg" width=200, height=auto alt="UE4"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/JS.jpg" width=200, height=auto alt="JS"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Magic-Leap.jpg" width=200, height=auto alt="Magic Leap"/>
+
 - WebGL? 
 - Unity
 - Unreal Engine 

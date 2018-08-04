@@ -4,14 +4,14 @@ title: What is the Exokit Engine?
 sidebar_label: What is the Exokit Engine?
 ---
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/ChormeStruggleGIF.gif" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/ChormeStruggleGIF.gif" width=500, height=auto alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
 
  > Exokit Engine is an HTML/Javascript engine that runs regular web sites, but only supports 3D via WebGL/WebXR.
  > A window in Exokit is just the contents of a WebGL `<canvas>`.
  
  Exokit Engine is primarily intended for AR/VR/mixed reality applications. It is _not_ based on another browser -- specifically it is not a fork of Blink, Gecko, Webkit, or Trident.
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/exokitisnt.gif" alt="Cross out other browsers to make it clear this is not a fork"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/exokitisnt.gif" width=300, height=auto alt="Cross out other browsers to make it clear this is not a fork"/>
  
  ## Exokit is an Exobrowser.
  
@@ -71,7 +71,7 @@ sidebar_label: What is the Exokit Engine?
 
   # Why should I *not* use it?
 
-  <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/giphy.gif" alt=""/>
+  <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/giphy.gif" width=300, height=auto alt=""/>
 
   - You're just looking for a "web browser".
   - You don't care about 3D or mixed reality.
@@ -83,8 +83,6 @@ sidebar_label: What is the Exokit Engine?
 
   # Who made it?
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/avaer.jpg" alt="Team picture 1"/>
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisE.jpg" alt="Team picture 2"/>
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/nick.jpg" alt="Team picture 3"/>
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisLT.jpg" alt="Team picture 4"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/avaer.jpg" width=200, height=auto alt="Team picture 1"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisE.jpg" width=200, height=auto alt="Team picture 2"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/nick.jpg" width=200, height=auto alt="Team picture 3"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisLT.jpg" width=200, height=auto alt="Team picture 4"/>
+ 
   Avaer Kazmer and friends.
