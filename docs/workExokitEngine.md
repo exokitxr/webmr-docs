@@ -28,7 +28,7 @@ Paste this in the command window and hit _enter_. Exokit should load the site.
 >
 > If Exokit sees that the site requested a `WebGLRenderingContext` for a `<canvas>`, it will open a window to render the contents.
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/runwebglsite.jpg" alt="Opening a site by entering the URL in the CLI"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/runwebglsite.jpg" width=700, height=auto alt="Opening a site by entering the URL in the CLI"/>
 
 #### Notes
 
