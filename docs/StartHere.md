@@ -8,27 +8,27 @@ sidebar_label: Start Here
    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Install2.jpg" alt="Diagram representing installing"/>
  </a>
  <a href="/docs/browserReality.html">
-   <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/usingexokitbrowser.jpg" alt="Diagram of Exokit Browser"/>
+   <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/usingexokitbrowser.jpg" alt="Diagram of Exokit apps"/>
  </a>
  <a href="/docs/workExokitEngine.html">
    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/HaxingExokit.jpg" alt="Diagram of haxing on Exokit Engine"/>
  </a>
 
-## I need to install the Exokit Engine and Browser.
+## I want to install Exokit
 
 See: [Quickstart for Installation.](Install.md)
 
-## I want to try Exokit Browser with Reality Tabs.
+## I want to to run an app on Exokit
 
 See: [Quickstart for Exokit Browser.](browserReality.md) 
 
-## I am a developer and I want to hax on the Exokit Engine.
+## I am a developer and I want to hax on Exokit
 
 See: [Quickstart for Exokit Engine.](workExokitEngine.md) 
 
-## I know what I'm doing, but can't find what I need on this website.
+## I know what I'm doing, but can't find what I need
 
-Join our [Discord](https://discordapp.com/invite/Apk6cZN), we are here to help.
+Join our [Discord](https://discordapp.com/invite/Apk6cZN). We're here to help!
 
 
 
