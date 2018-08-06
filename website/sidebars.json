@@ -1,10 +1,10 @@
 {
   "docs": {
-    "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture"],
+    "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture", "TechStack"],
     "Quickstart": ["StartHere", "Install", "workExokitEngine", "browserReality", "devsetup"],
     "User Guides": ["useExokitEngine", "useExokitBrowser"],
     "Dev Guides": ["devExokitEngine", "devExokitBrowser"],
-    "Extras": ["TechStack", "DevSupport"]
+    "Extras": ["DevSupport"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
