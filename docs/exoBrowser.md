@@ -1,8 +1,32 @@
 ---
 id: exoBrowser
-title: What is Exokit Browser?
-sidebar_label: What is Exokit Browser?
+title: Running Exokit apps
+sidebar_label: Running Exokit apps
 ---
+
+<p align="center">
+  <a href="exokit:https://emukit.webmr.io/">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/emukit.png" width=218 height=218 alt="Emukit"/>
+  </a>
+  <a href="exokit:https://supermedium.com/craft">
+     <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/supercraft.png" width=218 height=218 alt="Supercraft"/>
+  </a>
+  <a href="exokit:https://supermedium.com/gunters-of-oasis">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/gunters.png" width=218 height=218 alt="Gunters of Oasis"/>
+   </a>
+  <a href="exokit:https://aframe.io/a-painter">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/a-painter.png" width=218 height=218 alt="A-painter"/>
+  </a>
+  <a href="exokit:https://immersive-web.github.io/webxr-samples/fallback-rendering.html">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/webxr-samples1.png" width=218 height=218 alt="WebXR Sample 1"/>
+  </a>
+  <a href="exokit:https://immersive-web.github.io/webxr-samples/input-selection.html">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/webxr-samples2.png" width=218 height=218 alt="WebXR Sample 2"/>
+  </a>
+  <a href="exokit:https://immersive-web.github.io/webxr-samples/positional-audio.html">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/bec87d38/website/static/img/webxr-samples2.png" width=218 height=218 alt="WebXR Sample 3"/>
+  </a>
+</p>
 
 Exokit Browser is a mixed reality web browser built on top of the Exokit engine.
 
