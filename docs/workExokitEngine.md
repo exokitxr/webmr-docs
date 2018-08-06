@@ -4,15 +4,11 @@ title: Exokit Engine
 sidebar_label: Exokit Engine
 ---
 
-## Where do I find Exokit Engine?
+## Where do I get Exokit Engine?
 
-Exokit Engine will have been included with the Exokit installer.
+Install Exokit with [Exokit installer](/docs/Install.html).
 
-> Here's how to open Exokit Engine on your OS:
-
- <img src="http://via.placeholder.com/220x220" alt="Gif of opening Exokit Engine to CLI in Windows"/>
- <img src="http://via.placeholder.com/220x220" alt="Gif of opening Exokit Engine to CLI in MacOS"/>
- <img src="http://via.placeholder.com/220x220" alt="Gif of opening Exokit Engine to CLI in Linux"/>
+> Exokit Engine will have been included with the Exokit installer.
 
 ## Open a WebGL site
 
