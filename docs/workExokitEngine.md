@@ -6,7 +6,7 @@ sidebar_label: Exokit Engine
 
 ## Where do I get Exokit Engine?
 
-Install Exokit with [Exokit installer](/docs/Install.html).
+Install Exokit with [Exokit installer](Install.md).
 
 > Exokit Engine will have been included with the Exokit installer.
 
