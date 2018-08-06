@@ -6,28 +6,31 @@ sidebar_label: Exokit apps
 
 <p align="center">
   <a href="exokit:https://emukit.webmr.io/">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/emukit.png" width=218 height=218 alt="Emukit"/>
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/emukit.png" width=218 height=218 alt="Emukit"/>
   </a>
   <a href="exokit:https://supermedium.com/craft">
-     <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/supercraft.png" width=218 height=218 alt="Supercraft"/>
+     <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/supercraft.png" width=218 height=218 alt="Supercraft"/>
   </a>
   <a href="exokit:https://supermedium.com/gunters-of-oasis">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/gunters.png" width=218 height=218 alt="Gunters of Oasis"/>
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/gunters.png" width=218 height=218 alt="Gunters of Oasis"/>
    </a>
   <a href="exokit:https://aframe.io/a-painter">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/a-painter.png" width=218 height=218 alt="A-painter"/>
-  </a>
-  <a href="exokit:https://immersive-web.github.io/webxr-samples/fallback-rendering.html">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/webxr-samples1.png" width=218 height=218 alt="WebXR Sample 1"/>
-  </a>
-  <a href="exokit:https://immersive-web.github.io/webxr-samples/input-selection.html">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/webxr-samples2.png" width=218 height=218 alt="WebXR Sample 2"/>
-  </a>
-  <a href="exokit:https://immersive-web.github.io/webxr-samples/positional-audio.html">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/webxr-samples3.png" width=218 height=218 alt="WebXR Sample 3"/>
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/a-painter.png" width=218 height=218 alt="A-painter"/>
   </a>
   <a href="exokit:https://aframe.io/a-blast">
-    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/461195bf/website/static/img/a-blast.png" width=218 height=218 alt="A-Blast"/>
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/a-blast.png" width=218 height=218 alt="A-Blast"/>
+  </a>
+  <a href="exokit:https://www.babylonjs.com/demos/glowingespilit/">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/babylonjs.png" width=218 height=218 alt="Babylon.js"/>
+  </a>
+  <a href="exokit:https://immersive-web.github.io/webxr-samples/fallback-rendering.html">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/webxr-samples1.png" width=218 height=218 alt="WebXR Sample 1"/>
+  </a>
+  <a href="exokit:https://immersive-web.github.io/webxr-samples/input-selection.html">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/webxr-samples2.png" width=218 height=218 alt="WebXR Sample 2"/>
+  </a>
+  <a href="exokit:https://immersive-web.github.io/webxr-samples/positional-audio.html">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/0f76a3ae/website/static/img/webxr-samples3.png" width=218 height=218 alt="WebXR Sample 3"/>
   </a>
 </p>
 
