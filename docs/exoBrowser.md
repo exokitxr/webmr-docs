@@ -4,6 +4,10 @@ title: Exokit apps
 sidebar_label: Exokit apps
 ---
 
+Exokit runs regular `http(s)://` sites with regualar web technologies like `WebGL`/`WebXR`.
+
+> If you have Exokit installed on windows, you can click to open.
+
 <p align="center">
   <a href="exokit:https://emukit.webmr.io/">
     <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/6da27ae/website/static/img/emukit.png" width=190 height=190 alt="Emukit"/>
