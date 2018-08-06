@@ -10,9 +10,7 @@ This auto-detects your operating system and gives you the latest release. It inc
 
 ## Visual guide
 
- <img src="http://via.placeholder.com/220x220" alt="Windows installation gif"/>
- <img src="http://via.placeholder.com/220x220" alt="MacOS installation gif"/>
- <img src="http://via.placeholder.com/220x220" alt="Linux installation gif"/>
+ <video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/InstallVideo.mp4"/>
 
 ## Alternate releases
 
