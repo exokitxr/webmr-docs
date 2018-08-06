@@ -4,9 +4,9 @@ title: Installation
 sidebar_label: Installation
 ---
 
-Get the Exokit Installer from [https://get.webmr.io/](https://get.webmr.io/).
+> Get the Exokit Installer from [https://get.webmr.io/](https://get.webmr.io/).
 
-> This auto-detects your operating system and gives you the latest release. It includes both *Exokit Engine* and *Exokit Browser*.
+This auto-detects your operating system and gives you the latest release. It includes both **Exokit Engine** and **Exokit Browser**.
 
 ## Visual guide
 
