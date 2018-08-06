@@ -4,8 +4,6 @@ title: Start Here
 sidebar_label: Start Here 
 ---
 
-# What are you trying to do?
-
  <a href="/docs/Install.html">
    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Install2.jpg" alt="Diagram representing installing"/>
  </a>
@@ -28,7 +26,7 @@ See: [Quickstart for Exokit Browser.](browserReality.md)
 
 See: [Quickstart for Exokit Engine.](workExokitEngine.md) 
 
-## I know what im doing, but can't find what I need on this website.
+## I know what I'm doing, but can't find what I need on this website.
 
 Join our [Discord](https://discordapp.com/invite/Apk6cZN), we are here to help.
 
