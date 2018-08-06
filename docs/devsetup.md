@@ -1,7 +1,7 @@
 ---
 id: devsetup 
 title: Setting up a development environment
-sidebar_label: Development environment
+sidebar_label: Development
 ---
 
  <img src="http://via.placeholder.com/800x300" alt="Diagram of engine cloned from Github, running on machine with some code view, and machine linked to various devices"/>
