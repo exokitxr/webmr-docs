@@ -26,6 +26,9 @@ sidebar_label: Exokit apps
   <a href="exokit:https://immersive-web.github.io/webxr-samples/positional-audio.html">
     <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/293d2ea7/website/static/img/webxr-samples3.png" width=218 height=218 alt="WebXR Sample 3"/>
   </a>
+  <a href="exokit:https://aframe.io/a-blast">
+    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/293d2ea7/website/static/img/a-blast.png" width=218 height=218 alt="A-Blast"/>
+  </a>
 </p>
 
 Exokit Browser is a mixed reality web browser built on top of the Exokit engine.
