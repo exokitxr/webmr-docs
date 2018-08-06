@@ -1,7 +1,7 @@
 ---
 id: exoBrowser
-title: What is the Exokit Browser?
-sidebar_label: What is the Exokit Browser?
+title: What is Exokit Browser?
+sidebar_label: What is Exokit Browser?
 ---
 
 Exokit Browser is a mixed reality web browser built on top of the Exokit engine.

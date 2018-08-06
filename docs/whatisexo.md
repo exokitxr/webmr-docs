@@ -1,7 +1,7 @@
 ---
 id: whatisexo
-title: What is the Exokit Engine?
-sidebar_label: What is the Exokit Engine?
+title: What is Exokit Engine?
+sidebar_label: What is Exokit Engine?
 ---
 
  <img src="http://via.placeholder.com/800x400" alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
