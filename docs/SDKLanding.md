@@ -8,7 +8,7 @@ sidebar_label: Exokit SDK
 
 ## SDK Bundle
 
-The [SDK bundle]() includes Exokit engine, which lets you run apps (regular web sites) in Exokit.
+The [SDK bundle](Install.md) includes Exokit engine, which lets you run apps (regular web sites) in Exokit.
 
 Exokit is a fast browser engine without the browser (though you can [use it to build a browser](https://github.com/shaneharris/aframe-in-app-browser)!)
 
