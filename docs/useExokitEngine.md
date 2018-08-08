@@ -15,11 +15,3 @@ sidebar_label: Running an app
       Note: (if the site was designed for VR it should open automatically in VR)
   
   3.  Enjoy.
-
-
-
-## Exokit Engine's Command Prompt
-
-The Exokit Engine command prompt is a NodeJS REPL. If you're a node developer, the interface should be quite familiar. Open Exokit Engine command prompt and run the command, `.help` :
-
-To get to links from the command prompt itself, punch in the command: `.go`, then simply put in your desired URL and hit enter.
