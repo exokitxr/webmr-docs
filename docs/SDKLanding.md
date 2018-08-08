@@ -1,12 +1,42 @@
 ---
 id: SDKLanding
-title: SDK 
-sidebar_label: SDK 
+title: Exokit SDK
+sidebar_label: Exokit SDK 
 ---
 
+ <img src="http://via.placeholder.com/800x300" alt="Diagram of Exokit SDK surrounded by the APIs listed"/>
 
-Exokit Engine and Exokit Browser are trying to be as close to the current web APIs as possible to allow for an easier transition for current web developers.
+## SDK Bundle
 
-We will also mirror as many existing API styles rather than inventing new ones. For example, the tabs capture API from Mozilla here.
+The [SDK bundle]() includes Exokit engine, which lets you run apps (regular web sites) in Exokit.
 
-The stuff that doesn't exist on the web yet, like Magic Leap + Leap Motion, is going to be heavily inspired by WebXR.
+Exokit is a fast browser engine without the browser (though you can [use it to build a browser](https://github.com/shaneharris/aframe-in-app-browser)!)
+
+ <img src="http://via.placeholder.com/800x300" alt="Paste in screenshot from https://github.com/shaneharris/aframe-in-app-browser"/>
+
+## Web specifications
+
+Exokit engine runs regular [HTML](https://en.wikipedia.org/wiki/HTML) sites.
+
+If the site uses [WebXR](https://immersive-web.github.io/webxr/), [WebGL](https://www.khronos.org/registry/webgl/specs/latest/1.0/), [WebAudio](https://www.w3.org/TR/webaudio/), and other multimedia web specifications, it should work on Exokit (if it doesn't, please [file a bug](https://github.com/webmixedreality/exokit/issues/new)!)
+
+This means existing web documentation applies to Exokit as well.
+
+## Extensions
+
+Exokit includes additional support for interfacing with hardware like Magic Leap and Leap Motion.
+
+These are generally exposed on the `browser` object.
+
+For example, for Electron texture streaming:
+
+```
+const electron = await browser.electron.createElectron();
+const browserWindow = await electron.createBrowserWindow();
+browserWindow.loadURL('https://google.com/');
+browserWindow.on('paint', message => {
+  // ...
+});
+```
+
+Documentation for these APIs is in the sidebar.
