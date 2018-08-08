@@ -1,7 +1,7 @@
 ---
 id: useExokitEngine
-title: Use Exokit Engine
-sidebar_label: Use Exokit Engine
+title: Running an app
+sidebar_label: Running an app
 ---
 
 ## Opening Websites and Examples

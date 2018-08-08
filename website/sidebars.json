@@ -1,14 +1,13 @@
 {
   "docs": {
     "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture", "TechStack"],
-    "Quickstart": ["StartHere", "Install", "workExokitEngine", "browserReality", "devsetup"],
-    "User Guides": ["useExokitEngine", "useExokitBrowser"],
-    "Dev Guides": ["devExokitEngine", "devExokitBrowser"],
-    "Extras": ["DevSupport"]
+    "Quickstart": ["StartHere", "Install", "workExokitEngine", "devsetup"],
+    "Guides": ["useExokitEngine", "devExokitEngine"],
+    "Community": ["DevSupport"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
     "Using our SDK": ["CommandLine", "Flags"],
-    "APIs": ["API", "BetaAPIs", "Integrations", "FutureIntegrations"]
+    "APIs": ["API", "Integrations", "BetaAPIs", "FutureIntegrations"]
   }
 }

@@ -1,7 +1,7 @@
 ---
 id: workExokitEngine
-title: Exokit Engine
-sidebar_label: Exokit Engine
+title: Exokit engine
+sidebar_label: Exokit engine
 ---
 
 ## Where do I get Exokit Engine?

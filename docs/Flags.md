@@ -1,7 +1,7 @@
 ---
 id: Flags
-title: Flags
-sidebar_label: Flags
+title: Command line flags
+sidebar_label: Command line flags
 ---
 
 An example of how to use these flags:
