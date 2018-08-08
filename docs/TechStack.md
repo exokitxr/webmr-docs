@@ -1,10 +1,10 @@
 ---
 id: TechStack 
-title: Technology Stack 
-sidebar_label: Technology Stack 
+title: Integrations
+sidebar_label: Integrations
 ---
 
-# What technology goes into the Exokit Browser? 
+Here are the main web specifications and third-party libraries implemented in Exokit.
 
 | Tech          | Pure JS or Native       | Spec  | Source |
 | ------------- |:-------------:|:-----:|-------:|
