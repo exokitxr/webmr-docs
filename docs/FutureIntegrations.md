@@ -7,9 +7,12 @@ sidebar_label: Future Integrations
   
 As it stands, the current objectives for what we hope to integrate going forward are the following:
   
+## Unity
   
+ Exokit engine is a Node.js module, so it's relatively straightforward to add native bindings to other engines like Unity, in either direction. If you have a use case you'd like supported here, let us know.
+
 ## Electron
- We know people want to use Exokit Engine on top of their existing Electron app to leverage the performance and hackability, so this is definitely up there on the order in priority for out team.
+ We often get asked how to use Exokit on top of an existing Electron app to power the WebGL/WebXR parts. This needs to be documented.
  
 ## Ethereum
 This is another thing that we've experimented with for a while, and we're interested in the blockchain possibility. While we don't want Exokit to become a vehicle for token speculation, we think there could be a place for some sort of subscription model or notion of app ownership in alliance with Cryptocurrency use. This isn't strictly about Ethereum but blockchains in general.
