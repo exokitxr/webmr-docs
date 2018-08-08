@@ -12,7 +12,7 @@ The [SDK bundle](Install.md) includes Exokit engine, which lets you run apps (re
 
 Exokit is a fast browser engine without the browser (though you can [use it to build a browser](https://github.com/shaneharris/aframe-in-app-browser)!)
 
- <img src="http://via.placeholder.com/800x300" alt="Paste in screenshot from https://github.com/shaneharris/aframe-in-app-browser"/>
+ <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/aframe-in-app-browser.gif" alt="shaneharris/aframe-in-app-browser"/>
 
 ## Web specifications
 
