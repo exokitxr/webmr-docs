@@ -4,17 +4,21 @@ title: Exokit SDK
 sidebar_label: Exokit SDK 
 ---
 
- <img src="http://via.placeholder.com/800x300" alt="Diagram of Exokit SDK surrounded by the APIs listed"/>
-
 ## SDK Bundle
 
 The [SDK bundle](Install.md) includes Exokit engine, which lets you run apps (regular web sites) in Exokit.
 
-Exokit is a fast browser engine without the browser (though you can [use it to build a browser](https://github.com/shaneharris/aframe-in-app-browser)!)
+> Exokit is a fast browser engine, without the browser (though you can [use it to build a browser](https://github.com/shaneharris/aframe-in-app-browser)!)
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/aframe-in-app-browser.gif" alt="shaneharris/aframe-in-app-browser"/>
+## SDK components
 
-## Web specifications
+There are two main parts to the Exokit SDK:
+  - Web APIs
+  - Native integrations
+
+### Web APIs
+
+ <img src="http://via.placeholder.com/600x120" alt="SDK diagram 1"/>
 
 Exokit engine runs regular [HTML](https://en.wikipedia.org/wiki/HTML) sites.
 
@@ -22,7 +26,11 @@ If the site uses [WebXR](https://immersive-web.github.io/webxr/), [WebGL](https:
 
 This means existing web documentation applies to Exokit as well.
 
-## Extensions
+**Docs**: [Web APIs](API.md)
+
+## Native integrations
+
+ <img src="http://via.placeholder.com/600x120" alt="SDK diagram 2"/>
 
 Exokit includes additional support for interfacing with hardware like Magic Leap and Leap Motion.
 
@@ -39,4 +47,4 @@ browserWindow.on('paint', message => {
 });
 ```
 
-Documentation for these APIs is in the sidebar.
+**Docs**: [Native integrations](Integrations.md)
