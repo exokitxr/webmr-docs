@@ -46,13 +46,3 @@ Exokit runs regular `http(s)://` sites with regualar web technologies like `WebG
     <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/6da27ae/website/static/img/webxr-samples4.png" width=190 height=190 alt="WebXR Sample 4"/>
   </a>
 </p>
-
-Exokit Browser is a mixed reality web browser built on top of the Exokit engine.
-
-<img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Reality-tabs.jpg" width=600, height=auto alt="A bunch of images of reality tabs; can be taken from the old site"/>
-
-Exokit Browser is inherently multi-platform since it's just Javascript and C++ bindings to libraries. It binds to Vive, Oculus, Leap Motion, Magic Leap, and keyboard/mouse on Windows, OSX, or Linux.
-  
- The main interface is "Reality Tabs", or opening 3D web sites as layers of virtual/augmented reality. The product runs on web content and standards (HTML, WebXR, WebGL, Unity + Unreal exports). Exokit Engine is the fastest on the market (2-3x faster than Chrome or Firefox) in performance and to adapting to the extremely fast pace of change in the world of mixed reality.  
-
-## explain similarities and differences between Exokit and the Browser.
