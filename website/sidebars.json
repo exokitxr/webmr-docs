@@ -2,8 +2,7 @@
   "docs": {
     "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture", "TechStack"],
     "Quickstart": ["StartHere", "Install", "workExokitEngine", "browserReality", "devsetup"],
-    "User Guides": ["useExokitEngine", "useExokitBrowser"],
-    "Dev Guides": ["devExokitEngine", "devExokitBrowser"],
+    "Guides": ["useExokitEngine", "devExokitEngine"],
     "Community": ["DevSupport"]
   },
   "sdk": {
