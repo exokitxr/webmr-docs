@@ -6,7 +6,7 @@ sidebar_label: Running an app
 
 ## Opening Websites and Examples
 
-<video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/ExokitBrowserHowto.mp4">
+<video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/ExokitBrowserHowto.mp4" width=500>
   
   1. Find and Open Exokit Command Prompt.
   
