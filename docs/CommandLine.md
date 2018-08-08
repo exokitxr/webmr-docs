@@ -1,24 +1,23 @@
 ---
 id: CommandLine 
-title: Command Line 
-sidebar_label: Command Line 
+title: Exokit command line
+sidebar_label: Exokit command line
 ---
 
-## Requirements
+> Note: on Windows, you'll need to use `\` intead of `/`, and you might need to `"quotes"` around certain characters.
+
+### Prerequisites
 
 1. Install Exokit.
+1. Navigate to your `exokit` install directory.
+  - Windows default: `C:\exokit`
+  - MacOS default: `/Applications/Exokit.app`
+  - Linux default: `/usr/local/lib/exokit`
 
-2. Navigate to /exokit directory.
-
-## Launch a URL with Exokit Engine
+### Launch a URL with Exokit
 
 `./exokit.cmd yourURL`
 
-## Launch a local file with Exokit Engine
+### Launch a local file with Exokit
 
 `./exokit.cmd /your/File/Path.html`
-
-## Launch Exokit Browser
-
-`./exokit.cmd -h`
-
