@@ -15,7 +15,7 @@ Exokit Browser offers the technology to hot swap through VR/AR experiences on th
 It is basically the same user experience as using a normal web browser that we are all used
 to. Reality Tabs are akin to normal browser tabs, except that you are truly in the tab.
 
-You can create your own Reality Tab easily by hosting your VR/AR web app on a valid domain. Exokit Browser handles the rendering of the Reality Tab and brings it into the users view for you.
+You can create your own Reality Tab easily by hosting your VR/AR web app on a valid domain. Exokit Browser handles the rendering of the Reality Tabs and brings them into the users view for you.
 
 ### *** Gif of reality tabs being cycled through live in Exokit
 ![Reality Tabs GIF](http://via.placeholder.com/750x300)
