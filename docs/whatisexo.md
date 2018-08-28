@@ -23,7 +23,9 @@ Since Exokit supports anything that runs on the web, it powers experiences built
 * Custom WebGL frameworks
 * WebAssembly, TypeScript, and any language that transpiles to JavaScript.
 
- 
+ ### Subscribe to our Email list to be notified when we launch! http://eepurl.com/dFiLMz
+
+
 
  > Exokit Engine is an HTML/Javascript engine that runs regular web sites, but only supports 3D via WebGL/WebXR.
  > A window in Exokit is just the contents of a WebGL `<canvas>`.
