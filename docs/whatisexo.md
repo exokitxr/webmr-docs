@@ -4,7 +4,28 @@ title: Exokit Engine
 sidebar_label: Exokit Engine
 ---
 
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/ChormeStruggleGIF.gif" width=500, height=auto alt="Diagram of a regular browser engine with 2D garbage and Exokit that only does 3D straight to headset"/>
+ ### Exokit is a native VR and AR Engine for JavaScript.
+ 
+This project enables developers to build XR experiences using the same code that runs on the web. Exokit engine is written on top of Node and emulates a web browser, providing native hooks for WebGL, WebXR, WebAudio, and other APIs used in immersive experiences.
+
+Exokit targets the following platforms:
+* Desktop VR (Steam compatible)
+* Mobile AR (ARKit / ARCore)
+* Magic Leap
+* Mobile VR (Daydream / Gear VR)
+
+Since Exokit supports anything that runs on the web, it powers experiences built with:
+* Three.js
+* Unity
+* Pixi.js
+* Babylon.js
+* AFrame
+* Custom WebGL frameworks
+* WebAssembly, TypeScript, and any language that transpiles to JavaScript.
+
+ ### Subscribe to our Email list to be notified when we launch! http://eepurl.com/dFiLMz
+
+
 
  > Exokit Engine is an HTML/Javascript engine that runs regular web sites, but only supports 3D via WebGL/WebXR.
  > A window in Exokit is just the contents of a WebGL `<canvas>`.
