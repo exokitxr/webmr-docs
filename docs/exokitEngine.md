@@ -89,9 +89,3 @@ Since Exokit supports anything that runs on the web, it powers experiences built
   # Can I use it?
 
   Sure! It's [open source on Github](https://github.com/webmixedreality/exokit). You can also embed it since [it's a node module](https://github.com/webmixedreality/exokit/blob/master/package.json).
-
-  # Who made it?
-
- <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/avaer.jpg" width=200, height=auto alt="Team picture 1"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisE.jpg" width=200, height=auto alt="Team picture 2"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/nick.jpg" width=200, height=auto alt="Team picture 3"/> <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/chrisLT.jpg" width=200, height=auto alt="Team picture 4"/>
- 
-  Avaer Kazmer and friends.
