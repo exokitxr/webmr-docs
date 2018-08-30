@@ -50,4 +50,4 @@ The API is implemented as a set of C++ interface classes full of pure virtual fu
 
 ## More Info
 
-To see a list of our current integrations, check out our [Tech Stack](TechStack.md)
+To see a list of our current integrations, check out our [Tech Stack](techIntegrations.md)

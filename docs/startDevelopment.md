@@ -1,6 +1,6 @@
 ---
-id: devsetup 
-title: Setting up a development environment
+id: startDevelopment 
+title: Setting up a Development Environment
 sidebar_label: Development
 ---
 

@@ -35,10 +35,10 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('whatisexo.html', this.props.language)}>
+            <a href={this.docUrl('exokitEngine.html', this.props.language)}>
               Overview
             </a>
-            <a href={this.docUrl('StartHere.html', this.props.language)}>
+            <a href={this.docUrl('startHere.html', this.props.language)}>
               Quickstart
             </a>
 	    <a href={this.docUrl('useExokitEngine.html', this.props.language)}>
@@ -48,7 +48,7 @@ class Footer extends React.Component {
             <a href={this.docUrl('devExokitEngine.html', this.props.language)}>
               Dev Guides
             </a>
-            <a href={this.docUrl('DevSupport.html', this.props.language)}>
+            <a href={this.docUrl('community.html', this.props.language)}>
               Extras
             </a>
           </div>

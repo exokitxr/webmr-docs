@@ -1,5 +1,5 @@
 ---
-id: DevSupport
+id: community
 title: Community Links
 sidebar_label: Community Links
 ---

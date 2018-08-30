@@ -1,5 +1,5 @@
 ---
-id: whatisexo
+id: exokitEngine
 title: Exokit Engine
 sidebar_label: Exokit Engine
 ---

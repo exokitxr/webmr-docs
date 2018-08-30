@@ -1,5 +1,5 @@
 ---
-id: exoBrowser
+id: exokitApps
 title: Exokit Apps
 sidebar_label: Exokit Apps
 ---

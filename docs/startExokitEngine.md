@@ -1,12 +1,12 @@
 ---
-id: workExokitEngine
-title: Exokit Engine
+id: startExokitEngine
+title: Exokit Engine Quickstart Guide
 sidebar_label: Exokit Engine
 ---
 
 ## Where do I get Exokit Engine?
 
-Install Exokit with [Exokit installer](Install.md).
+Install Exokit with [Exokit installer](installation.md).
 
 > Exokit Engine will have been included with the Exokit installer.
 

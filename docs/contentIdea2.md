@@ -60,5 +60,5 @@ To get to links from the command prompt itself, punch in the command: `.go`, the
 
 If you get stuck, check out our [Resources and Support](Support.md) page.
  
- To continue the fun, check out our [User Guides](useExokitBrowser.md) section. If you'd like to contribute, see [How to Contribute](contribute.md).
+ To continue the fun, check out our [User Guides](contentIdea3.md) section. If you'd like to contribute, see [How to Contribute](contribute.md).
 
