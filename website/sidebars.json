@@ -3,7 +3,8 @@
     "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture", "TechStack"],
     "Quickstart": ["StartHere", "Install", "workExokitEngine", "devsetup"],
     "Guides": ["useExokitEngine", "devExokitEngine"],
-    "Community": ["DevSupport"]
+    "Community": ["DevSupport"],
+    "Exoport Extension": ["ExoportTerms"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
