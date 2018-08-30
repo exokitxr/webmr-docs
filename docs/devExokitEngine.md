@@ -1,7 +1,7 @@
 ---
 id: devExokitEngine
-title: My first Exokit app
-sidebar_label: My first Exokit app
+title: My First Exokit App
+sidebar_label: My First Exokit App
 ---
 
 ## Clone the Exokit Engine Repository

@@ -1,7 +1,7 @@
 ---
 id: DevSupport
-title: Community links
-sidebar_label: Community links
+title: Community Links
+sidebar_label: Community Links
 ---
 
 # Github

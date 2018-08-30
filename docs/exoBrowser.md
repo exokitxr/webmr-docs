@@ -1,7 +1,7 @@
 ---
 id: exoBrowser
-title: Exokit apps
-sidebar_label: Exokit apps
+title: Exokit Apps
+sidebar_label: Exokit Apps
 ---
 
 Exokit runs regular `http(s)://` sites with regualar web technologies like `WebGL`/`WebXR`.

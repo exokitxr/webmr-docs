@@ -1,7 +1,7 @@
 ---
 id: CommandLine 
-title: Exokit command line
-sidebar_label: Exokit command line
+title: Exokit Command Line
+sidebar_label: Exokit Command Line
 ---
 
 > Note: on Windows, you'll need to use `\` intead of `/`, and you might need to `"quotes"` around certain characters.
