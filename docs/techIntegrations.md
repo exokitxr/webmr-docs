@@ -1,5 +1,5 @@
 ---
-id: TechStack 
+id: techIntegrations 
 title: Integrations
 sidebar_label: Integrations
 ---

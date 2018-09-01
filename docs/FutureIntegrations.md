@@ -24,4 +24,4 @@ ARCore is much easier than ARKit because Apple isn't very flexible here (no dyna
   
 * And most recently, with our newest addition of Emukit (our VR-based Console Emulator), we hope to support consoles and emulators as well.
 
-To see a list of our current integrations, check out our [Tech Stack](TechStack.md)
+To see a list of our current integrations, check out our [Tech Stack](techIntegrations.md)

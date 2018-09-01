@@ -82,7 +82,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href="https://get.webmr.io">Download</Button>
-            <Button href={docUrl('StartHere.html', language)}>Get Started</Button>
+            <Button href={docUrl('startHere.html', language)}>Get Started</Button>
           </PromoSection>
         </div>
       </SplashContainer>

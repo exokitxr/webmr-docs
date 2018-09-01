@@ -1,7 +1,7 @@
 ---
 id: useExokitEngine
-title: Running an app
-sidebar_label: Running an app
+title: Running an App
+sidebar_label: Running an App
 ---
 
 ## Opening Websites and Examples

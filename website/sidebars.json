@@ -1,10 +1,10 @@
 {
   "docs": {
-    "Overview": ["whatisexo", "exoBrowser", "benchmarks", "architecture", "TechStack"],
-    "Quickstart": ["StartHere", "Install", "workExokitEngine", "devsetup"],
+    "Overview": ["exokitEngine", "exokitApps", "benchmarks", "architecture", "techIntegrations"],
+    "Quickstart": ["startHere", "installation", "startExokitEngine", "startDevelopment"],
     "Guides": ["useExokitEngine", "devExokitEngine"],
-    "Community": ["DevSupport"],
-    "Exoport Extension": ["ExoportTerms"]
+    "Community": ["community"],
+    "Exoport Extension": ["ExoportTerms", "ExoportPrivacy"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],

@@ -1,5 +1,5 @@
 ---
-id: StartHere 
+id: startHere 
 title: Start Here 
 sidebar_label: Start Here 
 ---
@@ -16,15 +16,15 @@ sidebar_label: Start Here
 
 ## I want to install Exokit
 
-See: [Quickstart for Installation.](Install.md)
+See: [Quickstart for Installation.](installation.md)
 
 ## I want to to run an app on Exokit
 
-See: [Quickstart for Exokit Browser.](browserReality.md) 
+See: [Quickstart for Exokit Browser.](contentIdea2.md) 
 
 ## I am a developer and I want to hax on Exokit
 
-See: [Quickstart for Exokit Engine.](workExokitEngine.md) 
+See: [Quickstart for Exokit Engine.](startExokitEngine.md) 
 
 ## I know what I'm doing, but can't find what I need
 
