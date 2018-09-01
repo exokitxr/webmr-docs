@@ -107,7 +107,9 @@ const siteConfig = {
     'https://buttons.github.io/buttons.js',
     'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js',
-    '/BenchGraph.js'
+    '/BenchGraph.js',
+    'https://www.googletagmanager.com/gtag/js?id=UA-125030796-1',
+    '/googleAnalytics.js'
   ],
 
   /* On page navigation for the current documentation page */
