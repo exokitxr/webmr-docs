@@ -25,6 +25,14 @@ const users = [
     image: '/img/emukit.svg',
     infoLink: 'https://github.com/webmixedreality/emukit',
     pinned: true,
+  },
+  {
+    caption: 'The Expanse',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/expanseLogo.jpg',
+    infoLink: 'https://theexpanse.app/',
+    pinned: true,
   }
 ];
 
