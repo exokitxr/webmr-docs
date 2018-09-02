@@ -16,6 +16,6 @@ sidebar_label: Running an App
   
       You can see more Exokit Apps [here!](http://docs.webmr.io/docs/exokitApps.html)
   
-<video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/ExokitBrowserHowto.mp4?raw=true" width='100%' controls />
+<video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/master/website/static/media/exokitmediacopy/ExokitBrowserHowto.mp4" width='100%' controls />
   
   

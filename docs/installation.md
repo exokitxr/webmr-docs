@@ -10,7 +10,7 @@ This auto-detects your operating system and gives you the latest release. It inc
 
 ## Visual guide
 
- <video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/b799bcf5/website/static/media/exokitmediacopy/InstallVideo.mp4" width='100%' controls/>
+ <video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/master/website/static/media/exokitmediacopy/InstallVideo.mp4" width='100%' controls/>
 
 ## Alternate releases
 
