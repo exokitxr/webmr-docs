@@ -4,7 +4,7 @@ title: Exokit Apps
 sidebar_label: Exokit Apps
 ---
 
-Exokit runs regular `http(s)://` sites with regualar web technologies like `WebGL`/`WebXR`.
+Exokit runs regular `http(s)://` sites with regular web technologies like `WebGL`/`WebXR`.
 
 > If you have Exokit installed on Windows, you click an app to open it.
 
