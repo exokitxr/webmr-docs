@@ -52,6 +52,6 @@ The site may also listen for regular keyboard/mouse events to create an XR sessi
 
 ## Create an engine example
 
-There's a full [WebXR example](https://github.com/webmixedreality/webxr-example) for you to play with on GitHub.
+There's a full [WebXR example](https://github.com/webmixedreality/exokit/blob/master/examples/hello_xr.html) for you to play with on GitHub.
 
  <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/WebXRExample.jpg" alt="Gif of example running"/>
