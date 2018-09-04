@@ -33,7 +33,7 @@ npm install
 #### Notes
 
 1. Exokit's bindings code is a native module build using the [`binding.gyp` recipe](https://github.com/webmixedreality/exokit/blob/master/binding.gyp).
-1. Exokit downloads and uses several prebuilt dependencies. They have been pre-compiled for all supported architectures and uploaded to npm. They self-extract themselves with .
+1. Exokit downloads and uses several prebuilt dependencies. They have been pre-compiled for all supported architectures and uploaded to npm. They self-extract themselves based off detected architecture.
 
 # Run Exokit Engine
 
