@@ -1,18 +1,18 @@
 ---
 id: ExoportPrivacy
-title: Exoport Extension Privacy Policy
+title: Exokit Products Privacy Policy
 sidebar_label: Privacy Policy
 ---
 
-This privacy policy discloses the privacy practices for the Exoport Extension. This privacy policy applies solely to information collected by Exoport Extension. It will notify you of the following:
+This privacy policy discloses the privacy practices for Exokit products. This privacy policy applies solely to information collected by Exokit products. It will notify you of the following:
 
-1. What personally identifiable information is collected from you through Exoport Extension, how it is used and with whom it may be shared.
+1. What personally identifiable information is collected from you through Exokit products, how it is used and with whom it may be shared.
 2. What choices are available to you regarding the use of your data.
 3. The security procedures in place to protect the misuse of your information.
 4. How you can correct any inaccuracies in the information.
 
 ## Information Collection, Use, and Sharing 
-We are the sole owners of the information collected on Exoport Extension. We only have access to/collect information that you voluntarily give us via sign-up or other direct contact from you. We will not sell or rent this information to anyone.
+We are the sole owners of the information collected on Exokit products. We only have access to/collect information that you voluntarily give us via sign-up or other direct contact from you. We will not sell or rent this information to anyone.
 
 We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
 
@@ -27,7 +27,7 @@ You may opt out of any future contacts from us at any time. You can do the follo
 - Express any concern you have about our use of your data.
 ## Security 
 
-We take precautions to protect your information. When you submit sensitive information via the Exoport Extension, your information is protected both online and offline.
+We take precautions to protect your information. When you submit sensitive information via Exokit products, your information is protected both online and offline.
 
 Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for "https" at the beginning of the address of the Web page.
 
