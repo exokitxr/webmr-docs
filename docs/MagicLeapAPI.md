@@ -5,8 +5,6 @@ sidebar_label: Magic Leap API
 ---
 
 
-# Magic Leap API
-
 The Magic Leap API is exposed to sites under the `window.browser.magicleap` endpoint. This is inspired by the [WebExtension API style](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API). It is not a web standard (yet).
 
 ## Classes
