@@ -9,6 +9,6 @@
   "sdk": {
     "Introduction": ["SDKLanding"],
     "Using the SDK": ["CommandLine", "Flags"],
-    "API docs": ["API", "Integrations", "BetaAPIs", "FutureIntegrations"]
+    "API docs": ["MagicLeapAPI", "API", "Integrations", "BetaAPIs", "FutureIntegrations"]
   }
 }
