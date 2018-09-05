@@ -36,10 +36,10 @@ While we use encryption to protect sensitive information transmitted online, we 
 If you feel that we are not abiding by this privacy policy, you should contact us immediately via email at: `hello@webmr.io`.
 
 ## Registration 
-In order to use Exoport Extension, a user must first complete the sign-up form. During registration a user is required to give certain information (card info, email address and password). This information is used to contact you about the products/services on our site in which you have expressed interest. The main purpose of user information taken from registration is to facilitate the payment system and sign-in features. 
+In order to use Exokit products, a user must first complete the sign-up form. During registration a user is required to give certain information (card info, email address and password). This information is used to contact you about the products/services on our site in which you have expressed interest. The main purpose of user information taken from registration is to facilitate the payment system and sign-in features. 
 
 ## Orders 
 We request information from you on our order form. To buy from us, you must provide contact information (email address) and financial information (like credit card number, expiration date). This information is used for billing purposes and to fill your orders. If we have trouble processing an order, we'll use this information to contact you.
 
 ## Links 
-Exoport Extension contains links to other sites. Please be aware that we are not responsible for the content or privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of any other site that collects personally identifiable information.
+Exokit products contains links to other sites. Please be aware that we are not responsible for the content or privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of any other site that collects personally identifiable information.
