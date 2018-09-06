@@ -4,7 +4,7 @@ title: Start Here
 sidebar_label: Start Here 
 ---
 
- <a href="/docs/Install.html">
+ <a href="/docs/installation.html">
    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/Install2.jpg" alt="Diagram representing installing"/>
  </a>
  <a href="/docs/browserReality.html">
