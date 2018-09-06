@@ -39,7 +39,7 @@ const users = [
 const siteConfig = {
   title: 'Exokit' /* title for your website */,
   tagline: `Post-screen web engine for AR/VR, written in Javascript.`,
-  url: 'https://exokit.webmr.io' /* your website url */,
+  url: 'https://webmr.io' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -58,7 +58,6 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {href: 'https://webmr.io', label: 'Home' },
     {doc: 'exokitEngine', label: 'Docs'},
     {doc: 'SDKLanding', label: 'SDK'},
     {page: 'help', label: 'Help'},
