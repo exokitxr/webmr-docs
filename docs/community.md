@@ -12,7 +12,7 @@ We post announcements and updates to our [blog](https://medium.com/webmr).
 
 # Support
 
-Join Our [Slack](https://exoslack.now.sh/).
+Join Our [Slack](https://join.slack.com/t/exokit/shared_invite/enQtNDI3NjcxNzYwMDIxLWU2NmFmOTEzMzk4NWNiYjRhMjVkYzcyNjg5YjUyMzZkYWM1ZGI4M2IwYWZiMjNlMTJjMDlkM2U3Y2JiNTc2M2Q).
 
 Follow Exokit on [Twitter](https://twitter.com/webmixedreality)!
 
