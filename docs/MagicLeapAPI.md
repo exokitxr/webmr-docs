@@ -4,7 +4,6 @@ title: Magic Leap  API
 sidebar_label: Magic Leap API
 ---
 
-
 The Magic Leap API is exposed to sites under the `window.browser.magicleap` endpoint. This is inspired by the [WebExtension API style](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API). It is not a web standard (yet).
 
 ## Classes
@@ -29,17 +28,29 @@ The type of update. Can be either:
 - `'update'`: the mesh was previously emitted as `new` but its data has changed. No action is necessary, but may be desired.
 - `'remove'`: the mesh is no longer in scope for the meshing system and should be discarded.
 
-#### `MLMeshUpdate.position : WebGLBuffer`
+#### `MLMeshUpdate.positionBuffer : WebGLBuffer`
 
-The raw `WebGLBuffer` for the mesh positions in world space. Represented as three `WebGLFloat` per vertex. Not in any particular order; indexed by `MLMeshUpdate.index`. Tightly packed stride.
+The opaque `WebGLBuffer` for the mesh positions in world space. Represented as three `WebGLFloat` per vertex. Not in any particular order; indexed by `MLMeshUpdate.indexBuffer`. Tightly packed stride.
 
-#### `MLMeshUpdate.normal : WebGLBuffer`
+#### `MLMeshUpdate.positionArray : Float32Array`
 
-The raw `WebGLBuffer` for the mesh normals. Represented as three `WebGLFloat` per vertex. Not in any particular order; indexed by `MLMeshUpdate.index`. Tightly packed stride.
+The `Float32Array` buffer that was uploaded to the `positionBuffer`.
 
-#### `MLMeshUpdate.index : WebGLBuffer`
+#### `MLMeshUpdate.normalBuffer : WebGLBuffer`
 
-The raw `WebGLBuffer` for the mesh indices for `MLMeshUpdate.position` and `MLMeshUpdate.normal`. Represented as three `WegGLShort` per triangle. Tightly packed stride.
+The opaque `WebGLBuffer` for the mesh normals. Represented as three `WebGLFloat` per vertex. Not in any particular order; indexed by `MLMeshUpdate.indexBuffer`. Tightly packed stride.
+
+#### `MLMeshUpdate.normalArray : Float32Array`
+
+The `Float32Array` buffer that was uploaded to the `normalBuffer`.
+
+#### `MLMeshUpdate.indexBuffer : WebGLBuffer`
+
+The opaque `WebGLBuffer` for the mesh indices for `MLMeshUpdate.position` and `MLMeshUpdate.normal`. Represented as three `WegGLShort` per triangle. Tightly packed stride.
+
+#### `MLMeshUpdate.indexArray : Uint16Array`
+
+The `Uint16Array` buffer that was uploaded to the `indexBuffer`.
 
 #### `MLMeshUpdate.count : Number`
 
@@ -49,13 +60,13 @@ The number of indices in `MLMeshUpdate.index`. Indended to be passed to `glDrawE
 
 Used to get the current 3D eye tracking position from the Magic Leap platform.
 
-#### `MLEyeTracker.position : Float32Array(3)`
+#### `MLEyeTracker.fixation : MLTransform`
 
-The current position of the eye cursor, as a world vector. This is probably in front of the camera, in the negative Z.
+The current location of the eye cursor, as a world transform. This is probably in front of the camera, in the negative Z.
 
-#### `MLEyeTracker.rotation : Float32Array(4)`
+#### `MLEyeTracker.eyes : MLEye`
 
-The current rotation of the eye cursor, as a world quaternion. This is probably aligned with the camera direction.
+The individual eye locations and statuses. Note that this does not include the eye fixation (cursor); that is contained in `fixation`.
 
 ### `MLPlaneTracker`
 
@@ -108,38 +119,71 @@ A single update to the user's tracked hand pose state.
 
 The hand direction detected for this update. Either `'left'` or `'right'`.
 
-#### `MLHandUpdate.position : Float32Array(3)`
+#### `MLHandUpdate.pointer : MLTransform?`
 
-The center of the hand pose detected in world space, as a vector.
+The pointer transform of the hand pose.
+
+This is a ray starting at the tip of the index finger and pointing in the direction of the finger, but it may be based on other pose keypoints as a substitute.
+
+#### `MLHandUpdate.grip : MLTransform?`
+
+The grip transform of the hand pose.
+
+This is usually a ray starting at the center of the wrist and pointing at the middle finger, but it may be based on other pose keypoints as a substitute.
 
 #### `MLHandUpdate.rotation : Float32Array(4)`
 
 The rotation of the hand pose detected in world space, as a world quaternion. The rotation is defined as pointing in the direction of the base of the middle finger.
 
-#### `MLHandUpdate.bones : MLHandBone[2][5][3]`
+#### `MLHandUpdate.wrist : Float32Array[3][3]`
+
+The detected wrist bone position, each as a Float32Array(3) vector vector in world space. The order is:
+
+- `center`
+- `radial`
+- `ulnar`
+
+#### `MLHandUpdate.fingers : Float32Array[2][5][4][3]`
 
 The detected hand finger bone positions. The order is right-handed, left-to-right, bottom-to-top:
 
 ```
-handUpdate.bones[0][0][0] // left (0) thumb (0) base (0)
-handUpdate.bones[1][0][2] // right (1) thumb (0) tip (2)
-handUpdate.bones[1][1][3] // right (1) pointer (1) tip (3)
-handUpdate.bones[0][4][3] // left (0) pinkie (4) tip (3)
+handUpdate.bones[0][0][0] // left (0) thumb (0) base (0) as a Float32Array(3) vector
+handUpdate.bones[1][0][2] // right (1) thumb (0) tip (2) as a Float32Array(3) vector
+handUpdate.bones[1][1][3] // right (1) pointer (1) tip (3) as a Float32Array(3) vector
+handUpdate.bones[0][4][3] // left (0) pinkie (4) tip (3) as a Float32Array(3) vector
 ```
 
-Note that the thumb has one less bone than the other fingers.
+#### `MLHandUpdate.gesture : String`
 
-### `MLHandBone`
+The current gesture pose of the hand. One of:
 
-A single hand bone detected by the hand pose tracking system.
+- `null` (no gesture detected)
+- `'finger'`
+- `'fist'`
+- `'pinch'`
+- `'thumb'`
+- `'l'`
+- `'openHandBack'`
+- `'ok'`
+- `'c'`
 
-#### `MLHandBone.position : Float32Array(3)`
+##### Notes:
 
-The center of the hand pose detected in world space, as a vector.
+- A bone may be `null`, which means it is not currently detected.
+- The thumb has one less bone than the other fingers.
 
-#### `MLHandBone.rotation : Float32Array(4)`
+### `MLTransform`
 
-The rotation of the hand pose detected in world space, as a world quaternion. The rotation is defined as towards distal.
+A generic container for position/rotation data in world space.
+
+#### `MLTransform.position : Float32Array(3)`
+
+A three-component world position vector.
+
+#### `MLTransform.rotation : Float32Array(4)`
+
+A four-component world quaternion.
 
 ### `MLEyeTracker`
 
@@ -155,15 +199,11 @@ Both eyes are present in all updates.
 
 A single eye state as detected by the platform.
 
-### `MLEye.fixation : Float32Array(3)`
+### `MLEye.position : Float32Array(3)`
 
-The 3D world position of the combined eyes fixation.
+The world position of the eye origin as a vector.
 
-The fixation value is the same for both eyes, since it is sourced from both eyes.
-
-### `MLEye.origin : Float32Array(3)`
-
-The world position of the eye origin as a vector. This is the origin position of the eye, not where it is looking.
+> Do not use this for checking where the eye is looking; that is what `fixation` is for.
 
 ### `MLEye.rotation : Float32Array(4)`
 
@@ -173,7 +213,7 @@ The rotation of the eye origin as a world quaternion.
 
 ### `MLEye.blink : Boolean`
 
-Whether this eye is currently blinking closed (`true`) or not (`false`).
+Whether this eye is currently closed (`true`) or open (`false`).
 
 ## Endpoints
 
@@ -181,7 +221,7 @@ Whether this eye is currently blinking closed (`true`) or not (`false`).
 
 Returns an instance of `MLMesher`, which can be used to receive world meshing buffer updates from the Magic Leap platform.
 
-#### `browser.magicleap.RequestPlaneTracker() : MLPlaneTracker`
+#### `browser.magicleap.RequestPlaneTracking() : MLPlaneTracker`
 
 Returns an instance of `MLPlaneTracker`, which can be used to receive world planes detected by the Magic Leap platform.
 
@@ -193,7 +233,7 @@ Returns an instance of `MLHandTracker`, which can be used to receive hand tracki
 
 Returns an instance of `MLEyeTracker`, which can be used to receive eye tracking data from the Magic Leap platform.
 
-#### `browser.magicleap.PopulateDepth(populateDepth : Boolean)`
+#### `browser.magicleap.RequestDepthPopulation(populateDepth : Boolean)`
 
 Sets whether the render loop will populate the depth buffer by using the meshing subsystem.
 
