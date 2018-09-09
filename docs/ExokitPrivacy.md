@@ -1,5 +1,5 @@
 ---
-id: ExoportPrivacy
+id: ExokitPrivacy
 title: Exokit Products Privacy Policy
 sidebar_label: Privacy Policy
 ---

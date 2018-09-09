@@ -1,6 +1,6 @@
 ---
-id: ExoportTerms
-title: Exoport Extension Terms & Conditions
+id: ExokitTerms
+title: Exokit Products Terms & Conditions
 sidebar_label: Terms & Conditions
 ---
 
