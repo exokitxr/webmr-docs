@@ -14,7 +14,7 @@ This privacy policy discloses the privacy practices for Exokit products. This pr
 ## Information Collection, Use, and Sharing 
 We are the sole owners of the information collected on Exokit products. We only have access to/collect information that you voluntarily give us via sign-up or other direct contact from you. We will not sell or rent this information to anyone.
 
-We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
+We track a unique identifier number in product builds to get better insight of how users use Exokit products. We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
 
 Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.
 
