@@ -4,7 +4,7 @@
     "Quickstart": ["startHere", "installation", "startExokitEngine", "startDevelopment"],
     "Guides": ["useExokitEngine", "devExokitEngine"],
     "Community": ["community"],
-    "Exoport Extension": ["ExoportTerms", "ExoportPrivacy"]
+    "Exokit Products": ["ExoportTerms", "ExoportPrivacy"]
   },
   "sdk": {
     "Introduction": ["SDKLanding"],
