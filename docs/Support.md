@@ -12,6 +12,8 @@ Check out our [blog](https://medium.com/webmr) for weekly updates on all we are 
 
 # Support
 
+Post on our [Forum](https://forum.webmr.io/).
+
 Join Our [Slack](https://exoslack.now.sh/).
 
 Follow Exokit on [Twitter](https://twitter.com/webmixedreality)!
