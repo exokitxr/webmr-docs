@@ -10,7 +10,7 @@ sidebar_label: Start Here
  <a href="/docs/browserReality.html">
    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/usingexokitbrowser.jpg" alt="Diagram of Exokit apps"/>
  </a>
- <a href="/docs/workExokitEngine.html">
+ <a href="/docs/useExokitEngine.html">
    <img src="https://cdn.rawgit.com/webmixedreality/webmr-docs/media-upload/website/static/media/exokitmediacopy/HaxingExokit.jpg" alt="Diagram of haxing on Exokit Engine"/>
  </a>
 
