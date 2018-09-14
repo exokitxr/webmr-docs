@@ -148,7 +148,7 @@ const LearnHow = props => (
   <Block>
     {[
       {
-        content: 'Learn how to get started developing with Exokit with out comprehensive documentation.',
+        content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
         image: imgUrl('user-graduate.svg'),
         imageAlign: 'right',
         className: 'featureIcon',
