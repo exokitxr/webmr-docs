@@ -8,7 +8,7 @@ sidebar_label: Resources and Support
 Explore the various projects on [GitHub.](https://github.com/webmixedreality)
 
 # Blog
-Check out our [blog](https://medium.com/webmr) for weekly updates on all we are doing as well as any big announcements or changes.
+Check out our [blog](https://webmr.io/blog) for weekly updates on all we are doing as well as any big announcements or changes.
 
 # Support
 
