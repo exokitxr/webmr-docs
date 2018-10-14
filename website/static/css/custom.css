@@ -11,6 +11,10 @@
 body {
   overflow-x: hidden;
 }
+.headerTitleWithLogo {
+  display: none;
+  color: black;
+}
 .navPusher{
   padding-top: 120px;
 }
@@ -32,7 +36,7 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .fixedHeaderContainer, .fixedHeaderContainer{
-  background-color: #202020;
+  background-color: black;
   color: white;
 }
 .navSearchWrapper .aa-dropdown-menu{
@@ -84,7 +88,7 @@ a, a:hover{
   border-bottom-color: #00B49B;
 }
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
-  padding-bottom: 35px;
+  padding-bottom: 20px;
   margin-top: 10px;
 }
 .navigationSlider .slidingNav ul li a:hover{
@@ -93,15 +97,15 @@ a, a:hover{
 }
 
 .fixedHeaderContainer{
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top:10px;
   border-bottom: black 1px solid;
 }
 .siteNavGroupActive .siteNavItemActive{
   border-bottom-color: #00B49B;
 }
 .fixedHeaderContainer header img{
-  height: 160%;
+  height: 70%;
 }
 .productShowcaseSection h2{
   color: inherit;
@@ -138,10 +142,13 @@ a, a:hover{
 
 @media (max-width: 480px) {
   .headerTitleWithLogo {
-    display: block !important;
+    display: none;
   }
 }
 @media only screen and (max-width: 450px){ /* up to cellphone screen */
+  .docsNavContainer{
+    margin-top: -25px;
+}
   .homeContainer .projectTitle{
     padding-top: 20px;
     margin-top: 0;
@@ -188,13 +195,13 @@ a, a:hover{
     font-weight: 500;
   }
   .fixedHeaderContainer header img{
-    height: 110%;
+    height: 70%;
   }
   .navigationSlider .slidingNav ul{
-    margin-top: 60px;
+    margin-top: 45px;
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
-    background: #202020;
+    background: black;
     border-bottom-color: #00B49B;
   }
   .fixedHeaderContainer header .headerTitleWithLogo{
@@ -203,11 +210,11 @@ a, a:hover{
     padding-bottom: 10px;
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 0px;
   }
   .navigationSlider .slidingNav ul{
-    background: #202020;
+    background: black;
   }
   .fixedHeaderContainer ul, ol{
     margin: 0;
