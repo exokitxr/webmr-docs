@@ -33,6 +33,14 @@ const users = [
     image: '/img/expanseLogo.jpg',
     infoLink: 'https://theexpanse.app/',
     pinned: true,
+  },
+  {
+    caption: 'Active Theory',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/img/activetheory.jpeg',
+    infoLink: 'https://xr.activetheory.net/',
+    pinned: true,
   }
 ];
 
