@@ -15,6 +15,10 @@ body {
   display: none;
   color: black;
 }
+.nav-footer {
+  display: none;
+  color: black;
+}
 .navPusher{
   padding-top: 120px;
 }
