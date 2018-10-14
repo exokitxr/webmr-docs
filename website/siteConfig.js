@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ExokitLogo.png',
-    infoLink: 'https://exokit.webmr.io/',
+    infoLink: 'https://webmr.io/',
     pinned: true,
   },
   {
@@ -39,8 +39,8 @@ const users = [
 const siteConfig = {
   title: 'Exokit' /* title for your website */,
   tagline: `Post-screen web engine for AR/VR, written in Javascript.`,
-  url: 'https://docs.webmr.io' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  url: 'https://webmr.io' /* your website url */,
+  baseUrl: '/doc/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -48,7 +48,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: 'webmr-docs',
   organizationName: 'webmixedreality',
-  cname: 'docs.webmr.io',
+  cname: 'webmr.io',
   stylesheets: [
     'https://pro.fontawesome.com/releases/v5.1.0/css/all.css'
   ],
