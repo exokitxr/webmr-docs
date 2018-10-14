@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ExokitLogo.png',
-    infoLink: 'https://exokit.webmr.io/',
+    infoLink: 'https://webmr.io/',
     pinned: true,
   },
   {
@@ -58,10 +58,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {href: 'https://webmr.io', label: 'Home' },
     {doc: 'exokitEngine', label: 'Docs'},
     {doc: 'SDKLanding', label: 'SDK'},
     {page: 'help', label: 'Help'},
-    {href: 'https://medium.com/webmr', label: 'Blog' },
     { search: true }
   ],
 
