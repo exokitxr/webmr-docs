@@ -8,7 +8,7 @@ sidebar_label: Community Links
 The main GitHub repository is [here](https://github.com/webmixedreality/exokit).
 
 # Blog
-We post announcements and updates to our [blog](https://medium.com/webmr).
+We post announcements and updates to our [blog](https://webmr.io/blog).
 
 # Support
 

@@ -66,10 +66,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {href: 'https://webmr.io/', label: 'Home' },
     {doc: 'exokitEngine', label: 'Docs'},
     {doc: 'SDKLanding', label: 'SDK'},
     {page: 'help', label: 'Help'},
-    {href: 'https://medium.com/webmr', label: 'Blog' },
+    {href: 'https://webmr.io/blog', label: 'Blog' },
     { search: true }
   ],
 
