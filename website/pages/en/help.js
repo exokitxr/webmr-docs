@@ -30,7 +30,7 @@ class Help extends React.Component {
         title: 'Browse the Docs',
       },
       {
-	      content: `[Ask questions](${docUrl('Support.html')}) about the documentation and project. Stay up to date and find out [what is new](https://medium.com/webmr) with the project.`,
+	      content: `[Ask questions](${docUrl('Support.html')}) about the documentation and project. Stay up to date and find out [what is new](https://webmr.io/blog) with the project.`,
         title: 'Join the community',
       },
       {

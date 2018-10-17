@@ -74,7 +74,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://medium.com/webmr">Blog</a>
+            <a href="https://webmr.io/blog">Blog</a>
             <a href="https://www.facebook.com/webmixedreality/">Facebook</a>
             <a href="https://www.instagram.com/exokitbrowser/?hl=en">Instagram</a>
             <a href="https://github.com/webmixedreality/exokit">GitHub</a>
