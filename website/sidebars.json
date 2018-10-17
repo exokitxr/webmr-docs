@@ -3,8 +3,10 @@
     "Overview": ["exokitEngine", "exokitApps", "benchmarks", "architecture", "techIntegrations"],
     "Quickstart": ["startHere", "installation", "useExokitEngine"],
     "Guides": ["devExokitEngine"],
-    "Community": ["community"],
-    "Exokit Products": ["ExokitTerms", "ExokitPrivacy"]
+    "Community": ["community"]
+  },
+  "legal": {
+    "Legal": ["ExokitTerms", "ExokitPrivacy"]
   },
   "sdk": {
     "Introduction": ["SDKLanding", "startDevelopment"],
