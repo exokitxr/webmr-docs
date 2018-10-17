@@ -8,6 +8,11 @@
 .projectTitle{
   color: #202020;
 }
+.userPics{
+  border-radius: 200px;
+  display:block;
+  margin:auto;
+}
 .iframe{
   overflow: hidden;
   pointer-events:none;

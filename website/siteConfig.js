@@ -58,7 +58,8 @@ const siteConfig = {
   organizationName: 'webmixedreality',
   cname: 'docs.webmr.io',
   stylesheets: [
-    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css'
+    'https://pro.fontawesome.com/releases/v5.1.0/css/all.css',
+    './static/css/bootstrap.min.css'
   ],
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -126,7 +127,10 @@ const siteConfig = {
     'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js',
     '/BenchGraph.js',
     'https://www.googletagmanager.com/gtag/js?id=UA-125030796-1',
-    '/googleAnalytics.js'
+    '/googleAnalytics.js',
+    'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'
   ],
 
   /* On page navigation for the current documentation page */
