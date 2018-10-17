@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Overview": ["exokitEngine", "exokitApps", "benchmarks", "architecture", "techIntegrations"],
-    "Quickstart": ["startHere", "installation", "useExokitEngine"],
+    "Overview": ["exokitEngine", "benchmarks", "architecture", "techIntegrations"],
+    "Quickstart": ["startHere", "installation", "useExokitEngine", "exokitApps"],
     "Guides": ["devExokitEngine"],
     "Community": ["community"]
   },
