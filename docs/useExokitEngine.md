@@ -6,7 +6,7 @@ sidebar_label: Running an App
 
 ## Visual guide
 
-<video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/master/website/static/media/exokitmediacopy/ExokitBrowserHowto.mp4" width='100%' controls />
+<video src="https://cdn.rawgit.com/webmixedreality/webmr-docs/master/website/static/media/exokitmediacopy/ExokitBrowserHowto.mp4" width='100%' controls></video>
 
 ## Where do I get Exokit Engine?
 
