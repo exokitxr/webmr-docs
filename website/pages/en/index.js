@@ -46,6 +46,8 @@ Button.defaultProps = {
 
 const SplashContainer = props => (
   <div className="homeContainer">
+    <iframe src="https://chriseddy.github.io/exogon-threejs-rotate/webgl_loader_fbx.html"
+            width="100%" height="600px" scrolling="no" className='iframe'/>
     <div className="homeSplashFade">
       <div className="wrapper homeWrapper">{props.children}</div>
     </div>
@@ -213,6 +215,8 @@ const Showcase = props => {
     </div>
   );
 };
+
+
 
 class Index extends React.Component {
   render() {

@@ -8,11 +8,21 @@
 .projectTitle{
   color: #202020;
 }
+.iframe{
+  overflow: hidden;
+  pointer-events:none;
+}
+.homeSplashFade{
+  position:absolute; top:150px; right: 0; left: 0; z-index:2;
+}
+.projectTitle{
+  color: #202020;
+}
+.promoSection{
+  padding-top: 250px;
+}
 body {
   overflow-x: hidden;
-}
-.navPusher{
-  padding-top: 120px;
 }
 .fixedHeaderContainer ul, ol{
   margin: 2px;
@@ -26,6 +36,12 @@ body {
 @media only screen and (max-width: 1024px) {
   .reactNavSearchWrapper input#search_input_react:focus{
     background-color: rgba(0, 0, 0, 0.2);
+  }
+  .navPusher{
+    padding-top: 120px;
+  }
+  .post{
+    padding-top: 30px;
   }
 }
 .reactNavSearchWrapper input#search_input_react{
@@ -121,9 +137,6 @@ a, a:hover{
   /*background: linear-gradient(10deg, rgba(79, 206, 101, 0.4), rgba(2, 188, 159, 0.51), rgba(9, 141, 139, 0.51));*/
   min-height: 40vh;
 }
-.homeContainer .projectTitle{
-  padding-top: 6vh;
-}
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
   background-color: inherit;
 }
@@ -178,6 +191,15 @@ a, a:hover{
 }
 
 @media only screen and (max-width: 1023px) {
+  .homeSplashFade{
+    position:absolute; top:190px; right: 0; left: 0; z-index:2;
+  }
+  .projectTitle{
+    margin: 0.3em 0;
+  }
+  .promoSection{
+    padding-top: 255px;
+  }
   .navSearchWrapper .aa-dropdown-menu{
     min-height: 40vh;
   }
@@ -297,3 +319,4 @@ article p img{
 .navSearchWrapper .aa-dropdown-menu .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight{
   background-color: rgba(0, 180, 155, 0.58);
 }
+
