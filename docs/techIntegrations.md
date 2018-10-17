@@ -25,6 +25,6 @@ Here are the main web specifications and third-party libraries implemented in Ex
 | Node       | Native | [Node](https://nodejs.org/en/docs/) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/node ) |
 | OpenVR     | Native | [OpenVR](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) | [Source]( https://github.com/webmixedreality/exokit/tree/master/deps/openvr) |
 | OVR        | Native | [OVR from Oculus](https://developer.oculus.com/) | [Source]( https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings) |
-| MLSDK      | Native | [Magic Leap SDK](https://www.magicleap.com/creator) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/magicleap ) |
+| Magic Leap SDK      | Native | [Magic Leap SDK](https://www.magicleap.com/creator) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/magicleap ) |
 | Leap Motion| Native | [Leap Motion Orion](https://developer.leapmotion.com/orion/) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/leapmotion ) |
 | Chromium   | Native | [Chromium](https://www.chromium.org/developers) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings ) |
