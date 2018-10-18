@@ -43,6 +43,17 @@ body {
 .homeContainer {
   padding-bottom: 50px;
 }
+.blockContent a {
+  font-size: 1.5em;
+}
+.block
+.blockContent p {
+  font-size: 1.1em;
+}
+.blockImage img {
+  height: 100%;
+  height: 100%;
+}
 @media only screen and (max-width: 1024px) {
   .reactNavSearchWrapper input#search_input_react:focus{
     background-color: rgba(0, 0, 0, 0.2);
@@ -70,8 +81,11 @@ body {
   padding-top: 10px;
 }
 .gridBlock .fourByGridBlock img{
-  max-height: 90px;
-  width: auto;
+  max-height: 120px;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .toc .toggleNav ul li.navListItemActive a{
   color: #00B49B;
@@ -148,9 +162,8 @@ a, a:hover{
 }
 
 .imageAlignTop .blockImage{
-  max-width: 200px;
+  max-width: 500px;
 }
-
 .gridBlock .twoByGridBlock img{
   max-width: 35%;
 }
@@ -187,6 +200,12 @@ a, a:hover{
   }
   .aa-cursor .algolia-docsearch-suggestion--content, .algolia-docsearch-suggestion--content{
     height: auto !important;
+  }
+  .gridBlock .fourByGridBlock img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1024px) {
