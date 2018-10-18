@@ -60,6 +60,13 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <h2 className="projectTitle">
+    {siteConfig.title}
+    <small>{siteConfig.tagline}</small>
+  </h2>
+);
+
+const SmallProjectTitle = props => (
+  <h2 className="projectTitle">
     Start building the metaverse
     <small>Learn about Exokit engine, the SDK, and supporting apps.</small>
   </h2>
@@ -79,7 +86,7 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         <div className="inner">
-          <ProjectTitle />
+          <SmallProjectTitle />
           {/*
           <PromoSection>
             <Button href="https://get.webmr.io">Download</Button>
@@ -101,24 +108,24 @@ const Block = props => (
   </Container>
 );
 
-const Features = props => (
+const DocsOverview = props => (
   <Block layout="fourColumn">
     {[
       {
         content: 'Read more about the Exokit engine, its philosophy, and technical foundation.',
-        image: imgUrl('patterns/pattern0.jpg'),
+        image: imgUrl('patterns/isoExokitLogo.png'),
         imageAlign: 'top',
         title: '<a href="/docs/exokitEngine.html"><h3>What is Exokit?</h3></a>',
       },
       {
         content: 'Learn how to install and run experiences on Exokit.',
-        image: imgUrl('patterns/pattern1.jpg'),
+        image: imgUrl('patterns/isoPointer.png'),
         imageAlign: 'top',
         title: '<a href="/docs/installation.html"><h3>Getting started</h3></a>',
       },
       {
         content: 'Learn how to build experiences using the CLI and the SDK.',
-        image: imgUrl('patterns/pattern2.jpg'),
+        image: imgUrl('patterns/isoBlock.png'),
         imageAlign: 'top',
         title: '<a href="/docs/sdk.html"><h3>Development guide</h3></a>',
       },
@@ -126,24 +133,24 @@ const Features = props => (
   </Block>
 );
 
-const Features2 = props => (
+const DocsOverview2 = props => (
   <Block layout="fourColumn">
     {[
       {
         content: 'Learn about the Web APIs and what you can do with it.',
-        image: imgUrl('patterns/pattern3.jpg'),
+        image: imgUrl('patterns/isoWeb.png'),
         imageAlign: 'top',
         title: '<a href="/docs/webAPIs.html"><h3>Web APIs</h3></a>',
       },
       {
         content: 'Learn about the native APIs and what you can do with it.',
-        image: imgUrl('patterns/pattern6.jpg'),
+        image: imgUrl('patterns/isoBox.png'),
         imageAlign: 'top',
         title: '<a href="/docs/nativeAPIs.html"><h3>Native APIs</h3></a>',
       },
       {
         content: 'Connect with the community, find updates with the latest changes.',
-        image: imgUrl('patterns/pattern5.jpg'),
+        image: imgUrl('patterns/isoExokid.png'),
         imageAlign: 'top',
         title: '<a href="/docs/support.html"><h3>Support</h3></a>',
       },
@@ -151,7 +158,46 @@ const Features2 = props => (
   </Block>
 );
 
+/*
+const Features = props => (
+  <Block layout="fourColumn" background="light">
+    {[
+      {
+        content: 'Enjoy the eco-system of the web in VR/AR development',
+        image: imgUrl('node-js-brands.svg'),
+        imageAlign: 'top',
+        title: 'Built in Javascript',
 
+      },
+      {
+        content: 'Built without the overhead of Chrome\'s bloated packages.',
+        image: imgUrl('tachometer-alt.svg'),
+        imageAlign: 'top',
+        title: 'Faster than Chrome at 3D VR/AR',
+      },
+    ]}
+  </Block>
+
+const FeatureCallout = props => (
+    <GridBlock align="center" layout="threeColumn" className="featuresRow"
+      contents ={[
+        {
+          image: imgUrl('credit-card-front.svg'),
+          imageAlign: 'top',
+          title: 'Payment API',
+         },
+        {
+          image: imgUrl('users.svg'),
+          imageAlign: 'top',
+          title: 'Multiplayer Infrastructure',
+        },
+        {
+          image: imgUrl('hdd.svg'),
+          imageAlign: 'top',
+          title: 'Storage System API',
+        },
+      ]}
+    />
 
 const LearnHow = props => (
   <Block layout="fourColumn">
@@ -206,6 +252,7 @@ const Description = props => (
     ]}
   </Block>
 );
+*/
 
 const Showcase = props => {
   if ((siteConfig.users || []).length === 0) {
@@ -245,8 +292,8 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          <Features />
-          <Features2 />
+          <DocsOverview />
+          <DocsOverview2 />
           {/*<FeatureCallout />
             <LearnHow />
             <TryOut />
