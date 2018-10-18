@@ -67,7 +67,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'exokitEngine', label: 'Docs'},
-    {doc: 'SDKLanding', label: 'SDK'},
+    {doc: 'sdk', label: 'SDK'},
     {href: '/docs/community.html', label: 'Help' },
     {href: 'https://webmr.io/blog', label: 'Blog' },
     {href: 'https://webmr.io/', label: 'Exokit' },
