@@ -126,7 +126,8 @@ const siteConfig = {
     'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js',
     '/BenchGraph.js',
     'https://www.googletagmanager.com/gtag/js?id=UA-125030796-1',
-    '/googleAnalytics.js'
+    '/googleAnalytics.js',
+    '/mixpanel.js'
   ],
 
   /* On page navigation for the current documentation page */
