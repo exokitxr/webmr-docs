@@ -105,7 +105,7 @@ const Features = props => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'Read more about the Exokit engine, its philosophy, and technical foundaiton.',
+        content: 'Read more about the Exokit engine, its philosophy, and technical foundation.',
         image: imgUrl('patterns/pattern0.jpg'),
         imageAlign: 'top',
         title: '<a href="/docs/exokitEngine.html"><h3>What is Exokit?</h3></a>',
