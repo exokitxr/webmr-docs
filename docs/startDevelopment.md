@@ -1,10 +1,10 @@
 ---
-id: startDevelopment 
-title: Setting up a Development Environment
-sidebar_label: Development
+id: startDevelopment
+title: Set up a Development Environment
+sidebar_label: Set up a Development Environment
 ---
 
- <img src="http://via.placeholder.com/800x300" alt="Diagram of engine cloned from Github, running on machine with some code view, and machine linked to various devices"/>
+ <img src="http://via.placeholder.com/800x300" alt="Diagram of engine cloned from GitHub, running on machine with some code view, and machine linked to various devices"/>
 
 The main project repository is at [`webmixedreality/exokit`](https://github.com/webmixedreality/exokit). You can clone it the regular way:
 
@@ -108,5 +108,3 @@ Pull Requests are very much welcome as well.
 #### Troubleshooting
 
 - `<SkImage.h> not found`, or a missing header: this means a prebuilt dependency did not extract. Clear your `npm`/`yarn` cache, `rm -Rf node_modules` and `npm install` again.
-
-
