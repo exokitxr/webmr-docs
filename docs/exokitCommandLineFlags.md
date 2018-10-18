@@ -1,7 +1,7 @@
 ---
 id: exokitCommandLineFlags
 title: Exokit Command Line Flags
-sidebar_label: Exokit CLI Flags
+sidebar_label: Exokit Command Line Flags
 ---
 
 An example of how to use these flags:
