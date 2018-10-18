@@ -68,7 +68,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'exokitEngine', label: 'Docs'},
     {doc: 'sdk', label: 'SDK'},
-    {href: '/docs/community.html', label: 'Help' },
+    {href: '/docs/support.html', label: 'Help' },
     {href: 'https://webmr.io/blog', label: 'Blog' },
     {href: 'https://webmr.io/', label: 'Exokit' },
     { search: true }
