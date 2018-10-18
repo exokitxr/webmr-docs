@@ -60,8 +60,8 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <h2 className="projectTitle">
-    {siteConfig.title}
-    <small>{siteConfig.tagline}</small>
+    Start building the metaverse
+    <small>Learn about Exokit engine, the SDK, and supporting apps.</small>
   </h2>
 );
 
@@ -80,10 +80,12 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle />
+          {/*
           <PromoSection>
             <Button href="https://get.webmr.io">Download</Button>
             <Button href={docUrl('startHere.html', language)}>Get Started</Button>
           </PromoSection>
+          */}
         </div>
       </SplashContainer>
     );
@@ -100,53 +102,74 @@ const Block = props => (
 );
 
 const Features = props => (
-  <Block layout="fourColumn" background="light">
+  <Block layout="fourColumn">
     {[
       {
-        content: 'Enjoy the eco-system of the web in VR/AR development',
-        image: imgUrl('node-js-brands.svg'),
+        content: 'Read more about the Exokit engine, its philosophy, and technical foundaiton.',
+        image: imgUrl('patterns/pattern0.jpg'),
         imageAlign: 'top',
-        title: 'Built in Javascript',
-
+        title: '<a href="/docs/exokitEngine.html"><h3>What is Exokit?</h3></a>',
       },
       {
-        content: 'Built without the overhead of Chrome\'s bloated packages.',
-        image: imgUrl('tachometer-alt.svg'),
+        content: 'Learn how to install and run experiences on Exokit.',
+        image: imgUrl('patterns/pattern1.jpg'),
         imageAlign: 'top',
-        title: 'Faster than Chrome at 3D VR/AR',
+        title: '<a href="/docs/installation.html"><h3>Getting started</h3></a>',
+      },
+      {
+        content: 'Learn how to build experiences using the CLI and the SDK.',
+        image: imgUrl('patterns/pattern2.jpg'),
+        imageAlign: 'top',
+        title: '<a href="/docs/sdk.html"><h3>Development guide</h3></a>',
       },
     ]}
   </Block>
 );
 
-/*
-const FeatureCallout = props => (
-    <GridBlock align="center" layout="threeColumn" className="featuresRow"
-      contents ={[
-        {
-          image: imgUrl('credit-card-front.svg'),
-          imageAlign: 'top',
-          title: 'Payment API',
-
-        },
-        {
-          image: imgUrl('users.svg'),
-          imageAlign: 'top',
-          title: 'Multiplayer Infrastructure',
-        },
-        {
-          image: imgUrl('hdd.svg'),
-          imageAlign: 'top',
-          title: 'Storage System API',
-        },
-      ]}
-    />
+const Features2 = props => (
+  <Block layout="fourColumn">
+    {[
+      {
+        content: 'Learn about the Web APIs and what you can do with it.',
+        image: imgUrl('patterns/pattern3.jpg'),
+        imageAlign: 'top',
+        title: '<a href="/docs/webAPIs.html"><h3>Web APIs</h3></a>',
+      },
+      {
+        content: 'Learn about the native APIs and what you can do with it.',
+        image: imgUrl('patterns/pattern6.jpg'),
+        imageAlign: 'top',
+        title: '<a href="/docs/nativeAPIs.html"><h3>Native APIs</h3></a>',
+      },
+      {
+        content: 'Connect with the community, find updates with the latest changes.',
+        image: imgUrl('patterns/pattern5.jpg'),
+        imageAlign: 'top',
+        title: '<a href="/docs/support.html"><h3>Support</h3></a>',
+      },
+    ]}
+  </Block>
 );
-*/
+
+
 
 const LearnHow = props => (
-  <Block>
+  <Block layout="fourColumn">
     {[
+      {
+        content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
+        image: imgUrl('user-graduate.svg'),
+        imageAlign: 'right',
+        className: 'featureIcon',
+        title: 'Learn How',
+      },
+      {
+        content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
+        image: imgUrl('user-graduate.svg'),
+        imageAlign: 'right',
+        className: 'featureIcon',
+        title: 'Learn How',
+      },
       {
         content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
         image: imgUrl('user-graduate.svg'),
@@ -223,10 +246,13 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          {/*<FeatureCallout />*/}
-          <LearnHow />
-          <TryOut />
-          <Description />
+          <Features2 />
+          {/*<FeatureCallout />
+            <LearnHow />
+            <TryOut />
+            <Description />
+            */}
+
           <Showcase language={language} />
         </div>
       </div>
