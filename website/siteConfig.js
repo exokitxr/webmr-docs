@@ -30,7 +30,7 @@ const users = [
     caption: 'The Expanse',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/expanseLogo.jpg',
+    image: '/img/expanseLogo.png',
     infoLink: 'https://theexpanse.app/',
     pinned: true,
   },
@@ -38,7 +38,7 @@ const users = [
     caption: 'Active Theory',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/activetheory.jpeg',
+    image: '/img/activetheory.png',
     infoLink: 'https://xr.activetheory.net/',
     pinned: true,
   }
