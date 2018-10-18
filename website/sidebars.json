@@ -1,16 +1,17 @@
 {
   "docs": {
     "Overview": ["exokitEngine", "benchmarks", "architecture", "techIntegrations"],
-    "Quickstart": ["startHere", "installation", "useExokitEngine", "exokitApps"],
-    "Guides": ["devExokitEngine"],
-    "Community": ["community"]
+    "Quickstart": ["installation", "useExokitEngine", "exokitApps"],
+    "Community": ["contribute", "support"]
   },
   "legal": {
-    "Legal": ["ExokitTerms", "ExokitPrivacy"]
+    "Legal": ["terms", "privacy"]
   },
   "sdk": {
-    "Introduction": ["SDKLanding", "startDevelopment"],
-    "Using the SDK": ["CommandLine", "Flags"],
-    "API docs": ["MagicLeapAPI", "API", "Integrations", "BetaAPIs", "FutureIntegrations"]
+    "Exokit SDK": ["sdk"],
+    "Using the SDK": ["startDevelopment", "exokitCommandLine", "exokitCommandLineFlags"],
+    "Guides": ["devExokitEngine"],
+    "Web APIs": ["webAPIs", "experimentalWebAPIs"],
+    "Native APIs": ["nativeAPIs", "MagicLeapAPI", "nativeFutureIntegrations"]
   }
 }
