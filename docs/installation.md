@@ -18,12 +18,12 @@ MacOS Gatekeeper sometimes blocks new apps from running. To get around that, you
 
 ## Linux notes
 
-You'll [need additional libraries installed](https://docs.webmr.io/docs/startDevelopment.html#linux-dependencies) for the Linux build to run.
+You'll [need additional libraries installed](startDevelopment.html#linux-dependencies) for the Linux build to run.
 
 ## Alternate releases
 
-[Github Releases](https://github.com/webmixedreality/exokit/releases) has every alternate and past release.
+[GitHub Releases](https://github.com/webmixedreality/exokit/releases) has every alternate and past release.
 
-> The Exokit installer just grabs the latest release from Github.
+> The Exokit installer just grabs the latest release from GitHub.
 
-The releases are built on every version update of the [Github repository](https://github.com/webmixedreality/exokit).
+The releases are automatically built on every version update of the [GitHub repository](https://github.com/webmixedreality/exokit).
