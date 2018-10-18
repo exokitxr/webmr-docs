@@ -4,8 +4,6 @@ title: Set up a Development Environment
 sidebar_label: Set up a Development Environment
 ---
 
- <img src="http://via.placeholder.com/800x300" alt="Diagram of engine cloned from GitHub, running on machine with some code view, and machine linked to various devices"/>
-
 The main project repository is at [`webmixedreality/exokit`](https://github.com/webmixedreality/exokit). You can clone it the regular way:
 
 ```
@@ -87,9 +85,8 @@ After the above you should be able to use `chrome://inspect` in the Chrome brows
 1. Capture heap snapshots
 1. Capture CPU profiles of live sites
 
-#### Example session
+<!-- #### Example session -->
 
- <img src="http://via.placeholder.com/800x300" alt="Example gif or video running the above procedure"/>
 
 #### Wait for attach
 
