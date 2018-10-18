@@ -48,8 +48,8 @@ class Footer extends React.Component {
             <a href={this.docUrl('devExokitEngine.html', this.props.language)}>
               Dev Guides
             </a>
-            <a href={this.docUrl('community.html', this.props.language)}>
-              Extras
+            <a href={this.docUrl('terms.html', this.props.language)}>
+              Legal
             </a>
           </div>
           <div>

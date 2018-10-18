@@ -74,7 +74,7 @@ Since Exokit supports anything that runs on the web, it powers experiences built
 
   Yes.
   
-  We use an npm module for HTML parsing, then resurrected an old OpenGL binding from Github, took WebAudio extracted out of Chrome, and so on. We glued it together and wrote a custom binding for the HTML and Javascript that powers your web site.
+  We use an npm module for HTML parsing, then resurrected an old OpenGL binding from GitHub, took WebAudio extracted out of Chrome, and so on. We glued it together and wrote a custom binding for the HTML and Javascript that powers your web site.
 
   # What platforms are supported?
 
@@ -88,4 +88,4 @@ Since Exokit supports anything that runs on the web, it powers experiences built
 
   # Can I use it?
 
-  Sure! It's [open source on Github](https://github.com/webmixedreality/exokit). You can also embed it since [it's a node module](https://github.com/webmixedreality/exokit/blob/master/package.json).
+  Sure! It's [open source on GitHub](https://github.com/webmixedreality/exokit). You can also embed it since [it's a node module](https://github.com/webmixedreality/exokit/blob/master/package.json).

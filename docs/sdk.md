@@ -1,7 +1,7 @@
 ---
-id: SDKLanding
+id: sdk
 title: Exokit SDK
-sidebar_label: Exokit SDK 
+sidebar_label: Introduction
 ---
 
 ## SDK Bundle
@@ -26,7 +26,7 @@ If the site uses [WebXR](https://immersive-web.github.io/webxr/), [WebGL](https:
 
 This means existing web documentation applies to Exokit as well.
 
-**Docs**: [Web APIs](API.md)
+**Read more at**: [Web APIs](webAPIs.md)
 
 ## Native integrations
 
@@ -47,4 +47,4 @@ browserWindow.on('paint', message => {
 });
 ```
 
-**Docs**: [Native integrations](Integrations.md)
+**Read more at**: [Native APIs](nativeAPIs.md)

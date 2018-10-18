@@ -1,22 +1,22 @@
 ---
-id: ExokitTerms
+id: terms
 title: Exokit Products Terms & Conditions
 sidebar_label: Terms & Conditions
 ---
 
 ## 1. Who May Use the Services
 You may use the Services only if you agree to form a binding contract with Exokit and are not a person barred from receiving services under the laws of the applicable jurisdiction. In any case, you must be at least 13 years old to use the Services.
- 
+
  If you are accepting these Terms and using the Services on behalf of a company, organization, government, or other legal entity, you represent and warrant that you are authorized to do so and have the authority to bind such entity to these Terms, in which case the words “you” and “your” as used in these Terms shall refer to such entity.
- 
+
  ## 2. Privacy
 You understand that through your use of the Services you consent to the collection and use (as set forth in the [Privacy Policy](privacyPolicy.md)) of this information, including the transfer of this information to the United States, Canada, and/or other countries for storage, processing and use by Exokit and its affiliates.
- 
+
  ## 3. Content on the Services
  You are responsible for your use of the Services and for any Content you provide, including compliance with applicable laws, rules, and regulations. You should only provide Content that you are comfortable sharing with others.
- 
+
  Any use or reliance on any Content or materials posted via the Services or obtained by you through the Services is at your own risk. We do not endorse, support, represent or guarantee the completeness, truthfulness, accuracy, or reliability of any Content or communications posted via the Services or endorse any opinions expressed via the Services. You understand that by using the Services, you may be exposed to Content that might be offensive, harmful, inaccurate or otherwise inappropriate, or in some cases, postings that have been mislabeled or are otherwise deceptive. All Content is the sole responsibility of the person who originated such Content. We may not monitor or control the Content posted via the Services and, we cannot take responsibility for such Content.
- 
+
  We reserve the right to remove Content that violates the User Agreement, including for example, copyright or trademark violations, impersonation, unlawful conduct, or harassment.
 
 ### Your Rights and Grant of Rights in the Content
@@ -32,9 +32,9 @@ You may use the Services only in compliance with these Terms and all applicable 
 Our Services evolve constantly. As such, the Services may change from time to time, at our discretion. We may stop (permanently or temporarily) providing the Services or any features within the Services to you or to users generally. We also retain the right to create limits on use and storage at our sole discretion at any time. We may also remove or refuse to distribute any Content on the Services and to suspend or terminate users.
 
 In consideration for Exokit granting you access to and use of the Services, you agree not to misuse our Services, for example, by interfering with them or accessing them using a method other than the interface and the instructions that we provide.
- 
+
  You may not do any of the following while accessing or using the Services: (i) access, tamper with, or use non-public areas of the Services, Exokit’s computer systems, or the technical delivery systems of Exokit’s providers; (ii) probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authentication measures; (iii) access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by Exokit (and only pursuant to the applicable terms and conditions), unless you have been specifically allowed to do so in a separate agreement with Exokit. (iv) forge any TCP/IP packet header or any part of the header information in any email or posting, or in any way use the Services to send altered, deceptive or false source-identifying information; or (v) interfere with, or disrupt, (or attempt to do so), the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, mail-bombing the Services, or by scripting the creation of Content in such a manner as to interfere with or create an undue burden on the Services. We also reserve the right to access, read, preserve, and disclose any information as we reasonably believe is necessary to (i) satisfy any applicable law, regulation, legal process or governmental request, (ii) enforce the Terms, including investigation of potential violations hereof, (iii) detect, prevent, or otherwise address fraud, security or technical issues, (iv) respond to user support requests, or (v) protect the rights, property or safety of Exokit, its users and the public. Exokit does not disclose personally-identifying information to third parties except in accordance with our [Privacy Policy](privacyPolicy.md).
- 
+
  ### Your Account
  You may need to create an account to use some of our Services. You are responsible for safeguarding your account, so use a strong password and limit its use to this account. We cannot and will not be liable for any loss or damage arising from your failure to comply with the above.
 
@@ -53,4 +53,3 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE EXOKIT ENTITIES SHALL NOT
 
 ### If you are outside the country
 By using the Services you agree that Exokit, its parents, affiliates, related companies, officers, directors, employees, agents representatives, partners and licensors, liability is limited to the maximum extent permissible in your country of residence.
-

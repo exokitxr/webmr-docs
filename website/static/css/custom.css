@@ -12,16 +12,47 @@ body {
   overflow-x: hidden;
 }
 .navPusher{
-  padding-top: 120px;
+  padding-top: 90px;
 }
 .fixedHeaderContainer ul, ol{
   margin: 2px;
 }
 .container.paddingTop{
-  padding-top: 0;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.container.paddingBottom{
+  padding-top: 50;
+  padding-bottom: 0;
+}
+.blockContent h2 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .navSearchWrapper{
   top: -8px;
+}
+.headerTitleWithLogo {
+  display: hidden;
+}
+.gridBlock {
+  max-width: 55%;
+  margin: auto;
+  width: 50%;
+}
+.homeContainer {
+  padding-bottom: 50px;
+}
+.blockContent a {
+  font-size: 1.5em;
+}
+.block
+.blockContent p {
+  font-size: 1.1em;
+}
+.blockImage img {
+  height: 100%;
+  height: 100%;
 }
 @media only screen and (max-width: 1024px) {
   .reactNavSearchWrapper input#search_input_react:focus{
@@ -40,19 +71,21 @@ body {
   color: white;
 }
 .gridBlock .twoByGridBlock img{
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .threeByGridBlock{
-  padding-top: 50px !important;
-  padding-bottom: 30px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 .imageAlignTop.alignCenter .blockImage{
-  padding-top: 50px;
-
+  padding-top: 10px;
 }
 .gridBlock .fourByGridBlock img{
-  max-height: 90px;
-  width: auto;
+  max-height: 120px;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .toc .toggleNav ul li.navListItemActive a{
   color: #00B49B;
@@ -84,7 +117,7 @@ a, a:hover{
   border-bottom-color: #00B49B;
 }
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
-  padding-bottom: 35px;
+  padding-bottom: 25px;
   margin-top: 10px;
 }
 .navigationSlider .slidingNav ul li a:hover{
@@ -93,15 +126,15 @@ a, a:hover{
 }
 
 .fixedHeaderContainer{
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   border-bottom: black 1px solid;
 }
 .siteNavGroupActive .siteNavItemActive{
   border-bottom-color: #00B49B;
 }
 .fixedHeaderContainer header img{
-  height: 160%;
+  height: 120%;
 }
 .productShowcaseSection h2{
   color: inherit;
@@ -118,20 +151,19 @@ a, a:hover{
   transition: background 0.3s, color 0.3s;
 }
 .homeContainer .homeWrapper{
-  /*background: linear-gradient(10deg, rgba(79, 206, 101, 0.4), rgba(2, 188, 159, 0.51), rgba(9, 141, 139, 0.51));*/
-  min-height: 40vh;
+  /* background: linear-gradient(10deg, rgba(79, 206, 101, 0.4), rgba(2, 188, 159, 0.51), rgba(9, 141, 139, 0.51)); */
+  height: 160px;
 }
 .homeContainer .projectTitle{
-  padding-top: 6vh;
+  padding-top: 0;
 }
 .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
   background-color: inherit;
 }
 
 .imageAlignTop .blockImage{
-  max-width: 100px;
+  max-width: 500px;
 }
-
 .gridBlock .twoByGridBlock img{
   max-width: 35%;
 }
@@ -169,6 +201,12 @@ a, a:hover{
   .aa-cursor .algolia-docsearch-suggestion--content, .algolia-docsearch-suggestion--content{
     height: auto !important;
   }
+  .gridBlock .fourByGridBlock img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .separateOnPageNav .docsNavContainer{
@@ -182,7 +220,7 @@ a, a:hover{
     min-height: 40vh;
   }
   .navSearchWrapper{
-    top: 23px;
+    top: 13px;
   }
   .navigationSlider .slidingNav ul li a{
     font-weight: 500;
@@ -191,7 +229,7 @@ a, a:hover{
     height: 110%;
   }
   .navigationSlider .slidingNav ul{
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a{
     background: #202020;
@@ -204,7 +242,7 @@ a, a:hover{
   }
   .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a{
     padding-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .navigationSlider .slidingNav ul{
     background: #202020;
@@ -271,6 +309,7 @@ article p img{
 }
 .mainContainer{
   min-height: 60vh;
+  padding-top: 0;
 }
 .productShowcaseSection.paddingBottom{
   padding-top:50px;

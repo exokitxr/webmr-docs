@@ -1,13 +1,13 @@
 ---
-id: community
-title: Community and Support 
-sidebar_label: Community and Support 
+id: support
+title: Support
+sidebar_label: Support
 ---
 
-## Github
+## GitHub
 At our [GitHub repo](https://github.com/webmixedreality/exokit) browse and sumbit [issues](https://github.com/webmixedreality/exokit/issues) or [pull requests](https://github.com/webmixedreality/exokit/pulls) for bugs you find or any new features you may want implemented. Be sure to check out [how to contribute.](${docUrl('contribute.html')})
 
-## Stay Updated 
+## Stay Updated
 We post announcements and updates to our [blog](https://webmr.io/blog).
 
 Follow Exokit on [Twitter](https://twitter.com/webmixedreality).

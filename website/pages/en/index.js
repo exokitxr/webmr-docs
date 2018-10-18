@@ -65,6 +65,13 @@ const ProjectTitle = props => (
   </h2>
 );
 
+const SmallProjectTitle = props => (
+  <h2 className="projectTitle">
+    Start building the metaverse
+    <small>Learn about Exokit engine, the SDK, and supporting apps.</small>
+  </h2>
+);
+
 const PromoSection = props => (
   <div className="section promoSection">
     <div className="promoRow">
@@ -79,11 +86,13 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         <div className="inner">
-          <ProjectTitle />
+          <SmallProjectTitle />
+          {/*
           <PromoSection>
             <Button href="https://get.webmr.io">Download</Button>
             <Button href={docUrl('startHere.html', language)}>Get Started</Button>
           </PromoSection>
+          */}
         </div>
       </SplashContainer>
     );
@@ -99,6 +108,57 @@ const Block = props => (
   </Container>
 );
 
+const DocsOverview = props => (
+  <Block layout="fourColumn">
+    {[
+      {
+        content: 'Read more about the Exokit engine, its philosophy, and technical foundation.',
+        image: imgUrl('patterns/isoExokitLogo.png'),
+        imageAlign: 'top',
+        title: '<a href="/docs/exokitEngine.html"><h3>What is Exokit?</h3></a>',
+      },
+      {
+        content: 'Learn how to install and run experiences on Exokit.',
+        image: imgUrl('patterns/isoPointer.png'),
+        imageAlign: 'top',
+        title: '<a href="/docs/installation.html"><h3>Getting started</h3></a>',
+      },
+      {
+        content: 'Learn how to build experiences using the CLI and the SDK.',
+        image: imgUrl('patterns/isoBlock.png'),
+        imageAlign: 'top',
+        title: '<a href="/docs/sdk.html"><h3>Development guide</h3></a>',
+      },
+    ]}
+  </Block>
+);
+
+const DocsOverview2 = props => (
+  <Block layout="fourColumn">
+    {[
+      {
+        content: 'Learn about the Web APIs and what you can do with it.',
+        image: imgUrl('patterns/isoWeb.png'),
+        imageAlign: 'top',
+        title: '<a href="/docs/webAPIs.html"><h3>Web APIs</h3></a>',
+      },
+      {
+        content: 'Learn about the native APIs and what you can do with it.',
+        image: imgUrl('patterns/isoBox.png'),
+        imageAlign: 'top',
+        title: '<a href="/docs/nativeAPIs.html"><h3>Native APIs</h3></a>',
+      },
+      {
+        content: 'Connect with the community, find updates with the latest changes.',
+        image: imgUrl('patterns/isoExokid.png'),
+        imageAlign: 'top',
+        title: '<a href="/docs/support.html"><h3>Support</h3></a>',
+      },
+    ]}
+  </Block>
+);
+
+/*
 const Features = props => (
   <Block layout="fourColumn" background="light">
     {[
@@ -117,9 +177,7 @@ const Features = props => (
       },
     ]}
   </Block>
-);
 
-/*
 const FeatureCallout = props => (
     <GridBlock align="center" layout="threeColumn" className="featuresRow"
       contents ={[
@@ -127,8 +185,7 @@ const FeatureCallout = props => (
           image: imgUrl('credit-card-front.svg'),
           imageAlign: 'top',
           title: 'Payment API',
-
-        },
+         },
         {
           image: imgUrl('users.svg'),
           imageAlign: 'top',
@@ -141,12 +198,24 @@ const FeatureCallout = props => (
         },
       ]}
     />
-);
-*/
 
 const LearnHow = props => (
-  <Block>
+  <Block layout="fourColumn">
     {[
+      {
+        content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
+        image: imgUrl('user-graduate.svg'),
+        imageAlign: 'right',
+        className: 'featureIcon',
+        title: 'Learn How',
+      },
+      {
+        content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
+        image: imgUrl('user-graduate.svg'),
+        imageAlign: 'right',
+        className: 'featureIcon',
+        title: 'Learn How',
+      },
       {
         content: 'Learn how to get started developing with Exokit with our comprehensive documentation.',
         image: imgUrl('user-graduate.svg'),
@@ -183,6 +252,7 @@ const Description = props => (
     ]}
   </Block>
 );
+*/
 
 const Showcase = props => {
   if ((siteConfig.users || []).length === 0) {
@@ -222,11 +292,14 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          <Features />
-          {/*<FeatureCallout />*/}
-          <LearnHow />
-          <TryOut />
-          <Description />
+          <DocsOverview />
+          <DocsOverview2 />
+          {/*<FeatureCallout />
+            <LearnHow />
+            <TryOut />
+            <Description />
+            */}
+
           <Showcase language={language} />
         </div>
       </div>

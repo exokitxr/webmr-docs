@@ -1,5 +1,5 @@
 ---
-id: MagicLeapAPI 
+id: MagicLeapAPI
 title: Magic Leap  API
 sidebar_label: Magic Leap API
 ---

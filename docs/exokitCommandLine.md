@@ -1,6 +1,6 @@
 ---
-id: CommandLine 
-title: Exokit Command Line
+id: exokitCommandLine
+title: Launch using Exokit Command Line
 sidebar_label: Exokit Command Line
 ---
 
