@@ -38,7 +38,7 @@ class Footer extends React.Component {
             <a href={this.docUrl('exokitEngine.html', this.props.language)}>
               Overview
             </a>
-            <a href={this.docUrl('startHere.html', this.props.language)}>
+            <a href={this.docUrl('installation.html', this.props.language)}>
               Quickstart
             </a>
 	    <a href={this.docUrl('useExokitEngine.html', this.props.language)}>
