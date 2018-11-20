@@ -127,7 +127,8 @@ const siteConfig = {
     '/BenchGraph.js',
     'https://www.googletagmanager.com/gtag/js?id=UA-125030796-1',
     '/googleAnalytics.js',
-    '/mixpanel.js'
+    '/mixpanel.js',
+    '/tawk.js'
   ],
 
   /* On page navigation for the current documentation page */
