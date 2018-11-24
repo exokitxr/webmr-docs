@@ -22,7 +22,7 @@ Here are the main web specifications and third-party libraries implemented in Ex
 | Canvas2d   | Native | [Canvas 2D](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) | [Source]( https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/canvas) |
 | WebAudio   | Native | [WebAudio](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/webaudiocontext ) |
 | WebRTC     | Native | [WebRTC](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings ) |
-| Node       | Native | [Node](https://nodejs.org/en/docs/) | [Source](https://github.com/webmixedreality/exokit/blob/master/src/core.js) |
+| Node       | Native | [Node](https://nodejs.org/en/docs/) | [Source](https://github.com/modulesio/node-magicleap) |
 | OpenVR     | Native | [OpenVR](https://github.com/ValveSoftware/openvr/wiki/API-Documentation) | [Source]( https://github.com/webmixedreality/exokit/tree/master/deps/openvr) |
 | OVR        | Native | [OVR from Oculus](https://developer.oculus.com/) | [Source]( https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings) |
 | Magic Leap SDK      | Native | [Magic Leap SDK](https://www.magicleap.com/creator) | [Source](https://github.com/webmixedreality/exokit/tree/master/deps/exokit-bindings/magicleap ) |
